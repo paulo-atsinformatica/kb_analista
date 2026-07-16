@@ -1,0 +1,351 @@
+---
+id: MOD-web
+title: "Web"
+type: modulo
+audience: all
+modulos: ["web"]
+tags: []
+status: draft
+status_entrevista: pendente
+data_criacao: 2026-07-16
+data_atualizacao: 2026-07-16
+fontes: []
+entities: []
+relations: []
+---
+
+> [!INFO] Módulo pré-mapeado, aguardando confirmação
+> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
+
+## O que é
+_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+
+## Rotinas deste módulo
+- Botões do Sistema
+- Cadastro de Cidades (Web)
+- Cadastro de Marcas
+- Cadastro de Moedas (Cotações)
+- Cadastro de Serviços
+- Cadastro de Tipos de Operação
+- Cadastro de Unidades de Medida
+- Clientes Aniversariante
+- Clientes Aniversariantes
+- Clientes Cadastro de cliente
+- Clientes Classificação de  cliente
+- Clientes Cliente Inativos
+- Clientes Crédito
+- Clientes Emissão de carta
+- Clientes Movimentação por cliente
+- Clientes Segmento de mercado
+- Clientes Vencimentos a receber
+- Cobrança Informatizada
+- Comissões de Vendedores
+- Configurações Boleto ATS
+- Configurações Cadastros gerais Cotações
+- Configurações Cadastros gerais Feriados
+- Configurações Cadastros gerais Filial
+- Configurações Cadastros gerais Fórmulas
+- Configurações Cadastros gerais Moedas
+- Configurações Cadastros gerais País
+- Configurações Cadastros gerais Rota
+- Configurações Cadastros gerais Unidade federativa
+- Configurações Configuração do certificado NFE
+- Configurações Controle de acesso Liberação Resulth Boss
+- Configurações Controle de acesso Perfil de acesso
+- Configurações Controle de acesso Usuário
+- Configurações Ferramentas de suporte técnico Consulta log
+- Configurações Ferramentas de suporte técnico Execução de scripts
+- Configurações Ferramentas de suporte técnico Script salvo
+- Configurações Ferramentas de suporte técnico Índices de pesquisa
+- Configurações Financeiras: Documentos a Pagar e Receber
+- Configurações Gerais (Resulth Web)
+- Configurações Importação de tabela IBPT
+- Configurações Modelo impressão matricial
+- Configurações Operações Operação de entrada a pagar avulso
+- Configurações Operações Operação de entrada a receber avulso
+- Configurações Operações Operação de entrada de produtos
+- Configurações Operações Operação de saída
+- Configurações Parâmetros de tesouraria
+- Configurações Parâmetros ecommerce
+- Configurações Parâmetros fiscais
+- Configurações Parâmetros globais
+- Consulta de Comissões de Vendas
+- Consulta de Notas Promissórias
+- Consulta de Notas Promissórias (Resulth Web)
+- Consulta de Preço e Estoque
+- Contas a Pagar (Resulth Web)
+- Contas a Receber (Resulth Web)
+- Controle de Acesso: Certificado Digital (Web)
+- Controle de Acesso: Dispositivos Móveis Autorizados
+- Controle de Acesso: Usuários Logados
+- Curva ABC de Vendas Dinâmica
+- Emissão de NF-e\NFS-e
+- Emissão de NFC-e
+- Emissão de Transporte (CT-e e MDF-e)
+- Entrada de Documentos Avulsos (Web)
+- Entrada de Produtos (Manual e XML)
+- Envio de NF-e para Contatos da Filial
+- Estoque Centro de distribuição Despacho de mercadoria
+- Estoque Centro de distribuição Listar solicitação de mercadoria
+- Estoque Centro de distribuição Recepção de mercadorias
+- Estoque Centro de distribuição Solicitação de mercadoria
+- Estoque Entrada de notas Cancela finalização de lote de  notas
+- Estoque Entrada de notas Emissão de nota de entrada
+- Estoque Entrada de notas Entrada de lote de notas
+- Estoque Entrada/saídas
+- Estoque Entrada/saídas Importação de planilha de estoque
+- Estoque Entrada/saídas relatório de entradas/saídas
+- Estoque Entrega Expedição/retirada
+- Estoque Entrega Marca
+- Estoque Entrega Modelo
+- Estoque Entrega Pesquisa de montagem de carga para entrega
+- Estoque Entrega Profissional/motorista
+- Estoque Entrega Veículo
+- Estoque Entrega categoria
+- Estoque Inventário Acerto de estoque parte/produto
+- Estoque Inventário Causas de inventário
+- Estoque Inventário Comparativo de inventário de produto
+- Estoque Inventário Conferência de séries inventariadas
+- Estoque Inventário Digitação do inventário parte/produto
+- Estoque Inventário Início de estoque
+- Estoque Movimentação de estoque
+- Estoque Pesquisa preço/estoque
+- Estoque Produtos inativos
+- Estoque Reserva de estoque
+- Estoque Séries em estoque
+- Estoque Transferência de estoque Entrada por transferência
+- Estoque movimento de séries
+- Estoque — Acerto de Estoque
+- Estoque — Cadastro de Localização
+- Exportação de arquivo para coletor de dados
+- Extrato Bancário (Resulth Web)
+- Fechamento de Caixa
+- Ferramentas de Suporte: Recálculo de Preços de Custo
+- Financeiro Cadastros auxiliares financeiros Administradora de cartão ou financeira
+- Financeiro Cadastros auxiliares financeiros Administradora de cartão ou financeira
+- Financeiro Cadastros auxiliares financeiros Agência bancária
+- Financeiro Cadastros auxiliares financeiros Banco
+- Financeiro Cadastros auxiliares financeiros Carteira
+- Financeiro Cadastros auxiliares financeiros Centro de custo
+- Financeiro Cadastros auxiliares financeiros Condição de pagamento
+- Financeiro Cadastros auxiliares financeiros Conta bancária
+- Financeiro Cadastros auxiliares financeiros Conta caixa
+- Financeiro Cadastros auxiliares financeiros Forma de pagamento
+- Financeiro Cadastros auxiliares financeiros Historico de caixa
+- Financeiro Cadastros auxiliares financeiros Plano de financeira
+- Financeiro Cadastros auxiliares financeiros Tipo de documento
+- Financeiro Cadastros auxiliares financeiros Tipo de lançamento bancário
+- Financeiro Cobrança eletrônica Emissão de boletos
+- Financeiro Cobrança eletrônica Gerar arquivo de remessa
+- Financeiro Cobrança eletrônica Parâmetros de cobrança
+- Financeiro Cobrança eletrônica Processar arquivo de retorno
+- Financeiro Conciliação de cartões
+- Financeiro Conciliação de cartões Ajustes conciliação de cartões
+- Financeiro Conciliação de cartões Arquivos processados
+- Financeiro Conciliação de cartões Contrato por filial
+- Financeiro Conciliação de cartões Efetivação de créditos confirmados
+- Financeiro Conciliação de cartões Processa antecipação FLEX Redecard
+- Financeiro Controle de caixa checkouts Abertura de caixa
+- Financeiro Controle de caixa checkouts Cadastro de subcaixa
+- Financeiro Controle de caixa checkouts Fechamento de caixa
+- Financeiro Controle de caixa checkouts Período de lançamento do caixa
+- Financeiro Controle de caixa checkouts Saldo inicial de caixa
+- Financeiro DRE
+- Financeiro Fluxo de caixa
+- Financeiro Pagar Comissão
+- Financeiro Pagar Contas pagas
+- Financeiro Pagar Entrada automatica de documentos
+- Financeiro Pagar Entrada de documento a pagar avulso
+- Financeiro Pagar Estorno de liquidação
+- Financeiro Pagar Liquidação simples
+- Financeiro Pagar Movimentação por fornecedor
+- Financeiro Pagar Prorrogação
+- Financeiro Receber Contas recebidas
+- Financeiro Receber Duplicatas
+- Financeiro Receber Entrada automática de documentos
+- Financeiro Receber Entrada de documento a receber avulso
+- Financeiro Receber Estorno de liquidação
+- Financeiro Receber Liquidação simples
+- Financeiro Receber Liquidação/Agrupamento em lote
+- Financeiro Receber Movimentação por cliente
+- Financeiro Receber Prorrogação
+- Financeiro Receber Protesto
+- Financeiro Receber Transferência de carteira
+- Financeiro Tesouraria Cheques emitidos
+- Financeiro Tesouraria Cheques recebidos
+- Financeiro Tesouraria Depósito de cheques
+- Financeiro Tesouraria Estorno de deposito de cheques
+- Financeiro Tesouraria Livro caixa
+- Financeiro Tesouraria Movimento bancário
+- Financeiro Tesouraria Movimento de caixa
+- Financeiro Tesouraria Movimntação de cheques
+- Financeiro Tesouraria Saldo geral de contas
+- Financeiro Tesouraria Transferência bancária
+- Financeiro Vencimentos a pagar
+- Fiscal Contabilidade Conta Contábil
+- Fiscal Contabilidade Gera integração contábil
+- Fiscal Contabilidade Histórico contábil
+- Fiscal Contabilidade Vinculação de Operação/Conta Contábil
+- Fiscal DCTF Pis/Cofins
+- Fiscal Geração de arquivo DES
+- Fiscal Geração do Sped Contribuições (Pis/cofins)
+- Fiscal Geração do Sped Fiscal
+- Fiscal Geração do sintegra
+- Fiscal Livros Fiscais Apuração de ST+FEM
+- Fiscal Livros Fiscais Livro de Entrada
+- Fiscal Livros Fiscais Livro de saída
+- Fiscal Livros Fiscais Registro de apuração de ICMS
+- Fiscal Livros Fiscais Resumo de apuração de ICMS
+- Fiscal Livros Fiscais Retenções de impostos
+- Fluxo de Caixa
+- Fornecedores Cadastros auxiliares de fornecedores Classificação de fornecedor
+- Fornecedores Cadastros auxiliares de fornecedores Comprador
+- Fornecedores Cadastros auxiliares de fornecedores Cotações padrão
+- Fornecedores Cadastros auxiliares de fornecedores Transportadora
+- Fornecedores Compras Cotação de compras
+- Fornecedores Compras Gestão de ordem de compra
+- Fornecedores Compras Lançamento de propostas
+- Fornecedores Compras Seleção de propostas vencedoras
+- Fornecedores Devoluções por Fornecedor
+- Fornecedores Estoque min-máx/sugestão de compra
+- Fornecedores Movimentação por Fornecedor
+- Fornecedores cadastro de fabricante
+- Fornecedores cadastro de fornecedor
+- Geração do SPED Fiscal
+- Gestão de Comissões Financeiras
+- Gestão de Compras e Fornecedores (Resulth Web)
+- Gestão de NF-e (Saída)
+- Gestão de Ordem de Compra
+- Gestão de Ordens de Compra
+- Importar OS WebCAPS
+- Imposto Benefícios de produto
+- Impressão de Carnê (Web)
+- Inventário de Estoque: Planilha e Contagem
+- Inventário — Contagem de Estoque
+- Levantamento de Estoque por Filial
+- Limite de Crédito de Clientes
+- Liquidação Simples — Contas a Receber
+- Liquidação de Documentos (Pagar/Receber)
+- Liquidação em Lote (Contas a Pagar)
+- Livro de Entrada — Livros Fiscais
+- Localização de Estoque (Endereçamento)
+- Manifesto de Destinatário (MDe)
+- Menu - Acesse o Chat ATS
+- Mudança de Tela (Layout)
+- NFS-e: Parâmetros e Configuração
+- Parâmetros por Filial
+- Personalização de Modelos de Relatório de Pedido (Web)
+- Período de Lançamento de Caixa
+- Ponto de Venda (PDV / Checkout)
+- Posição de Estoque
+- Produtos Cadastros auxiliares de produtos Agregados
+- Produtos Cadastros auxiliares de produtos Aplicabilidade
+- Produtos Cadastros auxiliares de produtos Aplicação
+- Produtos Cadastros auxiliares de produtos Categoria E-commerce
+- Produtos Cadastros auxiliares de produtos Coleção do produto
+- Produtos Cadastros auxiliares de produtos Cores por fabricante
+- Produtos Cadastros auxiliares de produtos Faixa Etária
+- Produtos Cadastros auxiliares de produtos Família
+- Produtos Cadastros auxiliares de produtos Grupo de produtos
+- Produtos Cadastros auxiliares de produtos Marca
+- Produtos Cadastros auxiliares de produtos Perfil de grades
+- Produtos Cadastros auxiliares de produtos Produto E-commerce
+- Produtos Cadastros auxiliares de produtos Similares
+- Produtos Cadastros auxiliares de produtos Subgrupo de materiais
+- Produtos Cadastros auxiliares de produtos Subgrupo de produtos
+- Produtos Cadastros auxiliares de produtos unidades de medida
+- Produtos Calcula Estoque Mín-Máx
+- Produtos Partes do Produto
+- Produtos Reajuste de Preços Geral
+- Produtos Reajuste de Preços Por Custo alterado
+- Produtos Reajuste de Preços Relatório Alteração de Preço
+- Produtos Reajuste de Preços individual
+- Produtos Reforma Tributária Regra Fiscal
+- Produtos Reforma Tributária Tipo Tributário
+- Produtos cadastro de grades
+- Produtos imposto CEST
+- Produtos imposto CFOP
+- Produtos imposto CNAE
+- Produtos imposto CSOSN
+- Produtos imposto CST
+- Produtos imposto Classificação Fiscal
+- Produtos imposto Enquadramento de IPI
+- Produtos imposto Lista de serviços
+- Produtos imposto Mensagem tributária
+- Produtos imposto imposto de produto
+- Produtos imposto imposto de serviço
+- Produtos — Cadastro de Grupo de Materiais (Resulth Web)
+- Produtos — Cadastro de Seção (Resulth Web)
+- Produtos — Imagem do Produto (Resulth Web)
+- Produtos — Kit de Produtos (Resulth Web)
+- Produtos — Matéria Prima (Resulth Web)
+- Produtos — Produto Acabado (Resulth Web)
+- Produtos — Serviço (Resulth Web)
+- Produtos — Suprimento (Resulth Web)
+- Produtos — Tabela de Preço (Resulth Web)
+- Reajuste de Preços de Produtos
+- Relatórios de Vencimentos e Prorrogações (Web)
+- Resulth Boss
+- Rotinas Fiscais (Resulth Web)
+- SPED Contribuições (PIS/COFINS)
+- Segmento de Mercado de Clientes
+- Sincronizador Java Vendas
+- Tabelas de Preços
+- Tela de Login
+- Transferência de Estoque entre Filiais
+- Utilitários — Calculadora
+- Vendas Cadastro auxiliares de venda Campos livres
+- Vendas Cadastro auxiliares de venda Metas
+- Vendas Cadastro auxiliares de venda Modelo de relatório de pedido
+- Vendas Cadastro auxiliares de venda Tabela de preço
+- Vendas Cadastro auxiliares de venda Vendedor
+- Vendas Cadastro de ótica Cadastro de modelo de armação
+- Vendas Cadastro de ótica Cadastro de médicos
+- Vendas Cadastro de ótica Substituição de itens no pedido
+- Vendas Cadastro do cliente
+- Vendas Cadastros OS Categoria
+- Vendas Cadastros OS Check-list
+- Vendas Cadastros OS Check-out
+- Vendas Cadastros OS Controle de expedição e devolução
+- Vendas Cadastros OS Defeitos e causas
+- Vendas Cadastros OS Equipamento
+- Vendas Cadastros OS Ficha de Vistoria
+- Vendas Cadastros OS Intervenção
+- Vendas Cadastros OS Itens deixados pelo cliente
+- Vendas Cadastros OS Modelo
+- Vendas Cadastros OS Prisma
+- Vendas Cadastros OS Profissional
+- Vendas Cadastros OS Tipo de avaria
+- Vendas Cadastros OS Veículo
+- Vendas Cadastros representação Status de Pedido
+- Vendas Cadastros representação Status de propostas
+- Vendas Consultas Comparativo de Preço Venda/Tabela
+- Vendas Consultas Faturamento por pedido
+- Vendas Consultas Faturamento por produto/filial
+- Vendas Consultas Gestão de Pedidos
+- Vendas Consultas Inadimplência por produto
+- Vendas Consultas Lista de preços
+- Vendas Consultas Movimento de séries
+- Vendas Consultas OS Controle de revisão periódica e troca de peças
+- Vendas Consultas OS Estatística de abertura de OS
+- Vendas Consultas OS Histórico de veículo
+- Vendas Consultas OS Mapa de atendimento por marca e modelo
+- Vendas Consultas OS Movimento diário de vendas
+- Vendas Consultas OS Produtividade Individual
+- Vendas Consultas OS de garantia
+- Vendas Consultas Rentabilidade
+- Vendas Consultas Séries em estoque
+- Vendas Consultas Vendas por cliente foco produto
+- Vendas Consultas Vendas por produto/serviço
+- Vendas Faturamento Cancela Faturamento
+- Vendas Lançamento de pedido
+- Vendas Lançamento de propostas
+- Vendas Pesquisa Preço/Estoque
+- Vendas Preço/estoque
+- Vendas Saída de notas Digitação/emissão de NF
+- Vendas Saída de notas Emissão de nota de complemento
+- Vendas Saída de notas NFE p/ vários pedidos
+- Vendas — Cadastro de Projetos (Representação)
+
+## Relacionamento com outros módulos
+_(a preencher)_

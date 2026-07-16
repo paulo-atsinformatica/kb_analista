@@ -1,0 +1,457 @@
+---
+id: MOD-windows-faturamento
+title: "Windows » Faturamento"
+type: modulo
+audience: all
+modulos: ["windows/faturamento"]
+tags: []
+status: draft
+status_entrevista: pendente
+data_criacao: 2026-07-16
+data_atualizacao: 2026-07-16
+fontes: []
+entities: []
+relations: []
+---
+
+> [!INFO] Módulo pré-mapeado, aguardando confirmação
+> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
+
+## O que é
+_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+
+## Rotinas deste módulo
+- Atualização de Dados Tributários em Lote (ICMS e FCP)
+- Bloqueio e Liberação de Clientes
+- Buscar Menu
+- Cadastro Altera Estoque Máximo/Mínimo
+- Cadastro Aplicações
+- Cadastro Atualiza Dados de Produtos
+- Cadastro Baixa de créditos
+- Cadastro CFPS
+- Cadastro CSOSN
+- Cadastro CST IPI
+- Cadastro Carga Tributária
+- Cadastro Centro de Custo
+- Cadastro Classificação de Tipo de Serviço
+- Cadastro Contas Correntes de Comissão
+- Cadastro Código CNAE
+- Cadastro Código de Enquadramento do IPI
+- Cadastro Códigos ANP
+- Cadastro Desconto Progressivo
+- Cadastro Estados(UF)
+- Cadastro Etiquetas Decreto 5.903
+- Cadastro Fabricantes
+- Cadastro Financeiras
+- Cadastro Formas de pagamento
+- Cadastro Grade Comum/Especial
+- Cadastro Grupos
+- Cadastro Histórico de Contas Correntes de Comissão
+- Cadastro Instituições
+- Cadastro Localização de Estoque
+- Cadastro Localização de Estoque por Filial
+- Cadastro Localização de Produtos
+- Cadastro Mensagens Tributárias
+- Cadastro Metas por Grupo/Produtos
+- Cadastro Modelos NF
+- Cadastro Motivos de troca
+- Cadastro Natureza da Receita
+- Cadastro Parametros Carteiras Digitais
+- Cadastro Praça de Trabalho
+- Cadastro Redução da base de ICMS por Tipo de produto
+- Cadastro Relação de Fornecedores
+- Cadastro ST por Estado
+- Cadastro Segmento de Mercado
+- Cadastro de Administradoras de Cartão e Convênio
+- Cadastro de Administradoras de Cartão e Convênios
+- Cadastro de Aplicações de Produtos
+- Cadastro de CEP
+- Cadastro de CEST
+- Cadastro de CFOP
+- Cadastro de CST
+- Cadastro de Cidades
+- Cadastro de Classificação Fiscal (NCM)
+- Cadastro de Clientes
+- Cadastro de Compradores
+- Cadastro de Código de Serviço (NFS-e)
+- Cadastro de Códigos de Receita (DCTF/PIS/COFINS)
+- Cadastro de Estados (UF)
+- Cadastro de Etiquetas de Produtos
+- Cadastro de Famílias
+- Cadastro de Famílias de Produtos
+- Cadastro de Ficha Técnica de Produtos
+- Cadastro de Filiais
+- Cadastro de Fornecedores
+- Cadastro de Grade Composta
+- Cadastro de Grupos de Produtos
+- Cadastro de Instituições (Ensino)
+- Cadastro de Lista de Venda
+- Cadastro de Marcas
+- Cadastro de Metas por Grupo de Produtos
+- Cadastro de Motivos de Cancelamento
+- Cadastro de Motivos de Devolução
+- Cadastro de Motivos de Troca
+- Cadastro de Motoristas
+- Cadastro de Países
+- Cadastro de Perfil de Imposto
+- Cadastro de Perfis de Entregas
+- Cadastro de Períodos por Meta
+- Cadastro de Prazos de Pagamento
+- Cadastro de Produtos
+- Cadastro de Produtos Agregados
+- Cadastro de Relacionamento de Referências
+- Cadastro de Reserva de Estoque
+- Cadastro de Rotas
+- Cadastro de Serviços
+- Cadastro de Serviços X Cod. Atividade NFSE
+- Cadastro de Setores
+- Cadastro de Subgrupos
+- Cadastro de Tabelas de Fretes a Cobrar do Cliente
+- Cadastro de Tipo de Lista de Venda
+- Cadastro de Tipo de Venda
+- Cadastro de Tipos de Operação
+- Cadastro de Transportadoras
+- Cadastro de Turnos
+- Cadastro de Unidades de Medida
+- Cadastro de Unidades de Venda
+- Cadastro de Unidades de Vendas
+- Cadastro de Usuários
+- Cadastro de Vendedores
+- Cadastro de Veículos
+- Cadastro produtos Manutenção de Descontos para Venda no Atacado
+- Cadastro similares
+- Cadastros Auxiliares de Produtos (Marca, Família, Seção)
+- Cadastros Fornecedores
+- Cadastros Profissionais Comissão/Pontuação de Bônus
+- Cadastros Profissionais Profissionais
+- Cadastros Profissionais Tipos de Profissionais
+- Cadastros Relacionamento de Referências
+- Cadastros Tipos de Fornecedores
+- Cadastros Transferência de Clientes
+- Cadastros Troca Local Produto
+- Cancelamento de Faturamento
+- Cancelamento de Venda
+- Carta de Correção Eletrônica (CCe)
+- Classificação de Clientes
+- Classificação de Clientes
+- Comissões de Vendedores
+- Conciliação de Cartões
+- Configuração de Campos Livres nas Vendas
+- Configuração de Finalizadora PIX
+- Configurações Difal
+- Configurações de Impostos
+- Consulta Movimento por Produto (Kardex)
+- Consulta de Comissões de Vendas
+- Consulta de Notas Promissórias
+- Consulta de Preço e Estoque
+- Consulta de Preço e Estoque
+- Consulta de Vendas Canceladas
+- Consultar NF-e (Rotina do Sistema)
+- Consultas Consignação Kardex de Mercadoria Consignada
+- Consultas Consignação Kardex de Mercadoria em Consignação
+- Consultas Consignação por Cliente
+- Consultas Entregas
+- Consultas Estoque por Grade
+- Consultas Estoque por Grupo
+- Consultas Histórico de Lotes
+- Consultas Movimentação de Produto por Local
+- Consultas Nota Fiscal Simulada
+- Consultas Série
+- Consultas Vendas Diversas
+- Consultas Vendas por Cliente
+- Consultas Vendas por Produto
+- Controle de Açougue: Baixa Múltipla
+- Controle de Açougue: Cadastro de Itens a Baixar
+- Controle de Entregas
+- Conversão de CFOP
+- Cotação de Moedas
+- Curva ABC de Vendas Dinâmica
+- Devoluções de Venda e Compra
+- Emissão de NF-e — Procedimento Básico
+- Emissão de Transporte (CT-e e MDF-e)
+- Empréstimo de Mercadorias (Comodato)
+- Entrada de Produtos (Manual e XML)
+- Envio de NF-e para Contatos da Filial
+- Exportar Arquivo para Balança: Toledo (MGV6)
+- Ferramentas de Suporte: Recálculo de Preços de Custo
+- Ficha Cadastral
+- Gestão de Centros de Custo
+- Gestão de Clientes Inativos
+- Gestão de Contratos de Licitação
+- Gestão de Limites e Crédito de Clientes
+- Gestão de NF-e (Saída)
+- Gestão de Preços Promocionais e Campanhas
+- Inutilização
+- Inventário de Estoque: Planilha e Contagem
+- Lançamento de créditos
+- Liberação do cadastro do cliente
+- Linhas de Fornecedores
+- Lista de rotinas abertas
+- Manutenção de Kit
+- Manutenção de Plano de Contas Contábeis
+- Manutenção de Tipo de Operação x Conta Contábil
+- Meu Menu Configuração
+- Movimentos Bonificação
+- Movimentos Cadastro de Padrão de Desmontagem de Mercadoria
+- Movimentos Cadastro de Reservas
+- Movimentos Cancela Faturamento
+- Movimentos Conferência Cega
+- Movimentos Controle de Açougue Cadastro de Itens a Baixar
+- Movimentos Controle de Açougue Cadastro de Subdivisão de Produtos
+- Movimentos Controle de Açougue Subdivisão de Produtos
+- Movimentos Controle de Entregas
+- Movimentos Controle de Entregas Controle Sintético
+- Movimentos Controle de Entregas Controle de Serviço de Entrega
+- Movimentos Controle de Entregas Controle por Rota Orçamento
+- Movimentos Controle de Entregas Controle por Rota Pedido
+- Movimentos Controle de Entregas Faturamento em Lote
+- Movimentos Controle de Entregas Gera NFs
+- Movimentos Controle de Entregas Pedidos Retornados
+- Movimentos Controle de Entregas Relatório Mapa de Carga
+- Movimentos Controle de Entregas Relatório de Carregamento de Produtos
+- Movimentos Controle de Entregas Relatório de Entrega de Produtos
+- Movimentos Controle de Entregas Relatório de Pedidos Retornados
+- Movimentos Desmontagem de Mercadoria
+- Movimentos Emissão de NF  - Emissão de NFe em lote
+- Movimentos Emissão de NF de Vários Pedidos
+- Movimentos Empréstimo
+- Movimentos Entrada de Notas Diversas
+- Movimentos Entrada de Produtos
+- Movimentos Entrada/Saídas
+- Movimentos Geração de Bônus
+- Movimentos Inventário/Balanço Acerto de Inventário
+- Movimentos Inventário/Balanço Causas de Inventário
+- Movimentos Inventário/Balanço Digitação do Inventário
+- Movimentos Inventário/Balanço Início de Estoque
+- Movimentos Inventário/Balanço Planilha para Contagem
+- Movimentos Inventário/Balanço Relatório Comparativo
+- Movimentos Lançamento de Prod. Indisponível
+- Movimentos Lançamento de Trocas
+- Movimentos Libera Reservas
+- Movimentos Liberação de Crédito Análise/Liberação de Crédito de Clientes
+- Movimentos Liberação de Crédito Tabela de Equivalência de Pontos
+- Movimentos Liberação de Crédito Tempo de Serviço
+- Movimentos Liberação de Crédito Tempo de conta
+- Movimentos Liberação de Crédito Tipo de Emprego
+- Movimentos Liberação de Crédito Tipo de Moradia
+- Movimentos Liberações Liberação Remota de Documentos (DAV)
+- Movimentos Liberações Liberação Remota de O.S./Requisições
+- Movimentos Manifestação do Destinatário
+- Movimentos Orçamentos
+- Movimentos Orçamentos (Pré-Venda)
+- Movimentos Orçamentos - Impressão
+- Movimentos PDV
+- Movimentos Profissionais Geração de Bônus (Crédito Cliente)
+- Movimentos Profissionais Geração de Contas a Pagar (Despesa Fornecedor)
+- Movimentos Profissionais lançamento de Profissionais
+- Movimentos Pré-venda
+- Movimentos Pré-venda - Impressão
+- Movimentos Pré-venda - Layout FR3
+- Movimentos Pré-venda - Pix Offline
+- Movimentos Reajuste de Preço Cadastro de Promoções
+- Movimentos Reajuste de Preço Geral
+- Movimentos Reajuste de Preço Individual
+- Movimentos Reajuste de Preço Por Custos Alterados
+- Movimentos Reajuste de Preço Por Entrada de Nota
+- Movimentos Reajuste de Preço Promocional
+- Movimentos Reajuste de Preço Tabela de Preço de Custo
+- Movimentos Reajuste de Preço de Custo
+- Movimentos Reajuste de Preço de Unidade
+- Movimentos Reajuste de Preço em Dolar
+- Movimentos Reajuste de Preço por Lote
+- Movimentos Reajuste de Preços 2, 3 e 4
+- Movimentos Reajuste de Preços Especiais
+- Movimentos Relatório de Bônus
+- Movimentos Relatório de Desmontagem
+- Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito
+- Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito
+- Movimentos Transferência de Estoque Gerar Transferência com Estoque em Trânsito
+- Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito
+- Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito
+- Movimentos Transferência de Estoque Simples
+- Movimentos Vendas Cancelamentos de NF-e
+- NF de varios pedidos
+- NF-e - Emissão referente a Cupom Fiscal ou NFC-e
+- NF-e - Envio por e-mail para o Cliente
+- NF-e - Gerenciamento de Série
+- NF-e - Inutilização
+- NF-e de Complemento de Valores
+- NFC-e - Devolução
+- NFE Associar Certificado para essa filial
+- NFE Complemento de Exportação
+- NFE Consulta NFE
+- NFE Digitação/Emissão de NFE
+- NFE Enviar email de teste
+- NFE Envio NFE/NFCE para contatos Filiais - Servidor
+- NFE Envio NFE/NFCE para contatos Filiais - Transmissão local
+- NFE Inutilização NFE
+- NFE Manifetação do Destinatário
+- NFE Pesquisa Status NFE
+- NFE Transmissão NFE em Contingência
+- NFS-e: Parâmetros e Configuração
+- NFSE Envio NFSE para Cliente
+- NFSE Envio NFSE para Contatos Filiais
+- NFSE Pesquisa Status NFSE
+- NFe Envio NFE para Cliente
+- NFe Gerenciar Séries NFE
+- Ordem de Rotas
+- Painel de Notas de Entrada
+- Parâmetros Carteira Digital
+- Parâmetros Configurações DIFAL
+- Parâmetros Configurações de Impostos
+- Parâmetros Estoque/Faturamento
+- Parâmetros Fiscais e Impostos
+- Parâmetros Gerais
+- Parâmetros Globais do Sistema
+- Parâmetros NFE
+- Parâmetros Painel de Ativação de Regras
+- Parâmetros por Filial
+- Produtos - Classificação Fiscal (NCM)
+- Produtos cadastro de grades
+- Produtos imposto Mensagem tributária
+- Pré-venda (Orçamentos)
+- Reajuste de Preços de Produtos
+- Reenviar e-mail
+- Reforma Tributária Cadastro de Regras Fiscais
+- Reforma Tributária Tipo Tributário
+- Reimpressão do DANFE
+- Relatório Comparativo de Preço Venda/Tabela
+- Relatório Comparativo de Preços - Frete
+- Relatório Curva ABC de Produtos por Vendas
+- Relatório Curva ABC por Fornecedor
+- Relatório de Comissão
+- Relatório de Frete
+- Relatório de Produtos Não Movimentados
+- Relatórios  de Apuração de ICMS ST/FEM ST (Ressarcimento/Complemento)
+- Relatórios Apuração de Impostos
+- Relatórios Avaliação de Compras por Produto
+- Relatórios Carta de Correção
+- Relatórios Clientes Inativos
+- Relatórios Comissão por Fornecedor
+- Relatórios Comissão por Meta
+- Relatórios Compras por Fornecedor
+- Relatórios Conferência de Estoque
+- Relatórios Consignação Movimentação de Consignação
+- Relatórios Consignação Produtos Consignados/Em Consignação
+- Relatórios Consignação por cliente/Fornecedor
+- Relatórios Curva ABC de Clientes por Clientes Secundários
+- Relatórios Curva ABC de Clientes por Orçamento
+- Relatórios Curva ABC de Clientes por Vendas
+- Relatórios Curva ABC de Entradas Agrupado por Fornecedor
+- Relatórios Curva ABC de Entradas Agrupado por Produtos
+- Relatórios Curva ABC de Fabricante
+- Relatórios Curva ABC de Grupos
+- Relatórios Curva ABC de Produtos por Análise ABC
+- Relatórios Curva ABC de Produtos por Grade
+- Relatórios Curva ABC de Produtos por Orçamento
+- Relatórios Curva ABC de Tipo de Venda
+- Relatórios Diferencial de Alíquota de ICMS - DIFAL
+- Relatórios Entradas / Saídas
+- Relatórios Estoque com Lote
+- Relatórios Extrato de Crédito de Clientes
+- Relatórios Extrato de Créditos Gerados/Aproveitados
+- Relatórios Faturamento Rentabilidade Rel. Rentabilidade - Por Fornecedor
+- Relatórios Faturamento Rentabilidade Rel. Rentabilidade - Por Grupo
+- Relatórios Faturamento Rentabilidade Rel. Rentabilidade - Por Produto
+- Relatórios Faturamento Rentabilidade Rel. Rentabilidade - Por Venda
+- Relatórios Faturamento Rentabilidade Rel. Rentabilidade - Por Vendedor
+- Relatórios Faturamento por Pedido
+- Relatórios Levantamento de Produto por Filial
+- Relatórios Limite de Crédito
+- Relatórios Lista de Preços
+- Relatórios Markup
+- Relatórios Movimentação Completa do Cliente
+- Relatórios Movimentação Diária de Produtos por Filial
+- Relatórios Movimentação de Lote
+- Relatórios Movimentação de Produtos
+- Relatórios Movimentação de Produtos Interior e Outras Saídas
+- Relatórios Movimentação de Produtos agrupada por Filial
+- Relatórios Movimentação de Produtos totalizada por Filial
+- Relatórios Movimentação por Fornecedor (Estoque)
+- Relatórios Movimentação por Período (Estoque)
+- Relatórios Nota Fiscal de Venda para Entrega Futura
+- Relatórios Notas Emitidas
+- Relatórios Orçamentos
+- Relatórios Orçamentos Não Fechados
+- Relatórios Permuta
+- Relatórios Personalizados Exportação/Relatório Simples
+- Relatórios Personalizados Geração de Relatórios Simples
+- Relatórios Personalizados Importa Query/Layout
+- Relatórios Personalizados Relatório com Layout
+- Relatórios Pesquisa de Venda
+- Relatórios Posição de estoque
+- Relatórios Produtos no Estoque Máximo
+- Relatórios Produtos no Estoque Mínimo
+- Relatórios Profissionais Lista de Aniversariantes
+- Relatórios Profissionais Pontuação por Profissional
+- Relatórios Profissionais Vendas por Profissional
+- Relatórios Receitas Oftalmológicas
+- Relatórios Resultado Bruto por Produto
+- Relatórios Somatória de Vendas
+- Relatórios Série
+- Relatórios Séries em Estoque
+- Relatórios Totalização de Vendas por Horário
+- Relatórios Trocas
+- Relatórios Variação de Preços
+- Relatórios Vendas Metas por grupo/Produto
+- Relatórios Vendas Pedidão / Pedidinho
+- Relatórios Vendas por Financeiras
+- Relatórios Vendas por Grupo
+- Relatórios Vendas por Kit's Vendidos
+- Relatórios Vendas por NCM
+- Relatórios Vendas por Produto Analítico
+- Relatórios Vendas por Produto Orçados por Vendedor
+- Relatórios Vendas por Produto Por Vendedor
+- Relatórios Vendas por Produto Sintético
+- Relatórios Vendas por cliente
+- Relatórios de Orçamentos
+- Relatórios de Transferência de Estoque Analítico
+- Relatórios de Transferência de Estoque Sintético
+- Relatórios de Vendas perdidas
+- Relatórios Última movimentação dos produtos
+- Rotina: Cálculo e Relatórios de Comissões
+- Tabelas de Preços
+- Transferência de Estoque entre Filiais
+- Transmitir NFe (não autorizada)
+- Transporte Emitir CTE
+- Transporte Emitir MDFE
+- Utilitários Elimina Arquivos Temporários NFE
+- Utilitários Elimina Log
+- Utilitários Elimina orçamentos Anteriores
+- Utilitários Exportador
+- Utilitários Gerar Arquivo para Consulta Preço Sweda ECD2500
+- Utilitários Importador
+- Utilitários Liberações
+- Utilitários Reprocessamento de Pedidos
+- Utilitários Reprocessamento de Produtos
+- Utilitários Sair
+- Utilitários Tabulação Carnê
+- Utilitários Tabulação Promissória
+- Utilitários Tabulação de Etiquetas Clientes
+- Utilitários Tabulação de Etiquetas Fornecedores
+- Utilitários Tabulação de Etiquetas Produtos
+- Utilitários Tabulação de NF
+- Utilitários Tabulação de NF Série D
+- Utilitários Tabulação de NF por empresa
+- Utilitários Tabulação de Orçamentos
+- Utilitários Tabulação de Orçamentos (2)
+- Utilitários Tabulação de PDV (2)
+- Utilitários Tabulação de Pedidos
+- Utilitários — Acesso Remoto (AnyDesk)
+- Utilitários — Agenda
+- Utilitários — Boleto ATS
+- Utilitários — Calculadora
+- Utilitários — Calendário
+- Utilitários — Chat ATS
+- Utilitários — Consultar Log do Sistema
+- Utilitários — Eliminação de Dados
+- Utilitários — Fale com o CRC
+- Utilitários — O que tem de novo no Resulth
+- Utilitários — Tabulação Boleto Bancário
+- Utilitários — Tabulação de PDV
+- Utilitários — Troca de Usuário/Empresa
+- Utilitários — Universidade ATS
+- Vendas Cadastro auxiliares de venda Vendedor
+
+## Relacionamento com outros módulos
+_(a preencher)_

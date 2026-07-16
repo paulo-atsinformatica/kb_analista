@@ -1,0 +1,32 @@
+---
+id: MOD-atshub
+title: "ATS HUB"
+type: modulo
+audience: all
+modulos: ["atshub"]
+tags: []
+status: draft
+status_entrevista: pendente
+data_criacao: 2026-07-16
+data_atualizacao: 2026-07-16
+fontes: []
+entities: []
+relations: []
+---
+
+> [!INFO] Módulo pré-mapeado, aguardando confirmação
+> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
+
+## O que é
+_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+
+## Rotinas deste módulo
+- ATS IA - Implantação - Empresas
+- ATS IA - Implantação - Grupo de Empresas
+- ATS IA - Inteligência de Dados - Configurar Relatório
+- ATS IA - Inteligência de Dados - Meus Relatórios
+- ATS IA - Suporte - Super Acesso
+- Painel do Contador - Configurações
+
+## Relacionamento com outros módulos
+_(a preencher)_
