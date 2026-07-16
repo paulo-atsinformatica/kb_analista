@@ -3,7 +3,7 @@ id: ROT-cancelamento-de-venda
 title: "Cancelamento de Venda"
 type: rotina
 audience: a-definir
-modulos: ["windows/caixa", "windows/nfce", "windows/faturamento"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,8 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- windows/caixa
-- windows/nfce
 - windows/faturamento
 
 ## Como Usar (passo a passo)

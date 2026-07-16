@@ -3,7 +3,7 @@ id: ROT-geracao-sped-fiscal
 title: "Geração do SPED Fiscal"
 type: rotina
 audience: a-definir
-modulos: ["windows/sped", "web"]
+modulos: ["windows/sped"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/sped
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

@@ -3,7 +3,7 @@ id: ROT-configuracoes-configuracao-de-documentos-a-receber
 title: "Configurações Financeiras: Documentos a Pagar e Receber"
 type: rotina
 audience: a-definir
-modulos: ["windows/contas-a-receber", "windows/contas-a-pagar", "web"]
+modulos: ["windows/contas-a-receber", "windows/contas-a-pagar"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/contas-a-receber
 - windows/contas-a-pagar
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

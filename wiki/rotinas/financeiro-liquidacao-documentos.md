@@ -3,7 +3,7 @@ id: ROT-financeiro-liquidacao-documentos
 title: "Liquidação de Documentos (Pagar/Receber)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/pagar", "windows/receber"]
+modulos: ["windows/pagar", "windows/receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/pagar
 - windows/receber
 

@@ -3,7 +3,7 @@ id: ROT-periodo-de-lancamento-caixa
 title: "Período de Lançamento de Caixa"
 type: rotina
 audience: a-definir
-modulos: ["windows/caixa", "web"]
+modulos: ["windows/caixa"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/caixa
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

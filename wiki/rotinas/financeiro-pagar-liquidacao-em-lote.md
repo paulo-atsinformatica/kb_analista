@@ -3,7 +3,7 @@ id: ROT-financeiro-pagar-liquidacao-em-lote
 title: "Liquidação em Lote (Contas a Pagar)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/pagar"]
+modulos: ["windows/pagar"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/pagar
 
 ## Como Usar (passo a passo)

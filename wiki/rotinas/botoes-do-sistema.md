@@ -3,7 +3,7 @@ id: ROT-botoes-do-sistema
 title: "Botões do Sistema"
 type: rotina
 audience: a-definir
-modulos: ["windows/", "web"]
+modulos: ["windows/"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

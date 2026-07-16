@@ -3,7 +3,7 @@ id: ROT-cadastro-veiculos
 title: "Cadastro de Veículos"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/entregas", "windows/posto"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,8 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- windows/entregas
-- windows/posto
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

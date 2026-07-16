@@ -3,7 +3,7 @@ id: ROT-cancelamento-de-faturamento
 title: "Cancelamento de Faturamento"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/nfce"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- windows/nfce
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

@@ -3,7 +3,7 @@ id: ROT-acerto-estoque
 title: "Estoque — Acerto de Estoque"
 type: rotina
 audience: a-definir
-modulos: ["windows/materiais", "web"]
+modulos: ["windows/materiais"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/materiais
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

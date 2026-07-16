@@ -3,7 +3,7 @@ id: ROT-cadastro-administradoras-cartoesconvenios
 title: "Cadastro de Administradoras de Cartão e Convênios"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/contas-a-receber", "windows/caixa"]
+modulos: ["windows/faturamento", "windows/contas-a-receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/faturamento
 - windows/contas-a-receber
-- windows/caixa
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

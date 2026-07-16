@@ -3,7 +3,7 @@ id: ROT-site
 title: "Site"
 type: rotina
 audience: a-definir
-modulos: ["independentes/ecommerce"]
+modulos: ["atshub/ecommerce"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- independentes/ecommerce
+- atshub/ecommerce
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

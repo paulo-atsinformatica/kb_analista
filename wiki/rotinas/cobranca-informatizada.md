@@ -3,7 +3,7 @@ id: ROT-cobranca-informatizada
 title: "Cobrança Informatizada"
 type: rotina
 audience: a-definir
-modulos: ["windows/contas-a-receber", "web"]
+modulos: ["windows/contas-a-receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-receber
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

@@ -3,7 +3,7 @@ id: ROT-cadastro-moedas-cotacoes
 title: "Cadastro de Moedas (Cotações)"
 type: rotina
 audience: a-definir
-modulos: ["windows/contas-a-receber", "windows/contas-a-pagar", "windows/bancos", "web"]
+modulos: ["windows/contas-a-receber", "windows/contas-a-pagar", "windows/bancos"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -24,7 +24,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 - windows/contas-a-receber
 - windows/contas-a-pagar
 - windows/bancos
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

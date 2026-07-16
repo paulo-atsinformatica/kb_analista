@@ -3,7 +3,7 @@ id: ROT-controle-de-caixa-sangria-e-suprimento
 title: "Controle de Caixa: Sangria e Suprimento"
 type: rotina
 audience: a-definir
-modulos: ["windows/caixa", "windows/nfce"]
+modulos: ["windows/caixa"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/caixa
-- windows/nfce
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

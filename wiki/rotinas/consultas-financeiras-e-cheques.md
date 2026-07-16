@@ -3,7 +3,7 @@ id: ROT-consultas-financeiras-e-cheques
 title: "Consultas Financeiras e Gestão de Cheques"
 type: rotina
 audience: a-definir
-modulos: ["windows/contas-a-pagar", "windows/bancos", "windows/caixa"]
+modulos: ["windows/contas-a-pagar", "windows/bancos"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
 - windows/bancos
-- windows/caixa
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

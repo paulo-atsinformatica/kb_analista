@@ -3,7 +3,7 @@ id: ROT-relatorios-de-itens-cancelados
 title: "Relatórios de Itens Cancelados"
 type: rotina
 audience: a-definir
-modulos: ["windows/entregas"]
+modulos: ["windows/entregas-cs"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- windows/entregas
+- windows/entregas-cs
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

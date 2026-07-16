@@ -3,7 +3,7 @@ id: ROT-menu-dashboard
 title: "Menu - Dashboard"
 type: rotina
 audience: a-definir
-modulos: ["independentes/notificacoes"]
+modulos: ["mobile/notificacoes"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- independentes/notificacoes
+- mobile/notificacoes
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

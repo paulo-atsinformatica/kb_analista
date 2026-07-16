@@ -3,7 +3,7 @@ id: ROT-cadastro-tipos-de-operacao
 title: "Cadastro de Tipos de Operação"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/os", "windows/caixa", "windows/livros-fiscais", "web"]
+modulos: ["windows/faturamento", "windows/os", "windows/livros-fiscais"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,9 +23,7 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/faturamento
 - windows/os
-- windows/caixa
 - windows/livros-fiscais
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

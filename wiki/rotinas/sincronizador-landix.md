@@ -3,7 +3,7 @@ id: TS-sincronizador-landix
 title: "Integração Landix (Sincronizador e Middleware)"
 type: rotina
 audience: a-definir
-modulos: ["independentes/landix", "windows/sincronizador"]
+modulos: ["mobile/landix"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,8 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- independentes/landix
-- windows/sincronizador
+- mobile/landix
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

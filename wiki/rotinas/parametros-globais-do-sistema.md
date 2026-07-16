@@ -3,7 +3,7 @@ id: ROT-parametros-globais-do-sistema
 title: "Parâmetros Globais do Sistema"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/caixa", "windows/contas-a-receber"]
+modulos: ["windows/faturamento", "windows/contas-a-receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- windows/caixa
 - windows/contas-a-receber
 
 ## Como Usar (passo a passo)

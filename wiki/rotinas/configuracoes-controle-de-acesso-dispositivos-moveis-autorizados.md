@@ -3,7 +3,7 @@ id: ROT-configuracoes-controle-de-acesso-dispositivos-move
 title: "Controle de Acesso: Dispositivos Móveis Autorizados"
 type: rotina
 audience: a-definir
-modulos: ["web", "mobile/forca-vendas"]
+modulos: ["mobile/forca-venda-mobile"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,8 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
-- mobile/forca-vendas
+- mobile/forca-venda-mobile
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

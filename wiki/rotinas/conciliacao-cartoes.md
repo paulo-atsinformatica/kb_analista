@@ -3,7 +3,7 @@ id: ROT-conciliacao-cartoes
 title: "Conciliação de Cartões"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "api/conciliador-cartoes"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- api/conciliador-cartoes
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

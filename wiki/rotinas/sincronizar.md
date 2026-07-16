@@ -3,7 +3,7 @@ id: ROT-sincronizar
 title: "Sincronizar"
 type: rotina
 audience: a-definir
-modulos: ["outros", "mobile/pre-venda"]
+modulos: ["mobile/pre-venda-mobile"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,8 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- outros
-- mobile/pre-venda
+- mobile/pre-venda-mobile
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

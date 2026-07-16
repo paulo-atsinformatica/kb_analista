@@ -3,7 +3,7 @@ id: ROT-livro-entrada-fiscal
 title: "Livro de Entrada — Livros Fiscais"
 type: rotina
 audience: a-definir
-modulos: ["windows/livros-fiscais", "web"]
+modulos: ["windows/livros-fiscais"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/livros-fiscais
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

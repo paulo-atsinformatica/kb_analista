@@ -3,7 +3,7 @@ id: ROT-fluxo-de-caixa
 title: "Fluxo de Caixa"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/bancos", "windows/caixa"]
+modulos: ["windows/bancos", "windows/caixa"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/bancos
 - windows/caixa
 

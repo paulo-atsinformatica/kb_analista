@@ -3,7 +3,7 @@ id: ROT-nfe-emissao-de-nf-e-referente-a-cupom-fiscal-ou-nf
 title: "NF-e - Emissão referente a Cupom Fiscal ou NFC-e"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/nfce"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- windows/nfce
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

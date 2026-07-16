@@ -3,7 +3,7 @@ id: ROT-cadastro-contas-contabeis
 title: "Cadastro de Contas Contábeis"
 type: rotina
 audience: a-definir
-modulos: ["windows/contabil", "windows/contas-a-receber"]
+modulos: ["windows/contas-a-receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- windows/contabil
 - windows/contas-a-receber
 
 ## Como Usar (passo a passo)

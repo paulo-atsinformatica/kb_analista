@@ -3,7 +3,7 @@ id: ROT-reajuste-precos
 title: "Reajuste de Preços de Produtos"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/materiais", "web"]
+modulos: ["windows/faturamento", "windows/materiais"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/faturamento
 - windows/materiais
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

@@ -3,7 +3,7 @@ id: ROT-conexoes-configuracao
 title: "Conexões (Configuração)"
 type: rotina
 audience: a-definir
-modulos: ["independentes/landix"]
+modulos: ["mobile/landix"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- independentes/landix
+- mobile/landix
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

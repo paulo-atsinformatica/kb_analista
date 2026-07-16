@@ -3,7 +3,7 @@ id: ROT-comissoes
 title: "Rotina: Cálculo e Relatórios de Comissões"
 type: rotina
 audience: a-definir
-modulos: ["windows/comissoes", "windows/faturamento", "windows/os"]
+modulos: ["windows/faturamento", "windows/os"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- windows/comissoes
 - windows/faturamento
 - windows/os
 

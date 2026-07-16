@@ -3,7 +3,7 @@ id: ROT-devolucoes-de-venda-e-compra
 title: "Devoluções de Venda e Compra"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/compras", "windows/caixa"]
+modulos: ["windows/faturamento", "windows/compras"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/faturamento
 - windows/compras
-- windows/caixa
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

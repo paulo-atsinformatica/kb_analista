@@ -3,7 +3,7 @@ id: ROT-financeiro-tesouraria-extrato-bancario
 title: "Extrato Bancário (Resulth Web)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/bancos"]
+modulos: ["windows/bancos"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/bancos
 
 ## Como Usar (passo a passo)

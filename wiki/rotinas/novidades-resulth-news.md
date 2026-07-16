@@ -3,7 +3,7 @@ id: ROT-novidades-resulth-news
 title: "Resulth News — Novidades do Sistema"
 type: rotina
 audience: a-definir
-modulos: ["windows/", "web/", "mobile/forca-vendas"]
+modulos: ["windows/", "web/", "mobile/forca-venda-mobile"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,7 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/
 - web/
-- mobile/forca-vendas
+- mobile/forca-venda-mobile
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

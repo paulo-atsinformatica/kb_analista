@@ -22,38 +22,17 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 
 ## Rotinas deste módulo
 - Abertura de Caixa
-- Cadastro de Administradoras de Cartão e Convênios
 - Cadastro de Contas Caixa
-- Cadastro de Etiquetas de Produtos
-- Cadastro de Motivos de Devolução
-- Cadastro de Motivos de Troca
 - Cadastro de Operadores de Caixa
-- Cadastro de Prazos de Pagamento
-- Cadastro de Produtos
-- Cadastro de Produtos Agregados
-- Cadastro de Subcaixa
-- Cadastro de Tipo de Venda
-- Cadastro de Tipos de Operação
 - Cadastro de Turnos
 - Cadastro de Usuários
-- Cadastro de Vendedores
-- Cancelamento de Venda
-- Comissões de Vendedores
-- Configuração de Finalizadora PIX
-- Consulta de Comissões de Vendas
-- Consulta de Preço e Estoque
-- Consultas Financeiras e Gestão de Cheques
 - Consultas Livro Caixa
 - Consultas Saldo Geral
 - Consultas Saldo das Contas
 - Controle de Caixa: Sangria e Suprimento
-- Curva ABC de Vendas Dinâmica
-- Devoluções de Venda e Compra
-- Exportar Arquivo para Balança: Toledo (MGV6)
 - Fechamento de Caixa
 - Fluxo de Caixa
 - Gestão de Centros de Custo
-- Gestão de Preços Promocionais e Campanhas
 - Lançamentos Avulsos de Caixa
 - Movimentos Abertura de Caixa
 - Movimentos Caixa de Recebimento Completo
@@ -66,11 +45,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Movimentos Transferência de Conta Caixa entre Filiais
 - Movimentos Transferência de Conta Caixa para Conta Bancária
 - Parâmetros Caixa
-- Parâmetros Globais do Sistema
 - Período de Lançamento de Caixa
-- Ponto de Venda (PDV / Checkout)
-- Produtos cadastro de grades
-- Pré-venda (Orçamentos)
 - Relatórios Caixa Gerencial Por Trimestre
 - Relatórios Caixa Gerencial Trimestral/Anual
 - Relatórios Caixa Gerencial do Dia
@@ -87,7 +62,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Transferência de Caixa para Conta Bancária
 - Utilitários Elimina Movimentos de Caixa
 - Utilitários Reprocessa Saldos (Caixa)
-- Venda na NFC-e (Checkout)
 
 ## Relacionamento com outros módulos
 _(a preencher)_

@@ -3,7 +3,7 @@ id: ROT-estoque-localizacao-de-estoque
 title: "Localização de Estoque (Endereçamento)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/materiais"]
+modulos: ["windows/materiais"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/materiais
 
 ## Como Usar (passo a passo)

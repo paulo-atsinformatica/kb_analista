@@ -3,7 +3,7 @@ id: ROT-estoque-entrada-de-notas-manifesto-de-destinatario
 title: "Manifesto de Destinatário (MDe)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/compras"]
+modulos: ["windows/compras"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/compras
 
 ## Como Usar (passo a passo)

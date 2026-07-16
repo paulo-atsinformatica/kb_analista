@@ -3,7 +3,7 @@ id: ROT-vendas-preco-estoque
 title: "Consulta de Preço e Estoque"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/faturamento"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/faturamento
 
 ## Como Usar (passo a passo)

@@ -3,7 +3,7 @@ id: PROC-instalacao-do-sistema-resulth
 title: "Instalação do Sistema (Resulth)"
 type: rotina
 audience: a-definir
-modulos: ["windows/", "dba"]
+modulos: ["windows/"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/
-- dba
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

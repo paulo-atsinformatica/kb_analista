@@ -3,7 +3,7 @@ id: ROT-vendas-consultas-curva-abc-de-vendas-dinamica
 title: "Curva ABC de Vendas Dinâmica"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/faturamento", "windows/caixa"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,9 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/faturamento
-- windows/caixa
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

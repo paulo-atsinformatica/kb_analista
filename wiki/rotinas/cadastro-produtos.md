@@ -3,7 +3,7 @@ id: ROT-cadastro-produtos
 title: "Cadastro de Produtos"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/materiais", "windows/caixa", "windows/compras", "windows/os"]
+modulos: ["windows/faturamento", "windows/materiais", "windows/compras", "windows/os"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -23,7 +23,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 ## Módulos onde esta rotina existe
 - windows/faturamento
 - windows/materiais
-- windows/caixa
 - windows/compras
 - windows/os
 

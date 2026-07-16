@@ -3,7 +3,7 @@ id: ROT-exportar-arquivo-balanca-toledo
 title: "Exportar Arquivo para Balança: Toledo (MGV6)"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/caixa"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- windows/caixa
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

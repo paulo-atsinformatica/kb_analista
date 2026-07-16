@@ -3,7 +3,7 @@ id: ROT-financeiro-vencimentos-a-receber
 title: "Contas a Receber (Resulth Web)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/receber"]
+modulos: ["windows/receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/receber
 
 ## Como Usar (passo a passo)

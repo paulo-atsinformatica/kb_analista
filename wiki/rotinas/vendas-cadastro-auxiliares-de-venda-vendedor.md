@@ -3,7 +3,7 @@ id: ROT-vendas-cadastro-auxiliares-de-venda-vendedor
 title: "Vendas Cadastro auxiliares de venda Vendedor"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "web"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

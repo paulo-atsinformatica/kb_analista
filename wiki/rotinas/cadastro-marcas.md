@@ -3,7 +3,7 @@ id: ROT-cadastro-marcas
 title: "Cadastro de Marcas"
 type: rotina
 audience: a-definir
-modulos: ["windows/faturamento", "windows/materiais", "windows/os", "web"]
+modulos: ["windows/faturamento", "windows/materiais", "windows/os"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -24,7 +24,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 - windows/faturamento
 - windows/materiais
 - windows/os
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

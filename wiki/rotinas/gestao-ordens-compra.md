@@ -3,7 +3,7 @@ id: ROT-gestao-ordens-compra
 title: "Gestão de Ordens de Compra"
 type: rotina
 audience: a-definir
-modulos: ["windows/compras", "web"]
+modulos: ["windows/compras"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,7 +22,6 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/compras
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

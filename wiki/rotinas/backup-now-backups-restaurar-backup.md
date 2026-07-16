@@ -1,9 +1,9 @@
 ---
 id: ROT-backup-now-backups-restaurar-backup
-title: "Backup Now - Backups > Restaurar Backup"
+title: "Backup Now - Backups - Restaurar Backup"
 type: rotina
 audience: a-definir
-modulos: ["windows/backup"]
+modulos: ["windows/backupnow"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- windows/backup
+- windows/backupnow
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

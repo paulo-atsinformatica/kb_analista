@@ -3,7 +3,7 @@ id: ROT-fiscal-geracao-do-sped-contribuicoes-piscofins
 title: "Fiscal Geração do Sped Contribuições (Pis/cofins)"
 type: rotina
 audience: a-definir
-modulos: ["web", "windows/livros-fiscais"]
+modulos: ["windows/livros-fiscais"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,7 +21,6 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- web
 - windows/livros-fiscais
 
 ## Como Usar (passo a passo)

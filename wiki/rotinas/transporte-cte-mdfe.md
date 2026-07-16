@@ -3,7 +3,7 @@ id: ROT-transporte-cte-mdfe
 title: "Emissão de Transporte (CT-e e MDF-e)"
 type: rotina
 audience: a-definir
-modulos: ["avulso/cte-mdfe", "windows/faturamento", "web"]
+modulos: ["windows/faturamento"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,9 +21,7 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- avulso/cte-mdfe
 - windows/faturamento
-- web
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_
