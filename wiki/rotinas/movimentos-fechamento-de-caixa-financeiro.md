@@ -3,7 +3,7 @@ id: ROT-movimentos-fechamento-de-caixa-financeiro
 title: "Movimentos Fechamento de Caixa Financeiro"
 type: rotina
 audience: a-definir
-modulos: ["windows/caixa"]
+modulos: ["windows/caixa", "windows/business"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -22,6 +22,7 @@ _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

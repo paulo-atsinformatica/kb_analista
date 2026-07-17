@@ -2,35 +2,40 @@
 id: ROT-consultas-saldo-das-contas
 title: "Consultas Saldo das Contas"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Consultas Saldo das Contas
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Consulta os valores lançados por conta caixa em um determinado período de tempo.
+
+## Quem Usa
+Setor administrativo.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Saldos das Contas** (atalho Ctrl+S).
+2. Informar a conta caixa que deseja consultar e o período (Mês/Ano a Mês/Ano).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas registradas.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Sem erros — rotina simples e prática.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]] — base da consulta. Rotina puramente de consulta, sem outras dependências funcionais.

@@ -75,5 +75,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Relatórios Saldo de Contas Por Centro de Custo
 - Utilitários Apagar Contas Pagas
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

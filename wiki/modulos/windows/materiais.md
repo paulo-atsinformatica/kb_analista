@@ -70,5 +70,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Transferência de Estoque Entre Filiais
 - Valor de Estoque — NF-e Entrada
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

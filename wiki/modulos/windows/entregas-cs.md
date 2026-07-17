@@ -59,6 +59,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Relatórios de Itens Cancelados
 - Relatórios de Itens Comprados
 - Relatórios de Logs do Sistema
+- Cadastro de Usuários
 
 ## Relacionamento com outros módulos
 _(a preencher)_

@@ -80,5 +80,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - SPED Contribuições (PIS/COFINS)
 - SPED Fiscal (ICMS/IPI)
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

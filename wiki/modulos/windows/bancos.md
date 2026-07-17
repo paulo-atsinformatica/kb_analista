@@ -63,5 +63,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Utilitários Eliminação de Movimentos Antigos
 - Utilitários Reprocessa Saldos
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

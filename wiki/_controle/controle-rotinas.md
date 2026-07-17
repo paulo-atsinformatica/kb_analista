@@ -7,14 +7,14 @@
 ## Windows » Caixa (`windows/caixa`) — 41 rotina(s)
 
 - [x] Abertura de Caixa
-- [ ] Cadastro de Contas Caixa
-- [ ] Cadastro de Operadores de Caixa
-- [ ] Cadastro de Turnos
-- [ ] Cadastro de Usuários
-- [ ] Consultas Livro Caixa
-- [ ] Consultas Saldo Geral
-- [ ] Consultas Saldo das Contas
-- [ ] Controle de Caixa: Sangria e Suprimento
+- [x] Cadastro de Contas Caixa
+- [x] Cadastro de Operadores de Caixa
+- [x] Cadastro de Turnos
+- [x] Cadastro de Usuários
+- [x] Consultas Livro Caixa
+- [x] Consultas Saldo Geral
+- [x] Consultas Saldo das Contas
+- [x] Controle de Caixa: Sangria e Suprimento
 - [ ] Fechamento de Caixa
 - [ ] Fluxo de Caixa
 - [ ] Gestão de Centros de Custo
@@ -140,11 +140,11 @@
 - [ ] Cadastro de Tipo de Venda
 - [ ] Cadastro de Tipos de Operação
 - [ ] Cadastro de Transportadoras
-- [ ] Cadastro de Turnos
+- [x] Cadastro de Turnos
 - [ ] Cadastro de Unidades de Medida
 - [ ] Cadastro de Unidades de Venda
 - [ ] Cadastro de Unidades de Vendas
-- [ ] Cadastro de Usuários
+- [x] Cadastro de Usuários
 - [ ] Cadastro de Vendedores
 - [ ] Cadastro de Veículos
 - [ ] Cadastro produtos Manutenção de Descontos para Venda no Atacado
@@ -482,11 +482,11 @@
 - [ ] Utilitários — Universidade ATS
 - [ ] Vendas Cadastro auxiliares de venda Vendedor
 
-## Windows » Pagar (`windows/contas-a-pagar`) — 53 rotina(s)
+## Windows » Pagar (`windows/contas-a-pagar`) — 54 rotina(s)
 
 - [ ] Cadastro Histórico Padrão
 - [ ] Cadastro Tipos de Fornecedor
-- [ ] Cadastro de Contas Caixa
+- [x] Cadastro de Contas Caixa
 - [ ] Cadastro de Fornecedores
 - [ ] Cadastro de Moedas (Cotações)
 - [ ] Cadastro de Moedas (Identificação)
@@ -537,8 +537,9 @@
 - [ ] Relatórios Saldo Geral de Custos Relatório
 - [ ] Relatórios Saldo de Contas Por Centro de Custo
 - [ ] Utilitários Apagar Contas Pagas
+- [x] Cadastro de Usuários
 
-## Windows » Receber (`windows/contas-a-receber`) — 118 rotina(s)
+## Windows » Receber (`windows/contas-a-receber`) — 119 rotina(s)
 
 - [ ] Bloqueio e Liberação de Clientes
 - [ ] Cadastro Boletos
@@ -552,7 +553,7 @@
 - [ ] Cadastro de Carteiras (Bancárias e Digitais)
 - [ ] Cadastro de Clientes
 - [ ] Cadastro de Contas Bancárias
-- [ ] Cadastro de Contas Caixa
+- [x] Cadastro de Contas Caixa
 - [ ] Cadastro de Contas Contábeis
 - [ ] Cadastro de Moedas (Cotações)
 - [ ] Cadastro de Moedas (Identificação)
@@ -658,8 +659,9 @@
 - [ ] Utilitários Tabulação Duplicatas
 - [ ] Utilitários — Tabulação Boleto Bancário
 - [ ] Utilitários — Tabulação Boletos (Instruções)
+- [x] Cadastro de Usuários
 
-## Windows » Bancos (`windows/bancos`) — 41 rotina(s)
+## Windows » Bancos (`windows/bancos`) — 42 rotina(s)
 
 - [ ] Bancos — Conciliação Bancária Simples
 - [ ] Bancos — Fluxo de Caixa Projetado
@@ -672,7 +674,7 @@
 - [ ] Cadastro de Agências Bancárias
 - [ ] Cadastro de Bancos
 - [ ] Cadastro de Contas Bancárias
-- [ ] Cadastro de Contas Caixa
+- [x] Cadastro de Contas Caixa
 - [ ] Cadastro de Moedas (Cotações)
 - [ ] Cadastro de Moedas (Identificação)
 - [ ] Consultas Cheques
@@ -702,8 +704,9 @@
 - [ ] Transferência de Caixa para Conta Bancária
 - [ ] Utilitários Eliminação de Movimentos Antigos
 - [ ] Utilitários Reprocessa Saldos
+- [x] Cadastro de Usuários
 
-## Windows » Livros (`windows/livros-fiscais`) — 58 rotina(s)
+## Windows » Livros (`windows/livros-fiscais`) — 59 rotina(s)
 
 - [ ] Cadastro Dados Gerais da Redução Z
 - [ ] Cadastro de Tipos de Operação
@@ -763,8 +766,9 @@
 - [ ] Relatórios livro de Entradas
 - [ ] SPED Contribuições (PIS/COFINS)
 - [ ] SPED Fiscal (ICMS/IPI)
+- [x] Cadastro de Usuários
 
-## Windows » Sped (`windows/sped`) — 22 rotina(s)
+## Windows » Sped (`windows/sped`) — 23 rotina(s)
 
 - [ ] Geração do SPED Contribuições (PIS/COFINS)
 - [ ] Geração do SPED Fiscal
@@ -788,8 +792,9 @@
 - [ ] Registro 1900: Consolidação de Receitas (Lucro Presumido)
 - [ ] Unificador Sped
 - [ ] Utilitários Rotina de verificação de erros cadastrais
+- [x] Cadastro de Usuários
 
-## Windows » Compras (`windows/compras`) — 54 rotina(s)
+## Windows » Compras (`windows/compras`) — 55 rotina(s)
 
 - [ ] Alteração de Estoque Máximo e Mínimo em Lote
 - [ ] Análise ABC de Fornecedores
@@ -845,6 +850,7 @@
 - [ ] Relatórios para Ponto de Compra
 - [ ] Requisição de Compra
 - [ ] Utilitários — Tabulação OC's de Produtos
+- [x] Cadastro de Usuários
 
 ## Windows » Ordem de Serviço (`windows/os`) — 97 rotina(s)
 
@@ -884,7 +890,7 @@
 - [ ] Cadastro de Situações de Equipamentos
 - [ ] Cadastro de Tipos de Atendimento (OS)
 - [ ] Cadastro de Tipos de Operação
-- [ ] Cadastro de Usuários
+- [x] Cadastro de Usuários
 - [ ] Cadastro de Vendedores
 - [ ] Cadastros Dados Complementares
 - [ ] Contratos Apólice Seguro de Equipamentos
@@ -946,7 +952,7 @@
 - [ ] Utilitários Recalcular estoque bloqueado
 - [ ] Utilitários Recria Base Dados
 
-## Windows » Materias (`windows/materiais`) — 48 rotina(s)
+## Windows » Materias (`windows/materiais`) — 49 rotina(s)
 
 - [ ] Ajuste Inventário — Quebra/Perda
 - [ ] Alteração de Estoque Máximo e Mínimo em Lote
@@ -996,12 +1002,22 @@
 - [ ] Saída por Brinde/Cortesia
 - [ ] Transferência de Estoque Entre Filiais
 - [ ] Valor de Estoque — NF-e Entrada
+- [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 1 rotina(s)
+## Windows » Business (`windows/business`) — 10 rotina(s)
 
 - [x] Abertura de Caixa
+- [x] Cadastro de Contas Caixa
+- [x] Cadastro de Operadores de Caixa
+- [x] Cadastro de Turnos
+- [x] Consultas Livro Caixa
+- [x] Consultas Saldo das Contas
+- [x] Controle de Caixa: Sangria e Suprimento
+- [ ] Relatórios Caixas em Aberto por Operador _(existência confirmada, conteúdo pendente)_
+- [ ] Movimentos Fechamento de Caixa Financeiro _(existência confirmada, conteúdo pendente)_
+- [x] Cadastro de Usuários
 
-## Windows » BackupNow (`windows/backupnow`) — 12 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
+## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 
 - [ ] Backup Now - Backups - Backup Manual
 - [ ] Backup Now - Backups - Configurar
@@ -1015,8 +1031,9 @@
 - [ ] Backup Now - Log
 - [ ] Backup Now - Não Concluído
 - [ ] Backup Now - Usuários
+- [x] Cadastro de Usuários
 
-## Windows » EntregasCs (`windows/entregas-cs`) — 38 rotina(s)
+## Windows » EntregasCs (`windows/entregas-cs`) — 39 rotina(s)
 
 - [ ] Agendamento de Entrega com Cliente
 - [ ] Cadastro Ajudantes
@@ -1056,6 +1073,27 @@
 - [ ] Relatórios de Itens Cancelados
 - [ ] Relatórios de Itens Comprados
 - [ ] Relatórios de Logs do Sistema
+- [x] Cadastro de Usuários
+
+## Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 1 rotina(s)
+
+- [x] Cadastro de Usuários
+
+## Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s)
+
+- [x] Cadastro de Usuários
+
+## Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 1 rotina(s)
+
+- [x] Cadastro de Usuários
+
+## Windows » Resulth Offline (`windows/resulth-offline`) — 1 rotina(s)
+
+- [x] Cadastro de Usuários
+
+## NFCe » Resulth Checkout (`nfce/resulth-checkout`) — 1 rotina(s)
+
+- [x] Controle de Caixa: Sangria e Suprimento
 
 ## Força de Vendas Mobile (`mobile/forca-venda-mobile`) — 2 rotina(s)
 

@@ -140,5 +140,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Utilitários — Tabulação Boleto Bancário
 - Utilitários — Tabulação Boletos (Instruções)
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

@@ -44,5 +44,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Unificador Sped
 - Utilitários Rotina de verificação de erros cadastrais
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

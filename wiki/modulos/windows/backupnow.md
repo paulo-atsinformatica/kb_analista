@@ -36,6 +36,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Backup Now - Log
 - Backup Now - Não Concluído
 - Backup Now - Usuários
+- Cadastro de Usuários
 
 ## Relacionamento com outros módulos
 _(a preencher)_

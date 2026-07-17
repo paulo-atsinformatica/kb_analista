@@ -2,11 +2,11 @@
 id: ROT-consultas-saldo-geral
 title: "Consultas Saldo Geral"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/caixa"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
@@ -14,23 +14,24 @@ entities: []
 relations: []
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Consulta os saldos que existem nas contas bancárias, ou seja, o saldo atual de cada conta bancária.
+
+## Quem Usa
+Financeiro da empresa.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Saldo Geral** (atalho Ctrl+G).
+2. Informar a filial e a data da movimentação.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas registradas — só filial e data.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Sem erros comuns registrados.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+Rotina apenas de consulta, sem dependência funcional forte com outras rotinas.

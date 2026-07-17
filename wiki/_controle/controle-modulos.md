@@ -8,21 +8,21 @@
 
 - [x] Windows » Caixa (`windows/caixa`) — 41 rotina(s) pré-mapeada(s)
 - [x] Windows » Faturamento (`windows/faturamento`) — 431 rotina(s) pré-mapeada(s)
-- [x] Windows » Pagar (`windows/contas-a-pagar`) — 53 rotina(s) pré-mapeada(s)
-- [x] Windows » Receber (`windows/contas-a-receber`) — 118 rotina(s) pré-mapeada(s)
-- [x] Windows » Bancos (`windows/bancos`) — 41 rotina(s) pré-mapeada(s)
-- [x] Windows » Livros (`windows/livros-fiscais`) — 58 rotina(s) pré-mapeada(s)
-- [x] Windows » Sped (`windows/sped`) — 22 rotina(s) pré-mapeada(s)
-- [x] Windows » Compras (`windows/compras`) — 54 rotina(s) pré-mapeada(s)
+- [x] Windows » Pagar (`windows/contas-a-pagar`) — 54 rotina(s) pré-mapeada(s)
+- [x] Windows » Receber (`windows/contas-a-receber`) — 119 rotina(s) pré-mapeada(s)
+- [x] Windows » Bancos (`windows/bancos`) — 42 rotina(s) pré-mapeada(s)
+- [x] Windows » Livros (`windows/livros-fiscais`) — 59 rotina(s) pré-mapeada(s)
+- [x] Windows » Sped (`windows/sped`) — 23 rotina(s) pré-mapeada(s)
+- [x] Windows » Compras (`windows/compras`) — 55 rotina(s) pré-mapeada(s)
 - [x] Windows » Ordem de Serviço (`windows/os`) — 97 rotina(s) pré-mapeada(s)
-- [x] Windows » Materias (`windows/materiais`) — 48 rotina(s) pré-mapeada(s)
-- [x] Windows » Business (`windows/business`) — 1 rotina(s) pré-mapeada(s)
-- [x] Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 0 rotina(s) pré-mapeada(s)
-- [x] Windows » SintegraCs (`windows/sintegra-cs`) — 0 rotina(s) pré-mapeada(s)
-- [x] Windows » EntregasCs (`windows/entregas-cs`) — 38 rotina(s) pré-mapeada(s)
-- [x] Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 0 rotina(s) pré-mapeada(s)
-- [x] Windows » BackupNow (`windows/backupnow`) — 12 rotina(s) pré-mapeada(s) _(lista parcial, faltam 2 confirmar com analista)_
-- [x] Windows » Resulth Offline (`windows/resulth-offline`) — 0 rotina(s) pré-mapeada(s)
+- [x] Windows » Materias (`windows/materiais`) — 49 rotina(s) pré-mapeada(s)
+- [x] Windows » Business (`windows/business`) — 10 rotina(s) pré-mapeada(s)
+- [x] Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 1 rotina(s) pré-mapeada(s)
+- [x] Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s) pré-mapeada(s)
+- [x] Windows » EntregasCs (`windows/entregas-cs`) — 39 rotina(s) pré-mapeada(s)
+- [x] Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 1 rotina(s) pré-mapeada(s)
+- [x] Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) pré-mapeada(s) _(lista parcial, faltam 2 confirmar com analista)_
+- [x] Windows » Resulth Offline (`windows/resulth-offline`) — 1 rotina(s) pré-mapeada(s)
 
 ## web
 
@@ -51,7 +51,7 @@
 
 ## nfce
 
-- [x] NFCe » Resulth Checkout (`nfce/resulth-checkout`) — 0 rotina(s) pré-mapeada(s)
+- [x] NFCe » Resulth Checkout (`nfce/resulth-checkout`) — 1 rotina(s) pré-mapeada(s)
 - [x] NFCe » Monitor API (`nfce/monitor-api`) — 0 rotina(s) pré-mapeada(s)
 - [x] NFCe » NFCe Emissor (`nfce/nfce-emissor`) — 0 rotina(s) pré-mapeada(s)
 - [x] NFCe » Serviço Resulth NFCe (`nfce/servico-resulth-nfce`) — 0 rotina(s) pré-mapeada(s)

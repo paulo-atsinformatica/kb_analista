@@ -76,5 +76,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Requisição de Compra
 - Utilitários — Tabulação OC's de Produtos
 
+- Cadastro de Usuários
+
 ## Relacionamento com outros módulos
 _(a preencher)_

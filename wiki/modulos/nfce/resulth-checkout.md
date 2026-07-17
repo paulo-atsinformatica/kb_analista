@@ -21,7 +21,7 @@ relations: []
 _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 
 ## Rotinas deste módulo
-_(nenhuma rotina pré-mapeada para este módulo — confirmar com analista)_
+- Controle de Caixa: Sangria e Suprimento
 
 ## Relacionamento com outros módulos
 _(a preencher)_
