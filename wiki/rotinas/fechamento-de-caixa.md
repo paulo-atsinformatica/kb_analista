@@ -2,35 +2,52 @@
 id: ROT-fechamento-de-caixa
 title: "Fechamento de Caixa"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Fechamento de Caixa
+    type: RELACIONA_COM
+    to: Abertura de Caixa
+  - from: Fechamento de Caixa
+    type: RELACIONA_COM
+    to: Cadastro de Turnos
+  - from: Fechamento de Caixa
+    type: RELACIONA_COM
+    to: Cadastro de Operadores de Caixa
+  - from: Fechamento de Caixa
+    type: RELACIONA_COM
+    to: Consultas Livro Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Rotina usada para fazer a conferência do caixa do dia e realizar o fechamento.
+
+## Quem Usa
+Operador do caixa, ou responsável pelo fechamento dos caixas.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Movimentos » Fechamento de Caixa**.
+2. Informar o Usuário que abriu o caixa, o Turno aberto, e a Data/Hora do fechamento.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+- Existe um campo que permite reabrir o caixa depois de fechado, caso necessário. Ele já vem **habilitado por padrão** — o cuidado é não desmarcá-lo sem necessidade.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+- Informar **data e hora incorretas** no fechamento é o erro mais comum — exige atenção.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/abertura-de-caixa|Abertura de Caixa]] — o fechamento deve usar o mesmo turno da abertura.
+- [[rotinas/_compartilhadas/cadastro-turnos|Cadastro de Turnos]]
+- [[rotinas/cadastro-operadores|Cadastro de Operadores de Caixa]]
+- [[rotinas/consultas-livro-caixa|Consultas Livro Caixa]]

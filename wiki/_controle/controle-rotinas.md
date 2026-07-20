@@ -4,7 +4,7 @@
 > Só iniciar rotinas de um módulo depois que o módulo estiver confirmado em `controle-modulos.md`.
 
 
-## Windows » Caixa (`windows/caixa`) — 41 rotina(s)
+## Windows » Caixa (`windows/caixa`) — 32 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -15,20 +15,19 @@
 - [x] Consultas Saldo Geral
 - [x] Consultas Saldo das Contas
 - [x] Controle de Caixa: Sangria e Suprimento
-- [ ] Fechamento de Caixa
-- [ ] Fluxo de Caixa
-- [ ] Gestão de Centros de Custo
-- [ ] Lançamentos Avulsos de Caixa
-- [ ] Movimentos Abertura de Caixa
-- [ ] Movimentos Caixa de Recebimento Completo
-- [ ] Movimentos Fechamento de Caixa
+- [x] Fechamento de Caixa
+- [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
+- [x] Lançamentos Avulsos de Caixa
+- [-] Movimentos Abertura de Caixa — duplicata confirmada de [[rotinas/abertura-de-caixa|Abertura de Caixa]]
+- [x] Movimentos Caixa de Recebimento Completo _(obsoleta/descontinuada, documentada por conhecimento histórico)_
+- [-] Movimentos Fechamento de Caixa — duplicata confirmada de [[rotinas/fechamento-de-caixa|Fechamento de Caixa]]
 - [ ] Movimentos Fechamento de Caixa Financeiro
 - [ ] Movimentos Inicia Saldo Filiais
-- [ ] Movimentos Lançamento de Sangria/Suprimento
-- [ ] Movimentos Lançamentos  (Caixa)
-- [ ] Movimentos Período de Lançamentos
+- [-] Movimentos Lançamento de Sangria/Suprimento — duplicata confirmada de [[rotinas/_compartilhadas/controle-de-caixa-sangria-e-suprimento|Controle de Caixa: Sangria e Suprimento]]
+- [-] Movimentos Lançamentos  (Caixa) — duplicata confirmada de [[rotinas/lançamentos-avulsos-caixa|Lançamentos Avulsos de Caixa]]
+- [-] Movimentos Período de Lançamentos — duplicata de Período de Lançamento de Caixa (mesma rotina, nomes diferentes no levantamento original)
 - [ ] Movimentos Transferência de Conta Caixa entre Filiais
-- [ ] Movimentos Transferência de Conta Caixa para Conta Bancária
+- [-] Movimentos Transferência de Conta Caixa para Conta Bancária — duplicata de Transferência de Caixa para Conta Bancária (mesma rotina, nomes diferentes no levantamento original)
 - [ ] Parâmetros Caixa
 - [ ] Período de Lançamento de Caixa
 - [ ] Relatórios Caixa Gerencial Por Trimestre
@@ -43,12 +42,12 @@
 - [ ] Relatórios Saldo Contas Analítico
 - [ ] Relatórios Saldo Contas Sintético
 - [ ] Relatórios Saldo Geral de Custos
-- [ ] Sangria e Suprimento de Caixa
+- [-] Sangria e Suprimento de Caixa — duplicata confirmada de [[rotinas/_compartilhadas/controle-de-caixa-sangria-e-suprimento|Controle de Caixa: Sangria e Suprimento]]
 - [ ] Transferência de Caixa para Conta Bancária
 - [ ] Utilitários Elimina Movimentos de Caixa
 - [ ] Utilitários Reprocessa Saldos (Caixa)
 
-## Windows » Faturamento (`windows/faturamento`) — 431 rotina(s)
+## Windows » Faturamento (`windows/faturamento`) — 430 rotina(s)
 
 - [ ] Atualização de Dados Tributários em Lote (ICMS e FCP)
 - [ ] Bloqueio e Liberação de Clientes
@@ -204,7 +203,7 @@
 - [ ] Exportar Arquivo para Balança: Toledo (MGV6)
 - [ ] Ferramentas de Suporte: Recálculo de Preços de Custo
 - [ ] Ficha Cadastral
-- [ ] Gestão de Centros de Custo
+- [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
 - [ ] Gestão de Clientes Inativos
 - [ ] Gestão de Contratos de Licitação
 - [ ] Gestão de Limites e Crédito de Clientes
@@ -482,7 +481,7 @@
 - [ ] Utilitários — Universidade ATS
 - [ ] Vendas Cadastro auxiliares de venda Vendedor
 
-## Windows » Pagar (`windows/contas-a-pagar`) — 54 rotina(s)
+## Windows » Pagar (`windows/contas-a-pagar`) — 53 rotina(s)
 
 - [ ] Cadastro Histórico Padrão
 - [ ] Cadastro Tipos de Fornecedor
@@ -500,7 +499,7 @@
 - [ ] Consultas Gráfico Posição Contas a Pagar
 - [ ] Consultas Movimentação Por Fornecedor
 - [ ] Contas a Pagar — Liquidação Simples
-- [ ] Gestão de Centros de Custo
+- [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
 - [ ] Movimento Agrupamento de Documentos (Fatura)
 - [ ] Movimentos Borderôs
 - [ ] Movimentos Borderôs Emitidos
@@ -539,7 +538,7 @@
 - [ ] Utilitários Apagar Contas Pagas
 - [x] Cadastro de Usuários
 
-## Windows » Receber (`windows/contas-a-receber`) — 119 rotina(s)
+## Windows » Receber (`windows/contas-a-receber`) — 118 rotina(s)
 
 - [ ] Bloqueio e Liberação de Clientes
 - [ ] Cadastro Boletos
@@ -588,7 +587,7 @@
 - [ ] Consultas Sintética de Liquidações
 - [ ] Consultas Sintética de Vencimentos
 - [ ] Consultas Vencimentos Por Cliente
-- [ ] Gestão de Centros de Custo
+- [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
 - [ ] Gestão de Limites e Crédito de Clientes
 - [ ] Liquidação Simples — Contas a Receber
 - [ ] Movimentos Agrupamento de Doctos Agrupamento
@@ -661,7 +660,7 @@
 - [ ] Utilitários — Tabulação Boletos (Instruções)
 - [x] Cadastro de Usuários
 
-## Windows » Bancos (`windows/bancos`) — 42 rotina(s)
+## Windows » Bancos (`windows/bancos`) — 40 rotina(s)
 
 - [ ] Bancos — Conciliação Bancária Simples
 - [ ] Bancos — Fluxo de Caixa Projetado
@@ -682,8 +681,7 @@
 - [ ] Consultas Financeiras e Gestão de Cheques
 - [ ] Consultas Saldos
 - [ ] Extrato Bancário (Resulth Web)
-- [ ] Fluxo de Caixa
-- [ ] Gestão de Centros de Custo
+- [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
 - [ ] Movimentos Carteira de Cheques Pré-Recebidos
 - [ ] Movimentos Cheques Depositados (Gerar Arquivo)
 - [ ] Movimentos Conciliação Bancária
@@ -1004,7 +1002,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 10 rotina(s)
+## Windows » Business (`windows/business`) — 13 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1013,6 +1011,9 @@
 - [x] Consultas Livro Caixa
 - [x] Consultas Saldo das Contas
 - [x] Controle de Caixa: Sangria e Suprimento
+- [x] Fechamento de Caixa
+- [x] Fluxo de Caixa
+- [x] Lançamentos Avulsos de Caixa
 - [ ] Relatórios Caixas em Aberto por Operador _(existência confirmada, conteúdo pendente)_
 - [ ] Movimentos Fechamento de Caixa Financeiro _(existência confirmada, conteúdo pendente)_
 - [x] Cadastro de Usuários

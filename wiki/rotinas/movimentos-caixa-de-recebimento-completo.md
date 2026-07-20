@@ -2,11 +2,11 @@
 id: ROT-movimentos-caixa-de-recebimento-completo
 title: "Movimentos Caixa de Recebimento Completo"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/caixa"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
@@ -14,23 +14,11 @@ entities: []
 relations: []
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
+> [!WARNING] Rotina obsoleta / descontinuada
+> Confirmado com o analista: rotina não é mais utilizada atualmente. Documentada apenas por conhecimento histórico.
 
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Rotina obsoleta, usada exclusivamente pelo antigo sistema **PDV** (sistema anterior ao Pré-venda). Servia para faturar pedidos — usuários que não tinham permissão de faturar diretamente no PDV utilizavam essa rotina para isso.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
-
-## Como Usar (passo a passo)
-_(a preencher via entrevista)_
-
-## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
-
-## Erros Comuns / Pontos de Atenção
-_(a preencher)_
-
-## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_

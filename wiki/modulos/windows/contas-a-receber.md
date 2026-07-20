@@ -68,7 +68,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consultas Sintética de Liquidações
 - Consultas Sintética de Vencimentos
 - Consultas Vencimentos Por Cliente
-- Gestão de Centros de Custo
 - Gestão de Limites e Crédito de Clientes
 - Liquidação Simples — Contas a Receber
 - Movimentos Agrupamento de Doctos Agrupamento

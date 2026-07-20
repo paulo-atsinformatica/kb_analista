@@ -175,7 +175,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Exportar Arquivo para Balança: Toledo (MGV6)
 - Ferramentas de Suporte: Recálculo de Preços de Custo
 - Ficha Cadastral
-- Gestão de Centros de Custo
 - Gestão de Clientes Inativos
 - Gestão de Contratos de Licitação
 - Gestão de Limites e Crédito de Clientes

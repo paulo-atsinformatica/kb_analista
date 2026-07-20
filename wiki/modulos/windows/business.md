@@ -28,6 +28,9 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consultas Livro Caixa
 - Consultas Saldo das Contas
 - Controle de Caixa: Sangria e Suprimento
+- Fechamento de Caixa
+- Fluxo de Caixa
+- Lançamentos Avulsos de Caixa
 - Relatórios Caixas em Aberto por Operador _(existência no Business confirmada; conteúdo pendente de entrevista)_
 - Movimentos Fechamento de Caixa Financeiro _(existência no Business confirmada; conteúdo pendente de entrevista)_
 - Cadastro de Usuários

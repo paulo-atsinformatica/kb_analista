@@ -37,7 +37,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consultas Gráfico Posição Contas a Pagar
 - Consultas Movimentação Por Fornecedor
 - Contas a Pagar — Liquidação Simples
-- Gestão de Centros de Custo
 - Movimento Agrupamento de Documentos (Fatura)
 - Movimentos Borderôs
 - Movimentos Borderôs Emitidos

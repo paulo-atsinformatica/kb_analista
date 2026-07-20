@@ -40,8 +40,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consultas Financeiras e Gestão de Cheques
 - Consultas Saldos
 - Extrato Bancário (Resulth Web)
-- Fluxo de Caixa
-- Gestão de Centros de Custo
 - Movimentos Carteira de Cheques Pré-Recebidos
 - Movimentos Cheques Depositados (Gerar Arquivo)
 - Movimentos Conciliação Bancária
