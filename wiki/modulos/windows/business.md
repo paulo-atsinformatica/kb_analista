@@ -31,8 +31,12 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Fechamento de Caixa
 - Fluxo de Caixa
 - Lançamentos Avulsos de Caixa
-- Relatórios Caixas em Aberto por Operador _(existência no Business confirmada; conteúdo pendente de entrevista)_
-- Movimentos Fechamento de Caixa Financeiro _(existência no Business confirmada; conteúdo pendente de entrevista)_
+- Movimentos Inicia Saldo Filiais
+- Parâmetros Caixa
+- Período de Lançamento de Caixa
+- Relatórios Caixa Gerencial Por Trimestre
+- Relatórios Caixas em Aberto por Operador
+- Movimentos Fechamento de Caixa Financeiro
 - Cadastro de Usuários
 
 ## Relacionamento com outros módulos

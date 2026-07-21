@@ -2,35 +2,46 @@
 id: ROT-periodo-de-lancamento-caixa
 title: "Período de Lançamento de Caixa"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Período de Lançamento de Caixa
+    type: RELACIONA_COM
+    to: Movimentos Inicia Saldo Filiais
+  - from: Período de Lançamento de Caixa
+    type: RELACIONA_COM
+    to: Parâmetros Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
+> [!NOTE] Duplicata mesclada
+> Também aparecia no levantamento original como "Movimentos Período de Lançamentos" — mesma rotina, nomes diferentes.
 
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Rotina usada apenas para **renovar o período de lançamento** do caixa da filial, quando ele expira. Se o período estiver configurado para atualização automática (via Parâmetros Caixa), essa rotina não é utilizada.
+
+## Quem Usa
+Administrativo ou Financeiro, dependendo da regra de negócio de cada empresa.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Movimentos » Período de Lançamentos**.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+- Recomendação: sempre colocar a data final do período com uma margem maior, para evitar que expire com frequência (ver [[rotinas/movimentos-inicia-saldo-filiais|Movimentos Inicia Saldo Filiais]]).
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+- Período cadastrado muito curto expira e exige nova renovação manual — evitável configurando atualização automática em Parâmetros Caixa.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/movimentos-inicia-saldo-filiais|Movimentos Inicia Saldo Filiais]]
+- [[rotinas/parametros-caixa|Parâmetros Caixa]] — pode configurar a renovação automática, dispensando o uso manual desta rotina.

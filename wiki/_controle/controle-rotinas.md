@@ -21,20 +21,20 @@
 - [-] Movimentos Abertura de Caixa — duplicata confirmada de [[rotinas/abertura-de-caixa|Abertura de Caixa]]
 - [x] Movimentos Caixa de Recebimento Completo _(obsoleta/descontinuada, documentada por conhecimento histórico)_
 - [-] Movimentos Fechamento de Caixa — duplicata confirmada de [[rotinas/fechamento-de-caixa|Fechamento de Caixa]]
-- [ ] Movimentos Fechamento de Caixa Financeiro
-- [ ] Movimentos Inicia Saldo Filiais
+- [x] Movimentos Fechamento de Caixa Financeiro
+- [x] Movimentos Inicia Saldo Filiais
 - [-] Movimentos Lançamento de Sangria/Suprimento — duplicata confirmada de [[rotinas/_compartilhadas/controle-de-caixa-sangria-e-suprimento|Controle de Caixa: Sangria e Suprimento]]
 - [-] Movimentos Lançamentos  (Caixa) — duplicata confirmada de [[rotinas/lançamentos-avulsos-caixa|Lançamentos Avulsos de Caixa]]
 - [-] Movimentos Período de Lançamentos — duplicata de Período de Lançamento de Caixa (mesma rotina, nomes diferentes no levantamento original)
-- [ ] Movimentos Transferência de Conta Caixa entre Filiais
+- [x] Movimentos Transferência de Conta Caixa entre Filiais _(obsoleta/descontinuada, documentada por conhecimento histórico)_
 - [-] Movimentos Transferência de Conta Caixa para Conta Bancária — duplicata de Transferência de Caixa para Conta Bancária (mesma rotina, nomes diferentes no levantamento original)
-- [ ] Parâmetros Caixa
-- [ ] Período de Lançamento de Caixa
-- [ ] Relatórios Caixa Gerencial Por Trimestre
+- [x] Parâmetros Caixa
+- [x] Período de Lançamento de Caixa
+- [x] Relatórios Caixa Gerencial Por Trimestre
 - [ ] Relatórios Caixa Gerencial Trimestral/Anual
 - [ ] Relatórios Caixa Gerencial do Dia
 - [ ] Relatórios Caixa Gerencial por Período
-- [ ] Relatórios Caixas em Aberto por Operador
+- [x] Relatórios Caixas em Aberto por Operador
 - [ ] Relatórios Demonstração de Resultados (DRE)
 - [ ] Relatórios Fechamento de Caixa
 - [ ] Relatórios Fechamento de Caixas por Operador
@@ -1002,7 +1002,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 13 rotina(s)
+## Windows » Business (`windows/business`) — 17 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1014,8 +1014,12 @@
 - [x] Fechamento de Caixa
 - [x] Fluxo de Caixa
 - [x] Lançamentos Avulsos de Caixa
-- [ ] Relatórios Caixas em Aberto por Operador _(existência confirmada, conteúdo pendente)_
-- [ ] Movimentos Fechamento de Caixa Financeiro _(existência confirmada, conteúdo pendente)_
+- [x] Movimentos Inicia Saldo Filiais
+- [x] Parâmetros Caixa
+- [x] Período de Lançamento de Caixa
+- [x] Relatórios Caixa Gerencial Por Trimestre
+- [x] Relatórios Caixas em Aberto por Operador
+- [x] Movimentos Fechamento de Caixa Financeiro
 - [x] Cadastro de Usuários
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_

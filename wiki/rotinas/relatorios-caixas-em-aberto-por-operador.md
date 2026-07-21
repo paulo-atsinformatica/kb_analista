@@ -2,36 +2,53 @@
 id: ROT-relatorios-caixas-em-aberto-por-operador
 title: "Relatórios Caixas em Aberto por Operador"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Relatórios Caixas em Aberto por Operador
+    type: RELACIONA_COM
+    to: Abertura de Caixa
+  - from: Relatórios Caixas em Aberto por Operador
+    type: RELACIONA_COM
+    to: Fechamento de Caixa
+  - from: Relatórios Caixas em Aberto por Operador
+    type: RELACIONA_COM
+    to: Cadastro de Operadores de Caixa
+  - from: Relatórios Caixas em Aberto por Operador
+    type: RELACIONA_COM
+    to: Cadastro de Turnos
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Relatório que mostra quais caixas ainda estão **abertos**, filtrando pelos operadores selecionados e pelo turno escolhido.
+
+## Quem Usa
+Setor Administrativo.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
 - windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Relatórios » Caixas em Aberto por Operador**.
+2. Selecionar o Turno e os Operadores desejados.
+3. Imprimir o relatório.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas registradas.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Sem erros específicos — rotina tranquila, salvo imprevistos pontuais.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/abertura-de-caixa|Abertura de Caixa]]
+- [[rotinas/fechamento-de-caixa|Fechamento de Caixa]]
+- [[rotinas/cadastro-operadores|Cadastro de Operadores de Caixa]]
+- [[rotinas/_compartilhadas/cadastro-turnos|Cadastro de Turnos]]

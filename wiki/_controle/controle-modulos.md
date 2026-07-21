@@ -16,7 +16,7 @@
 - [x] Windows » Compras (`windows/compras`) — 55 rotina(s) pré-mapeada(s)
 - [x] Windows » Ordem de Serviço (`windows/os`) — 97 rotina(s) pré-mapeada(s)
 - [x] Windows » Materias (`windows/materiais`) — 49 rotina(s) pré-mapeada(s)
-- [x] Windows » Business (`windows/business`) — 13 rotina(s) pré-mapeada(s)
+- [x] Windows » Business (`windows/business`) — 17 rotina(s) pré-mapeada(s)
 - [x] Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 1 rotina(s) pré-mapeada(s)
 - [x] Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s) pré-mapeada(s)
 - [x] Windows » EntregasCs (`windows/entregas-cs`) — 39 rotina(s) pré-mapeada(s)

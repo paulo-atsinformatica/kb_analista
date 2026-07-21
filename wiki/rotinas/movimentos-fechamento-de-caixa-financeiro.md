@@ -5,17 +5,26 @@ type: rotina
 audience: all
 modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: em-andamento
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Movimentos Fechamento de Caixa Financeiro
+    type: RELACIONA_COM
+    to: Abertura de Caixa
+  - from: Movimentos Fechamento de Caixa Financeiro
+    type: RELACIONA_COM
+    to: Fechamento de Caixa
+  - from: Movimentos Fechamento de Caixa Financeiro
+    type: RELACIONA_COM
+    to: Cadastro de Turnos
+  - from: Movimentos Fechamento de Caixa Financeiro
+    type: RELACIONA_COM
+    to: Lançamentos Avulsos de Caixa
 ---
-
-> [!INFO] Entrevista em andamento
-> Parou na pergunta de campos e parâmetros importantes (item 4). Faltam: mais campos/parâmetros (se houver), erros comuns, rotinas relacionadas, e confirmação final de módulos adicionais.
 
 ## Visão Geral
 Rotina usada para fazer a conferência diária do caixa — mostra todas as vendas feitas, lançamentos, formas de pagamento usadas, sangrias/suprimentos feitos, e o valor em dinheiro. É o processo que o operador do caixa faz ao final do turno. Só é possível abrir um novo caixa (de um novo dia) para o operador depois que esse fechamento financeiro for feito.
@@ -34,7 +43,11 @@ Operador do caixa, e setor administrativo.
 - Diferente do Fechamento de Caixa comum (que permite reabertura), o **Fechamento de Caixa Financeiro é definitivo** — uma vez fechado, não pode mais ser reaberto. Atenção redobrada para informar os valores corretamente antes de confirmar.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher — entrevista pausada aqui)_
+- Vendas/lançamentos que não integraram ao caixa — ocorre quando a operação usada na venda não está marcada para integrar com o caixa, ou está marcada incorretamente (integra quando não deveria), ou algum valor foi lançado errado.
+- Sempre informar os valores corretamente na hora do fechamento, para evitar divergências (lembrando que esse fechamento é definitivo).
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/abertura-de-caixa|Abertura de Caixa]]
+- [[rotinas/fechamento-de-caixa|Fechamento de Caixa]]
+- [[rotinas/_compartilhadas/cadastro-turnos|Cadastro de Turnos]]
+- [[rotinas/lançamentos-avulsos-caixa|Lançamentos Avulsos de Caixa]]
