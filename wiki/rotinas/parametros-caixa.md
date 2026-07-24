@@ -40,7 +40,7 @@ Equipe de Implantação, junto com o dono da empresa, durante a implantação/co
 - Demais parâmetros variam conforme a regra de negócio de cada empresa: Integração Contábil, Informar Centro de Custo, Impressão do Fechamento de Caixa Financeiro, obrigar preencher turno na abertura, pedir empresa ao fazer lançamento, tolerância para fechamento de caixa, entre outros.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros — rotina de configuração inicial, não é acessada durante o uso diário do sistema.
+Sem erros — rotina de configuração inicial, não é acessada durante o uso diário do sistema. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - [[rotinas/movimentos-inicia-saldo-filiais|Movimentos Inicia Saldo Filiais]]

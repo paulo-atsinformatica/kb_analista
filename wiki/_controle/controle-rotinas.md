@@ -4,7 +4,7 @@
 > Só iniciar rotinas de um módulo depois que o módulo estiver confirmado em `controle-modulos.md`.
 
 
-## Windows » Caixa (`windows/caixa`) — 32 rotina(s)
+## Windows » Caixa (`windows/caixa`) — 31 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -31,14 +31,14 @@
 - [x] Parâmetros Caixa
 - [x] Período de Lançamento de Caixa
 - [x] Relatórios Caixa Gerencial Por Trimestre
-- [ ] Relatórios Caixa Gerencial Trimestral/Anual
-- [ ] Relatórios Caixa Gerencial do Dia
-- [ ] Relatórios Caixa Gerencial por Período
+- [x] Relatórios Caixa Gerencial Trimestral/Anual
+- [x] Relatórios Caixa Gerencial do Dia
+- [x] Relatórios Caixa Gerencial por Período
 - [x] Relatórios Caixas em Aberto por Operador
-- [ ] Relatórios Demonstração de Resultados (DRE)
-- [ ] Relatórios Fechamento de Caixa
-- [ ] Relatórios Fechamento de Caixas por Operador
-- [ ] Relatórios Livro Caixa
+- [x] Relatórios Demonstração de Resultados (DRE)
+- [x] Relatórios Fechamento de Caixa
+- [-] Relatórios Fechamento de Caixas por Operador — duplicata confirmada de [[rotinas/relatorios-fechamento-de-caixa|Relatórios Fechamento de Caixa]]
+- [x] Relatórios Livro Caixa
 - [ ] Relatórios Saldo Contas Analítico
 - [ ] Relatórios Saldo Contas Sintético
 - [ ] Relatórios Saldo Geral de Custos
@@ -1002,7 +1002,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 17 rotina(s)
+## Windows » Business (`windows/business`) — 23 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1018,6 +1018,12 @@
 - [x] Parâmetros Caixa
 - [x] Período de Lançamento de Caixa
 - [x] Relatórios Caixa Gerencial Por Trimestre
+- [x] Relatórios Caixa Gerencial Trimestral/Anual
+- [x] Relatórios Caixa Gerencial do Dia
+- [x] Relatórios Caixa Gerencial por Período
+- [x] Relatórios Demonstração de Resultados (DRE)
+- [x] Relatórios Fechamento de Caixa
+- [x] Relatórios Livro Caixa
 - [x] Relatórios Caixas em Aberto por Operador
 - [x] Movimentos Fechamento de Caixa Financeiro
 - [x] Cadastro de Usuários

@@ -31,7 +31,7 @@ Financeiro da empresa.
 Sem dúvidas registradas — só filial e data.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros comuns registrados.
+Sem erros comuns registrados. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 Rotina apenas de consulta, sem dependência funcional forte com outras rotinas.

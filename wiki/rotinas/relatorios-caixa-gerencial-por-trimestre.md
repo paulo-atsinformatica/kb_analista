@@ -42,7 +42,7 @@ Setor Financeiro / dono da empresa, para análise dos valores.
 Sem dúvidas — rotina simples de gerar.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros — rotina tranquila.
+Sem erros — rotina tranquila. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - Relatórios Caixa Gerencial do Dia

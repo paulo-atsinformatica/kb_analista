@@ -35,7 +35,7 @@ Setor administrativo.
 Sem dúvidas registradas.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros — rotina simples e prática.
+Sem erros — rotina simples e prática. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]] — base da consulta. Rotina puramente de consulta, sem outras dependências funcionais.

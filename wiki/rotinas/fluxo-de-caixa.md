@@ -42,7 +42,7 @@ Dono da empresa (para observar entradas e saídas) e setor Financeiro.
 Sem dúvidas registradas sobre os filtros.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros — rotina usada apenas para consulta.
+Sem erros — rotina usada apenas para consulta. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - Contas a Pagar

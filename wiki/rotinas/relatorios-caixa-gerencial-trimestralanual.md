@@ -2,35 +2,47 @@
 id: ROT-relatorios-caixa-gerencial-trimestralanual
 title: "Relatórios Caixa Gerencial Trimestral/Anual"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Relatórios Caixa Gerencial Trimestral/Anual
+    type: RELACIONA_COM
+    to: Relatórios Caixa Gerencial Por Trimestre
+  - from: Relatórios Caixa Gerencial Trimestral/Anual
+    type: RELACIONA_COM
+    to: Relatórios Caixa Gerencial do Dia
+  - from: Relatórios Caixa Gerencial Trimestral/Anual
+    type: RELACIONA_COM
+    to: Relatórios Caixa Gerencial por Período
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Mesma função do [[rotinas/relatorios-caixa-gerencial-por-trimestre|Relatórios Caixa Gerencial Por Trimestre]], mas gerado de forma **anual**.
+
+## Quem Usa
+Setor Financeiro / dono da empresa, para análise dos valores.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Relatórios » Relatório Gerencial de Caixa » Caixa Gerencial Trimestral/Anual**.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas — rotina simples de gerar.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Sem erros — rotina tranquila. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/relatorios-caixa-gerencial-por-trimestre|Relatórios Caixa Gerencial Por Trimestre]]
+- Relatórios Caixa Gerencial do Dia
+- Relatórios Caixa Gerencial por Período

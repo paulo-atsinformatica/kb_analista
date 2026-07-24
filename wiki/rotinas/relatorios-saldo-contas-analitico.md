@@ -6,7 +6,7 @@ audience: a-definir
 modulos: ["windows/caixa"]
 tags: []
 status: draft
-status_entrevista: pendente
+status_entrevista: em-andamento
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
@@ -14,11 +14,14 @@ entities: []
 relations: []
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
+> [!INFO] Entrevista em andamento
+> Parou na pergunta de caminho de menu (item 3). Faltam: passo a passo completo, campos/parâmetros, erros comuns, rotinas relacionadas, e módulos adicionais.
 
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Relatório detalhado (analítico) dos lançamentos por conta caixa — mostra cada lançamento (data, histórico, valor) com totalização por conta, de forma simplificada para facilitar o entendimento.
+
+## Quem Usa
+Setor administrativo/financeiro, para consulta.
 
 ## Módulos onde esta rotina existe
 - windows/caixa

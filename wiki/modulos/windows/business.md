@@ -35,6 +35,12 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Parâmetros Caixa
 - Período de Lançamento de Caixa
 - Relatórios Caixa Gerencial Por Trimestre
+- Relatórios Caixa Gerencial Trimestral/Anual
+- Relatórios Caixa Gerencial do Dia
+- Relatórios Caixa Gerencial por Período
+- Relatórios Demonstração de Resultados (DRE)
+- Relatórios Fechamento de Caixa
+- Relatórios Livro Caixa
 - Relatórios Caixas em Aberto por Operador
 - Movimentos Fechamento de Caixa Financeiro
 - Cadastro de Usuários

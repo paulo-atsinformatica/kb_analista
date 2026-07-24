@@ -45,7 +45,7 @@ Setor Administrativo.
 Sem dúvidas registradas.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros específicos — rotina tranquila, salvo imprevistos pontuais.
+Sem erros específicos — rotina tranquila, salvo imprevistos pontuais. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - [[rotinas/abertura-de-caixa|Abertura de Caixa]]

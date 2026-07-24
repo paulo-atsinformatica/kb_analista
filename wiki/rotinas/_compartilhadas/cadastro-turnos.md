@@ -43,7 +43,7 @@ Gestão da empresa — define os horários dos turnos de trabalho.
 Sem dúvidas registradas para este cadastro.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros comuns registrados para este cadastro.
+Sem erros comuns registrados para este cadastro. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - [[rotinas/abertura-de-caixa|Abertura de Caixa]] — exige informar o turno.

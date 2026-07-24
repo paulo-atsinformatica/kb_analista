@@ -45,7 +45,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Relatórios Caixas em Aberto por Operador
 - Relatórios Demonstração de Resultados (DRE)
 - Relatórios Fechamento de Caixa
-- Relatórios Fechamento de Caixas por Operador
 - Relatórios Livro Caixa
 - Relatórios Saldo Contas Analítico
 - Relatórios Saldo Contas Sintético

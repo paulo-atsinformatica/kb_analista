@@ -43,7 +43,7 @@ Pessoa do Financeiro, ou o próprio operador do caixa, para ter seus lançamento
 Sem dúvidas ou parâmetros específicos — só reflete erro se já houver alguma informação incorreta lançada no sistema.
 
 ## Erros Comuns / Pontos de Atenção
-Sem erros específicos da rotina em si — problemas só aparecem se houver dado incorreto já lançado no sistema.
+Sem erros específicos da rotina em si — problemas só aparecem se houver dado incorreto já lançado no sistema. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
 - [[rotinas/abertura-de-caixa|Abertura de Caixa]] — pode ser usada para conferência dos lançamentos.

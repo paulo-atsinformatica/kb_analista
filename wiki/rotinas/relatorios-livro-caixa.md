@@ -2,35 +2,47 @@
 id: ROT-relatorios-livro-caixa
 title: "Relatórios Livro Caixa"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Relatórios Livro Caixa
+    type: RELACIONA_COM
+    to: Lançamentos Avulsos de Caixa
+  - from: Relatórios Livro Caixa
+    type: RELACIONA_COM
+    to: Consultas Livro Caixa
+  - from: Relatórios Livro Caixa
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Relatório que valida as entradas e saídas do caixa e mostra o saldo — tanto o **saldo atual** quanto o **saldo anterior** (do dia anterior). O saldo anterior de um dia sempre vira o saldo atual do dia seguinte (saldo em cascata).
+
+## Quem Usa
+Setor Financeiro/Administrativo, e o dono da empresa, para entender a situação do caixa.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Relatórios » Livro Caixa** (atalho Alt+X).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Dúvidas geralmente vêm de **lançamentos incorretos** no caixa (reflexo do dado, não da rotina em si).
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Principalmente **lançamentos avulsos feitos incorretamente**. Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/lançamentos-avulsos-caixa|Lançamentos Avulsos de Caixa]]
+- [[rotinas/consultas-livro-caixa|Consultas Livro Caixa]]
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]]
