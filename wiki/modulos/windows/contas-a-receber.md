@@ -21,13 +21,11 @@ relations: []
 _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 
 ## Rotinas deste módulo
-- Bloqueio e Liberação de Clientes
 - Cadastro Boletos
 - Cadastro Cartas
 - Cadastro Feriados
 - Cadastro Financeiras
 - Cadastro Tipos de Documentos
-- Cadastro de Administradoras de Cartão e Convênio
 - Cadastro de Administradoras de Cartão e Convênios
 - Cadastro de Cartas de Cobrança
 - Cadastro de Carteiras (Bancárias e Digitais)

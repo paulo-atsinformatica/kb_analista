@@ -35,7 +35,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Reserva de Estoque
 - Cadastro de Subgrupos
 - Cadastro de Unidades de Medida
-- Cadastro de Unidades de Venda
 - Cadastro de Unidades de Vendas
 - Cadastros Auxiliares de Produtos (Marca, Família, Seção)
 - Cadastros Requisitantes de Materiais

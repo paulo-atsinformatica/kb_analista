@@ -21,8 +21,6 @@ relations: []
 _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 
 ## Rotinas deste módulo
-- Atualização de Dados Tributários em Lote (ICMS e FCP)
-- Bloqueio e Liberação de Clientes
 - Buscar Menu
 - Cadastro Altera Estoque Máximo/Mínimo
 - Cadastro Aplicações
@@ -39,7 +37,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro Código de Enquadramento do IPI
 - Cadastro Códigos ANP
 - Cadastro Desconto Progressivo
-- Cadastro Estados(UF)
 - Cadastro Etiquetas Decreto 5.903
 - Cadastro Fabricantes
 - Cadastro Financeiras
@@ -62,7 +59,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro Relação de Fornecedores
 - Cadastro ST por Estado
 - Cadastro Segmento de Mercado
-- Cadastro de Administradoras de Cartão e Convênio
 - Cadastro de Administradoras de Cartão e Convênios
 - Cadastro de Aplicações de Produtos
 - Cadastro de CEP
@@ -113,7 +109,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Transportadoras
 - Cadastro de Turnos
 - Cadastro de Unidades de Medida
-- Cadastro de Unidades de Venda
 - Cadastro de Unidades de Vendas
 - Cadastro de Usuários
 - Cadastro de Vendedores
@@ -133,7 +128,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cancelamento de Venda
 - Carta de Correção Eletrônica (CCe)
 - Classificação de Clientes
-- Classificação de Clientes
 - Comissões de Vendedores
 - Conciliação de Cartões
 - Configuração de Campos Livres nas Vendas
@@ -143,7 +137,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consulta Movimento por Produto (Kardex)
 - Consulta de Comissões de Vendas
 - Consulta de Notas Promissórias
-- Consulta de Preço e Estoque
 - Consulta de Preço e Estoque
 - Consulta de Vendas Canceladas
 - Consultar NF-e (Rotina do Sistema)
@@ -263,9 +256,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Movimentos Relatório de Bônus
 - Movimentos Relatório de Desmontagem
 - Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito
-- Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito
 - Movimentos Transferência de Estoque Gerar Transferência com Estoque em Trânsito
-- Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito
 - Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito
 - Movimentos Transferência de Estoque Simples
 - Movimentos Vendas Cancelamentos de NF-e

@@ -47,10 +47,10 @@
 - [x] Utilitários Elimina Movimentos de Caixa
 - [x] Utilitários Reprocessa Saldos (Caixa)
 
-## Windows » Faturamento (`windows/faturamento`) — 430 rotina(s)
+## Windows » Faturamento (`windows/faturamento`) — 421 rotina(s)
 
-- [ ] Atualização de Dados Tributários em Lote (ICMS e FCP)
-- [ ] Bloqueio e Liberação de Clientes
+- [-] Atualização de Dados Tributários em Lote (ICMS e FCP) — não identificada pelo analista, não existe no sistema
+- [-] Bloqueio e Liberação de Clientes — não identificada pelo analista, não existe no sistema
 - [ ] Buscar Menu
 - [ ] Cadastro Altera Estoque Máximo/Mínimo
 - [ ] Cadastro Aplicações
@@ -67,7 +67,7 @@
 - [ ] Cadastro Código de Enquadramento do IPI
 - [ ] Cadastro Códigos ANP
 - [ ] Cadastro Desconto Progressivo
-- [ ] Cadastro Estados(UF)
+- [-] Cadastro Estados(UF) — duplicata confirmada de "Cadastro de Estados (UF)"
 - [ ] Cadastro Etiquetas Decreto 5.903
 - [ ] Cadastro Fabricantes
 - [ ] Cadastro Financeiras
@@ -90,7 +90,7 @@
 - [ ] Cadastro Relação de Fornecedores
 - [ ] Cadastro ST por Estado
 - [ ] Cadastro Segmento de Mercado
-- [ ] Cadastro de Administradoras de Cartão e Convênio
+- [-] Cadastro de Administradoras de Cartão e Convênio — duplicata confirmada de "Cadastro de Administradoras de Cartão e Convênios" (plural)
 - [ ] Cadastro de Administradoras de Cartão e Convênios
 - [ ] Cadastro de Aplicações de Produtos
 - [ ] Cadastro de CEP
@@ -141,7 +141,7 @@
 - [ ] Cadastro de Transportadoras
 - [x] Cadastro de Turnos
 - [ ] Cadastro de Unidades de Medida
-- [ ] Cadastro de Unidades de Venda
+- [-] Cadastro de Unidades de Venda — duplicata confirmada de "Cadastro de Unidades de Vendas" (plural)
 - [ ] Cadastro de Unidades de Vendas
 - [x] Cadastro de Usuários
 - [ ] Cadastro de Vendedores
@@ -161,7 +161,7 @@
 - [ ] Cancelamento de Venda
 - [ ] Carta de Correção Eletrônica (CCe)
 - [ ] Classificação de Clientes
-- [ ] Classificação de Clientes
+- [-] Classificação de Clientes — duplicata confirmada (mesmo nome, mesma rotina)
 - [ ] Comissões de Vendedores
 - [ ] Conciliação de Cartões
 - [ ] Configuração de Campos Livres nas Vendas
@@ -172,7 +172,7 @@
 - [ ] Consulta de Comissões de Vendas
 - [ ] Consulta de Notas Promissórias
 - [ ] Consulta de Preço e Estoque
-- [ ] Consulta de Preço e Estoque
+- [-] Consulta de Preço e Estoque — duplicata confirmada (mesmo nome, mesma rotina)
 - [ ] Consulta de Vendas Canceladas
 - [ ] Consultar NF-e (Rotina do Sistema)
 - [ ] Consultas Consignação Kardex de Mercadoria Consignada
@@ -292,10 +292,10 @@
 - [ ] Movimentos Relatório de Bônus
 - [ ] Movimentos Relatório de Desmontagem
 - [ ] Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito
-- [ ] Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito
+- [-] Movimentos Transferência de Estoque Confirmar Transferência com Estoque em Trânsito — duplicata confirmada (mesmo nome, mesma rotina)
 - [ ] Movimentos Transferência de Estoque Gerar Transferência com Estoque em Trânsito
 - [ ] Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito
-- [ ] Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito
+- [-] Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito — duplicata confirmada (mesmo nome, mesma rotina)
 - [ ] Movimentos Transferência de Estoque Simples
 - [ ] Movimentos Vendas Cancelamentos de NF-e
 - [ ] NF de varios pedidos
@@ -538,15 +538,15 @@
 - [ ] Utilitários Apagar Contas Pagas
 - [x] Cadastro de Usuários
 
-## Windows » Receber (`windows/contas-a-receber`) — 118 rotina(s)
+## Windows » Receber (`windows/contas-a-receber`) — 116 rotina(s)
 
-- [ ] Bloqueio e Liberação de Clientes
+- [-] Bloqueio e Liberação de Clientes — não identificada pelo analista, não existe no sistema
 - [ ] Cadastro Boletos
 - [ ] Cadastro Cartas
 - [ ] Cadastro Feriados
 - [ ] Cadastro Financeiras
 - [ ] Cadastro Tipos de Documentos
-- [ ] Cadastro de Administradoras de Cartão e Convênio
+- [-] Cadastro de Administradoras de Cartão e Convênio — duplicata confirmada de "Cadastro de Administradoras de Cartão e Convênios" (plural)
 - [ ] Cadastro de Administradoras de Cartão e Convênios
 - [ ] Cadastro de Cartas de Cobrança
 - [ ] Cadastro de Carteiras (Bancárias e Digitais)
@@ -949,7 +949,7 @@
 - [ ] Utilitários Recalcular estoque bloqueado
 - [ ] Utilitários Recria Base Dados
 
-## Windows » Materias (`windows/materiais`) — 49 rotina(s)
+## Windows » Materias (`windows/materiais`) — 48 rotina(s)
 
 - [ ] Ajuste Inventário — Quebra/Perda
 - [ ] Alteração de Estoque Máximo e Mínimo em Lote
@@ -965,7 +965,7 @@
 - [ ] Cadastro de Reserva de Estoque
 - [ ] Cadastro de Subgrupos
 - [ ] Cadastro de Unidades de Medida
-- [ ] Cadastro de Unidades de Venda
+- [-] Cadastro de Unidades de Venda — duplicata confirmada de "Cadastro de Unidades de Vendas" (plural)
 - [ ] Cadastro de Unidades de Vendas
 - [ ] Cadastros Auxiliares de Produtos (Marca, Família, Seção)
 - [ ] Cadastros Requisitantes de Materiais
