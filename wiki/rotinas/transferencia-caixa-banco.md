@@ -2,36 +2,42 @@
 id: ROT-transferencia-caixa-banco
 title: "Transferência de Caixa para Conta Bancária"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa", "windows/bancos"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Transferência de Caixa para Conta Bancária
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
+> [!NOTE] Correção de módulo
+> Pré-mapeada originalmente também em `windows/bancos`. Confirmado com o analista que essa rotina existe apenas em `windows/caixa` e `windows/business`.
 
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Rotina utilizada para transferir os valores das contas caixa para o banco.
+
+## Quem Usa
+Setor Administrativo/Financeiro.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
-- windows/bancos
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Movimentos » Transferência de Conta Caixa para Conta Bancária**.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Rotina pouco utilizada, com poucos erros conhecidos.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]]

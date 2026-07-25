@@ -2,35 +2,50 @@
 id: ROT-utilitarios-reprocessa-saldos-caixa
 title: "Utilitários Reprocessa Saldos (Caixa)"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: analyst
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Utilitários Reprocessa Saldos (Caixa)
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
+  - from: Utilitários Reprocessa Saldos (Caixa)
+    type: RELACIONA_COM
+    to: Consultas Saldo Geral
+  - from: Utilitários Reprocessa Saldos (Caixa)
+    type: RELACIONA_COM
+    to: Consultas Saldo das Contas
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
+> [!IMPORTANT] Rotina de suporte/manutenção
+> Classificada como `audience: analyst` — envolve recálculo direto de saldos e é usada majoritariamente pelo suporte ATS/implantação, não pelo cliente final.
 
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Faz o reprocessamento (recálculo) dos saldos do caixa. Geralmente utilizada quando há alguma divergência no saldo do caixa.
+
+## Quem Usa
+Suporte ATS ou equipe de implantação — pouco utilizada pelos clientes.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Utilitários » Reprocessa Saldos**.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas registradas.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+- **Cuidado ao executar**: se feita de forma incorreta, pode alterar todo o saldo do cliente.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]]
+- [[rotinas/consultas-saldo-geral|Consultas Saldo Geral]]
+- [[rotinas/consultas-saldo-das-contas|Consultas Saldo das Contas]]

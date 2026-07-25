@@ -2,35 +2,45 @@
 id: ROT-relatorios-saldo-geral-de-custos
 title: "Relatórios Saldo Geral de Custos"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Relatórios Saldo Geral de Custos
+    type: RELACIONA_COM
+    to: Cadastro Centro de Custo
+  - from: Relatórios Saldo Geral de Custos
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Mostra os saldos gastos de acordo com o centro de custo, para identificar em qual área da empresa estão sendo gerados os maiores gastos.
+
+## Quem Usa
+Financeiro/Administrativo.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Relatórios » Relatório de Saldo Geral de Custos**.
+2. Informar Filial, Período, Centro de Custo.
+3. Escolher Tipo de Relatório (Sintético ou Analítico) e pesquisar por data de Pagamento ou Emissão.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Rotina simples — apenas informar os dados.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/cadastro-centro-de-custo|Cadastro Centro de Custo]]
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]]

@@ -2,35 +2,45 @@
 id: ROT-relatorios-saldo-contas-sintetico
 title: "Relatórios Saldo Contas Sintético"
 type: rotina
-audience: a-definir
-modulos: ["windows/caixa"]
+audience: all
+modulos: ["windows/caixa", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Relatórios Saldo Contas Sintético
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
+  - from: Relatórios Saldo Contas Sintético
+    type: RELACIONA_COM
+    to: Relatórios Saldo Contas Analítico
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Mesma família do [[rotinas/relatorios-saldo-contas-analitico|Relatórios Saldo Contas Analítico]], mas com mais formas de gerar o relatório: filtro por Filial, Conta Caixa, Período, opção de mostrar saldo de bancos, filtrar por centro de custo, e imprimir subtotais de conta caixa (Sem Subtotais, Nível 1, Nível 2, ou Nível 1 e 2).
+
+## Quem Usa
+Setor administrativo/financeiro, para consulta.
 
 ## Módulos onde esta rotina existe
 - windows/caixa
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Relatórios » Relatório de Saldo de Contas » Sintético**.
+2. Informar Filial, Conta Caixa, Período.
+3. Opcionalmente: marcar para mostrar saldo de bancos, filtrar por centro de custo, e escolher o nível de subtotal.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas registradas.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]]
+- [[rotinas/relatorios-saldo-contas-analitico|Relatórios Saldo Contas Analítico]]

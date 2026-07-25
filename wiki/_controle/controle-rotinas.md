@@ -39,13 +39,13 @@
 - [x] Relatórios Fechamento de Caixa
 - [-] Relatórios Fechamento de Caixas por Operador — duplicata confirmada de [[rotinas/relatorios-fechamento-de-caixa|Relatórios Fechamento de Caixa]]
 - [x] Relatórios Livro Caixa
-- [ ] Relatórios Saldo Contas Analítico
-- [ ] Relatórios Saldo Contas Sintético
-- [ ] Relatórios Saldo Geral de Custos
+- [x] Relatórios Saldo Contas Analítico
+- [x] Relatórios Saldo Contas Sintético
+- [x] Relatórios Saldo Geral de Custos
 - [-] Sangria e Suprimento de Caixa — duplicata confirmada de [[rotinas/_compartilhadas/controle-de-caixa-sangria-e-suprimento|Controle de Caixa: Sangria e Suprimento]]
-- [ ] Transferência de Caixa para Conta Bancária
-- [ ] Utilitários Elimina Movimentos de Caixa
-- [ ] Utilitários Reprocessa Saldos (Caixa)
+- [x] Transferência de Caixa para Conta Bancária
+- [x] Utilitários Elimina Movimentos de Caixa
+- [x] Utilitários Reprocessa Saldos (Caixa)
 
 ## Windows » Faturamento (`windows/faturamento`) — 430 rotina(s)
 
@@ -660,7 +660,7 @@
 - [ ] Utilitários — Tabulação Boletos (Instruções)
 - [x] Cadastro de Usuários
 
-## Windows » Bancos (`windows/bancos`) — 40 rotina(s)
+## Windows » Bancos (`windows/bancos`) — 39 rotina(s)
 
 - [ ] Bancos — Conciliação Bancária Simples
 - [ ] Bancos — Fluxo de Caixa Projetado
@@ -699,7 +699,6 @@
 - [ ] Relatórios Emissão de Cheques
 - [ ] Relatórios Movimentação de Cheques
 - [ ] Relatórios Saldos
-- [ ] Transferência de Caixa para Conta Bancária
 - [ ] Utilitários Eliminação de Movimentos Antigos
 - [ ] Utilitários Reprocessa Saldos
 - [x] Cadastro de Usuários
@@ -1002,7 +1001,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 23 rotina(s)
+## Windows » Business (`windows/business`) — 29 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1024,6 +1023,12 @@
 - [x] Relatórios Demonstração de Resultados (DRE)
 - [x] Relatórios Fechamento de Caixa
 - [x] Relatórios Livro Caixa
+- [x] Relatórios Saldo Contas Analítico
+- [x] Relatórios Saldo Contas Sintético
+- [x] Relatórios Saldo Geral de Custos
+- [x] Transferência de Caixa para Conta Bancária
+- [x] Utilitários Reprocessa Saldos (Caixa)
+- [x] Utilitários Elimina Movimentos de Caixa
 - [x] Relatórios Caixas em Aberto por Operador
 - [x] Movimentos Fechamento de Caixa Financeiro
 - [x] Cadastro de Usuários

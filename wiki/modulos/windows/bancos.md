@@ -57,7 +57,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Relatórios Emissão de Cheques
 - Relatórios Movimentação de Cheques
 - Relatórios Saldos
-- Transferência de Caixa para Conta Bancária
 - Utilitários Eliminação de Movimentos Antigos
 - Utilitários Reprocessa Saldos
 
