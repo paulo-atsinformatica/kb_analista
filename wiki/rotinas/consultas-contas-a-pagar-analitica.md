@@ -2,35 +2,47 @@
 id: ROT-consultas-contas-a-pagar-analitica
 title: "Consultas Contas a Pagar Analítica"
 type: rotina
-audience: a-definir
-modulos: ["windows/contas-a-pagar"]
+audience: all
+modulos: ["windows/contas-a-pagar", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Consultas Contas a Pagar Analítica
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Sintética
+  - from: Consultas Contas a Pagar Analítica
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Saldos
+  - from: Consultas Contas a Pagar Analítica
+    type: RELACIONA_COM
+    to: Cadastro de Fornecedores
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Consulta os documentos em aberto a pagar, por fornecedor e período. Por ser a versão Analítica, traz informações mais completas: tipo de documento, código do documento, histórico.
+
+## Quem Usa
+Setor Financeiro, voltado para movimentações a pagar.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Contas a Pagar » Analítica** (atalho Ctrl+A), ou pelo ícone na barra de ferramentas.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas — rotina simples de utilizar.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- Consultas Contas a Pagar Sintética
+- Consultas Contas a Pagar Saldos
+- [[rotinas/_compartilhadas/cadastro-fornecedores|Cadastro de Fornecedores]]

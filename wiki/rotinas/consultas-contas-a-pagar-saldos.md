@@ -2,11 +2,11 @@
 id: ROT-consultas-contas-a-pagar-saldos
 title: "Consultas Contas a Pagar Saldos"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/contas-a-pagar"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
@@ -14,23 +14,23 @@ entities: []
 relations: []
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Mostra de forma totalizada o saldo a pagar para o fornecedor no período informado (Vencidos, A Vencer, Total) — não mostra detalhamento de itens.
+
+## Quem Usa
+Financeiro, setor de contas a pagar.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Contas a Pagar » Saldos** (atalho Ctrl+D).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas — rotina simples de utilizar.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+Sem relações adicionais registradas.

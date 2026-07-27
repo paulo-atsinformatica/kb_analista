@@ -493,8 +493,8 @@
 - [x] Cadastro de Moedas (Identificação)
 - [ ] Configurações Financeiras: Documentos a Pagar e Receber
 - [x] Consultas Contas Pagas
-- [ ] Consultas Contas a Pagar Analítica
-- [ ] Consultas Contas a Pagar Saldos
+- [x] Consultas Contas a Pagar Analítica
+- [x] Consultas Contas a Pagar Saldos
 - [ ] Consultas Contas a Pagar Sintética
 - [ ] Consultas Contas a Pagar no Mês
 - [-] Consultas Financeiras e Gestão de Cheques — não identificada pelo analista, não existe no sistema
@@ -1004,7 +1004,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 34 rotina(s)
+## Windows » Business (`windows/business`) — 35 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1040,6 +1040,7 @@
 - [x] Cadastro de Moedas (Cotações)
 - [x] Cadastro de Moedas (Identificação)
 - [x] Consultas Contas Pagas
+- [x] Consultas Contas a Pagar Analítica
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 
