@@ -47,7 +47,7 @@
 - [x] Utilitários Elimina Movimentos de Caixa
 - [x] Utilitários Reprocessa Saldos (Caixa)
 
-## Windows » Faturamento (`windows/faturamento`) — 421 rotina(s)
+## Windows » Faturamento (`windows/faturamento`) — 423 rotina(s)
 
 - [-] Atualização de Dados Tributários em Lote (ICMS e FCP) — não identificada pelo analista, não existe no sistema
 - [-] Bloqueio e Liberação de Clientes — não identificada pelo analista, não existe no sistema
@@ -109,7 +109,7 @@
 - [ ] Cadastro de Famílias de Produtos
 - [ ] Cadastro de Ficha Técnica de Produtos
 - [ ] Cadastro de Filiais
-- [ ] Cadastro de Fornecedores
+- [x] Cadastro de Fornecedores
 - [ ] Cadastro de Grade Composta
 - [ ] Cadastro de Grupos de Produtos
 - [ ] Cadastro de Instituições (Ensino)
@@ -480,22 +480,24 @@
 - [ ] Utilitários — Troca de Usuário/Empresa
 - [ ] Utilitários — Universidade ATS
 - [ ] Vendas Cadastro auxiliares de venda Vendedor
+- [x] Cadastro de Moedas (Cotações)
+- [x] Cadastro de Moedas (Identificação)
 
-## Windows » Pagar (`windows/contas-a-pagar`) — 53 rotina(s)
+## Windows » Pagar (`windows/contas-a-pagar`) — 52 rotina(s)
 
-- [ ] Cadastro Histórico Padrão
+- [x] Cadastro Histórico Padrão
 - [ ] Cadastro Tipos de Fornecedor
 - [x] Cadastro de Contas Caixa
-- [ ] Cadastro de Fornecedores
-- [ ] Cadastro de Moedas (Cotações)
-- [ ] Cadastro de Moedas (Identificação)
+- [x] Cadastro de Fornecedores
+- [x] Cadastro de Moedas (Cotações)
+- [x] Cadastro de Moedas (Identificação)
 - [ ] Configurações Financeiras: Documentos a Pagar e Receber
-- [ ] Consultas Contas Pagas
+- [x] Consultas Contas Pagas
 - [ ] Consultas Contas a Pagar Analítica
 - [ ] Consultas Contas a Pagar Saldos
 - [ ] Consultas Contas a Pagar Sintética
 - [ ] Consultas Contas a Pagar no Mês
-- [ ] Consultas Financeiras e Gestão de Cheques
+- [-] Consultas Financeiras e Gestão de Cheques — não identificada pelo analista, não existe no sistema
 - [ ] Consultas Gráfico Posição Contas a Pagar
 - [ ] Consultas Movimentação Por Fornecedor
 - [ ] Contas a Pagar — Liquidação Simples
@@ -554,8 +556,8 @@
 - [ ] Cadastro de Contas Bancárias
 - [x] Cadastro de Contas Caixa
 - [ ] Cadastro de Contas Contábeis
-- [ ] Cadastro de Moedas (Cotações)
-- [ ] Cadastro de Moedas (Identificação)
+- [x] Cadastro de Moedas (Cotações)
+- [x] Cadastro de Moedas (Identificação)
 - [ ] Cadastro de Países
 - [ ] Cadastro de Prazos de Pagamento
 - [ ] Cobrança Informatizada
@@ -662,6 +664,7 @@
 
 ## Windows » Bancos (`windows/bancos`) — 39 rotina(s)
 
+- [x] Cadastro Histórico Padrão
 - [ ] Bancos — Conciliação Bancária Simples
 - [ ] Bancos — Fluxo de Caixa Projetado
 - [ ] Bancos — Processamento de Retorno de Boletos
@@ -674,11 +677,11 @@
 - [ ] Cadastro de Bancos
 - [ ] Cadastro de Contas Bancárias
 - [x] Cadastro de Contas Caixa
-- [ ] Cadastro de Moedas (Cotações)
-- [ ] Cadastro de Moedas (Identificação)
+- [x] Cadastro de Moedas (Cotações)
+- [x] Cadastro de Moedas (Identificação)
 - [ ] Consultas Cheques
 - [ ] Consultas Extratos
-- [ ] Consultas Financeiras e Gestão de Cheques
+- [-] Consultas Financeiras e Gestão de Cheques — não identificada pelo analista, não existe no sistema
 - [ ] Consultas Saldos
 - [ ] Extrato Bancário (Resulth Web)
 - [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
@@ -874,7 +877,7 @@
 - [ ] Cadastro de Categorias de Equipamentos (OS)
 - [ ] Cadastro de Colaboradores (OS)
 - [ ] Cadastro de Código de Serviço (NFS-e)
-- [ ] Cadastro de Fornecedores
+- [x] Cadastro de Fornecedores
 - [ ] Cadastro de Marcas
 - [ ] Cadastro de Motivos (OS)
 - [ ] Cadastro de Motivos de Cancelamento
@@ -1001,7 +1004,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 29 rotina(s)
+## Windows » Business (`windows/business`) — 34 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1032,6 +1035,11 @@
 - [x] Relatórios Caixas em Aberto por Operador
 - [x] Movimentos Fechamento de Caixa Financeiro
 - [x] Cadastro de Usuários
+- [x] Cadastro Histórico Padrão
+- [x] Cadastro de Fornecedores
+- [x] Cadastro de Moedas (Cotações)
+- [x] Cadastro de Moedas (Identificação)
+- [x] Consultas Contas Pagas
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 
@@ -1049,7 +1057,7 @@
 - [ ] Backup Now - Usuários
 - [x] Cadastro de Usuários
 
-## Windows » EntregasCs (`windows/entregas-cs`) — 39 rotina(s)
+## Windows » EntregasCs (`windows/entregas-cs`) — 40 rotina(s)
 
 - [ ] Agendamento de Entrega com Cliente
 - [ ] Cadastro Ajudantes
@@ -1090,18 +1098,21 @@
 - [ ] Relatórios de Itens Comprados
 - [ ] Relatórios de Logs do Sistema
 - [x] Cadastro de Usuários
+- [x] Cadastro de Fornecedores
 
-## Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 1 rotina(s)
+## Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 2 rotina(s)
 
 - [x] Cadastro de Usuários
+- [x] Cadastro de Fornecedores
 
 ## Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s)
 
 - [x] Cadastro de Usuários
 
-## Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 1 rotina(s)
+## Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 2 rotina(s)
 
 - [x] Cadastro de Usuários
+- [x] Cadastro de Fornecedores
 
 ## Windows » Resulth Offline (`windows/resulth-offline`) — 1 rotina(s)
 

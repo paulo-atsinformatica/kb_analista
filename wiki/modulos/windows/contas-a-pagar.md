@@ -33,7 +33,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consultas Contas a Pagar Saldos
 - Consultas Contas a Pagar Sintética
 - Consultas Contas a Pagar no Mês
-- Consultas Financeiras e Gestão de Cheques
 - Consultas Gráfico Posição Contas a Pagar
 - Consultas Movimentação Por Fornecedor
 - Contas a Pagar — Liquidação Simples

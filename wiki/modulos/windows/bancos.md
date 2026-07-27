@@ -37,7 +37,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Moedas (Identificação)
 - Consultas Cheques
 - Consultas Extratos
-- Consultas Financeiras e Gestão de Cheques
 - Consultas Saldos
 - Extrato Bancário (Resulth Web)
 - Movimentos Carteira de Cheques Pré-Recebidos
@@ -61,6 +60,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Utilitários Reprocessa Saldos
 
 - Cadastro de Usuários
+- Cadastro Histórico Padrão
 
 ## Relacionamento com outros módulos
 _(a preencher)_

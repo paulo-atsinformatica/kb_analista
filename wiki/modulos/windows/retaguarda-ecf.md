@@ -22,6 +22,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 
 ## Rotinas deste módulo
 - Cadastro de Usuários
+- Cadastro de Fornecedores
 
 ## Relacionamento com outros módulos
 _(a preencher)_

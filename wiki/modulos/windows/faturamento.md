@@ -442,6 +442,8 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Utilitários — Troca de Usuário/Empresa
 - Utilitários — Universidade ATS
 - Vendas Cadastro auxiliares de venda Vendedor
+- Cadastro de Moedas (Cotações)
+- Cadastro de Moedas (Identificação)
 
 ## Relacionamento com outros módulos
 _(a preencher)_

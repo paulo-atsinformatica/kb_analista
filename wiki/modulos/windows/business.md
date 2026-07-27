@@ -50,6 +50,11 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Relatórios Caixas em Aberto por Operador
 - Movimentos Fechamento de Caixa Financeiro
 - Cadastro de Usuários
+- Cadastro Histórico Padrão
+- Cadastro de Fornecedores
+- Cadastro de Moedas (Cotações)
+- Cadastro de Moedas (Identificação)
+- Consultas Contas Pagas
 
 ## Relacionamento com outros módulos
 Se o cliente tiver o módulo Fatura, precisa ter o módulo Caixa também. Se tiver apenas o Business, não precisa do Caixa.

@@ -1,5 +1,5 @@
 ---
-id: ROT-relatorios-saldo-geral-de-custos-cadastro-de-previ
+id: ROT-relatorios-saldo-geral-de-custos-cadastro-de-previsao
 title: "Relatórios Saldo Geral de Custos Cadastro de Previsão"
 type: rotina
 audience: a-definir
