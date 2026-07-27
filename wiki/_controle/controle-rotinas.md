@@ -495,7 +495,7 @@
 - [x] Consultas Contas Pagas
 - [x] Consultas Contas a Pagar Analítica
 - [x] Consultas Contas a Pagar Saldos
-- [ ] Consultas Contas a Pagar Sintética
+- [x] Consultas Contas a Pagar Sintética
 - [ ] Consultas Contas a Pagar no Mês
 - [-] Consultas Financeiras e Gestão de Cheques — não identificada pelo analista, não existe no sistema
 - [ ] Consultas Gráfico Posição Contas a Pagar

@@ -2,35 +2,46 @@
 id: ROT-consultas-contas-a-pagar-sintetica
 title: "Consultas Contas a Pagar Sintética"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/contas-a-pagar"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Consultas Contas a Pagar Sintética
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Analítica
+  - from: Consultas Contas a Pagar Sintética
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Saldos
+  - from: Consultas Contas a Pagar Sintética
+    type: RELACIONA_COM
+    to: Cadastro de Fornecedores
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Consulta os documentos a pagar de forma simplificada, agrupado por data de vencimento (Vencidos, A Vencer, Total).
+
+## Quem Usa
+Setor Financeiro, contas a pagar.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Contas a Pagar » Sintética** (atalho Ctrl+S).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas — rotina simples.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- Consultas Contas a Pagar Analítica
+- Consultas Contas a Pagar Saldos
+- [[rotinas/_compartilhadas/cadastro-fornecedores|Cadastro de Fornecedores]]
