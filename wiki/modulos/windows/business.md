@@ -56,6 +56,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Moedas (Identificação)
 - Consultas Contas Pagas
 - Consultas Contas a Pagar Analítica
+- Consultas Gráfico Posição Contas a Pagar
 
 ## Relacionamento com outros módulos
 Se o cliente tiver o módulo Fatura, precisa ter o módulo Caixa também. Se tiver apenas o Business, não precisa do Caixa.

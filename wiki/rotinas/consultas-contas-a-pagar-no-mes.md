@@ -2,35 +2,46 @@
 id: ROT-consultas-contas-a-pagar-no-mes
 title: "Consultas Contas a Pagar no Mês"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/contas-a-pagar"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Consultas Contas a Pagar no Mês
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Analítica
+  - from: Consultas Contas a Pagar no Mês
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Sintética
+  - from: Consultas Contas a Pagar no Mês
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Saldos
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Mostra em formato de calendário os valores a pagar por dia do mês filtrado.
+
+## Quem Usa
+Setor Financeiro.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Contas a Pagar no Mês** (atalho Ctrl+C), ou pelo ícone "A pagar no Mês" na barra de ferramentas.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+- Atenção ao filtro **Tipo de Documento**: se informar um tipo sem nenhum documento lançado, o resultado aparece vazio (esperado, não é erro do sistema).
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- Consultas Contas a Pagar Analítica
+- Consultas Contas a Pagar Sintética
+- Consultas Contas a Pagar Saldos

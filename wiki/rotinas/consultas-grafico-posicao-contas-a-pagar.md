@@ -2,35 +2,53 @@
 id: ROT-consultas-grafico-posicao-contas-a-pagar
 title: "Consultas Gráfico Posição Contas a Pagar"
 type: rotina
-audience: a-definir
-modulos: ["windows/contas-a-pagar"]
+audience: all
+modulos: ["windows/contas-a-pagar", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Consultas Gráfico Posição Contas a Pagar
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Analítica
+  - from: Consultas Gráfico Posição Contas a Pagar
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Sintética
+  - from: Consultas Gráfico Posição Contas a Pagar
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Saldos
+  - from: Consultas Gráfico Posição Contas a Pagar
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Gera um gráfico (pizza) mostrando a posição dos títulos em aberto — por valor ou por quantidade de títulos — separando Atrasados x Em Dia. Pode ser filtrado por conta caixa.
+
+## Quem Usa
+Financeiro, parte do contas a pagar.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Gráfico Posição Contas a Pagar**.
+2. Opcionalmente, filtrar por Conta Caixa.
+3. Escolher a opção: Considerando Valor, ou Considerando Quantidade de Títulos.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Sem dúvidas — rotina tranquila.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- Consultas Contas a Pagar Analítica
+- Consultas Contas a Pagar Sintética
+- Consultas Contas a Pagar Saldos
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]]
