@@ -2,35 +2,47 @@
 id: ROT-consultas-movimentacao-por-fornecedor
 title: "Consultas Movimentação Por Fornecedor"
 type: rotina
-audience: a-definir
-modulos: ["windows/contas-a-pagar"]
+audience: all
+modulos: ["windows/contas-a-pagar", "windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Consultas Movimentação Por Fornecedor
+    type: RELACIONA_COM
+    to: Cadastro de Fornecedores
+  - from: Consultas Movimentação Por Fornecedor
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Analítica
+  - from: Consultas Movimentação Por Fornecedor
+    type: RELACIONA_COM
+    to: Consultas Contas a Pagar Sintética
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Consulta todas as movimentações (entradas de documento, liquidações, D/C) para um fornecedor no período informado.
+
+## Quem Usa
+Setor Financeiro / contas a pagar.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
+- windows/business
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Consultas » Movimentação Por Fornecedor** (atalho Ctrl+M).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Rotina intuitiva: informar o Fornecedor, o Tipo do Movimento (opcional — deixar em branco traz todos) e o Período.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Ver [[procedimentos/erros-apenas-por-versao-com-problema|ressalva geral sobre erros]] — só ocorrem por problema pontual de versão.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/cadastro-fornecedores|Cadastro de Fornecedores]]
+- Consultas Contas a Pagar Analítica
+- Consultas Contas a Pagar Sintética

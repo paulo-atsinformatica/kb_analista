@@ -483,7 +483,7 @@
 - [x] Cadastro de Moedas (Cotações)
 - [x] Cadastro de Moedas (Identificação)
 
-## Windows » Pagar (`windows/contas-a-pagar`) — 52 rotina(s)
+## Windows » Pagar (`windows/contas-a-pagar`) — 51 rotina(s)
 
 - [x] Cadastro Histórico Padrão
 - [ ] Cadastro Tipos de Fornecedor
@@ -499,10 +499,10 @@
 - [x] Consultas Contas a Pagar no Mês
 - [-] Consultas Financeiras e Gestão de Cheques — não identificada pelo analista, não existe no sistema
 - [x] Consultas Gráfico Posição Contas a Pagar
-- [ ] Consultas Movimentação Por Fornecedor
-- [ ] Contas a Pagar — Liquidação Simples
+- [x] Consultas Movimentação Por Fornecedor
+- [-] Contas a Pagar — Liquidação Simples — não existe como rotina isolada, confundida com Movimentos Entrada de Documento Simples
 - [-] Gestão de Centros de Custo — não identificada pelo analista, não existe no sistema (confundida com Cadastro Centro de Custo)
-- [ ] Movimento Agrupamento de Documentos (Fatura)
+- [x] Movimento Agrupamento de Documentos (Fatura)
 - [ ] Movimentos Borderôs
 - [ ] Movimentos Borderôs Emitidos
 - [ ] Movimentos Cancelamento Borderôs
@@ -1004,7 +1004,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 36 rotina(s)
+## Windows » Business (`windows/business`) — 38 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1042,6 +1042,8 @@
 - [x] Consultas Contas Pagas
 - [x] Consultas Contas a Pagar Analítica
 - [x] Consultas Gráfico Posição Contas a Pagar
+- [x] Consultas Movimentação Por Fornecedor
+- [x] Movimento Agrupamento de Documentos (Fatura)
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 

@@ -8,7 +8,7 @@
 
 - [x] Windows » Caixa (`windows/caixa`) — 31 rotina(s) pré-mapeada(s) — rotinas concluídas
 - [x] Windows » Faturamento (`windows/faturamento`) — 423 rotina(s) pré-mapeada(s)
-- [x] Windows » Pagar (`windows/contas-a-pagar`) — 52 rotina(s) pré-mapeada(s)
+- [x] Windows » Pagar (`windows/contas-a-pagar`) — 51 rotina(s) pré-mapeada(s)
 - [x] Windows » Receber (`windows/contas-a-receber`) — 116 rotina(s) pré-mapeada(s)
 - [x] Windows » Bancos (`windows/bancos`) — 39 rotina(s) pré-mapeada(s)
 - [x] Windows » Livros (`windows/livros-fiscais`) — 59 rotina(s) pré-mapeada(s)
@@ -16,7 +16,7 @@
 - [x] Windows » Compras (`windows/compras`) — 55 rotina(s) pré-mapeada(s)
 - [x] Windows » Ordem de Serviço (`windows/os`) — 97 rotina(s) pré-mapeada(s)
 - [x] Windows » Materias (`windows/materiais`) — 48 rotina(s) pré-mapeada(s)
-- [x] Windows » Business (`windows/business`) — 36 rotina(s) pré-mapeada(s)
+- [x] Windows » Business (`windows/business`) — 38 rotina(s) pré-mapeada(s)
 - [x] Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 2 rotina(s) pré-mapeada(s)
 - [x] Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s) pré-mapeada(s)
 - [x] Windows » EntregasCs (`windows/entregas-cs`) — 40 rotina(s) pré-mapeada(s)
