@@ -60,6 +60,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Consultas Movimentação Por Fornecedor
 - Movimento Agrupamento de Documentos (Fatura)
 - Movimentos Entrada de Documento Simples
+- Movimentos Entrada de Documentos Automática
 
 ## Relacionamento com outros módulos
 Se o cliente tiver o módulo Fatura, precisa ter o módulo Caixa também. Se tiver apenas o Business, não precisa do Caixa.
