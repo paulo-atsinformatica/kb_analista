@@ -513,7 +513,7 @@
 - [ ] Movimentos Emissão de Autorização de Pagamento individual
 - [x] Movimentos Entrada de Documento Simples
 - [x] Movimentos Entrada de Documentos Automática
-- [ ] Movimentos Estorno
+- [x] Movimentos Estorno
 - [ ] Movimentos Geração de Previsões
 - [ ] Movimentos Liquidação Em Lote
 - [ ] Movimentos Liquidação Impressão de Recibos
@@ -605,7 +605,7 @@
 - [ ] Movimentos Desconto de Documento
 - [x] Movimentos Entrada de Documento Simples
 - [x] Movimentos Entrada de Documentos Automática
-- [ ] Movimentos Estorno
+- [x] Movimentos Estorno
 - [ ] Movimentos Liquidação Com Pré-datados
 - [ ] Movimentos Liquidação Em Lote
 - [ ] Movimentos Liquidação Integrada
@@ -1004,7 +1004,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 40 rotina(s)
+## Windows » Business (`windows/business`) — 41 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1046,6 +1046,7 @@
 - [x] Movimento Agrupamento de Documentos (Fatura)
 - [x] Movimentos Entrada de Documento Simples
 - [x] Movimentos Entrada de Documentos Automática
+- [x] Movimentos Estorno
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 
