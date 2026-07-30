@@ -25,12 +25,13 @@
 
 ## [2026-07-16] entrevista | Windows » Pagar (em andamento)
 - **Módulos confirmados nesta sessão:** nenhum novo (todos já confirmados na sessão anterior)
-- **Rotinas concluídas:** Cadastro Histórico Padrão, Cadastro de Fornecedores, Cadastro de Moedas (Cotações e Identificação), Consultas Contas Pagas, Consultas Contas a Pagar Analítica/Sintética/Saldos/no Mês, Consultas Gráfico Posição Contas a Pagar, Consultas Movimentação Por Fornecedor, Movimento Agrupamento de Documentos (Fatura)
-- **Rotinas em andamento (retomar):** Movimentos Cruzamento de Contas — parou na pergunta de campos e parâmetros importantes (item 4); faltam erros comuns, rotinas relacionadas, módulos adicionais
-- **Rotinas puladas a pedido do analista (retomar depois):** Configurações Financeiras: Documentos a Pagar e Receber; Movimentos Borderôs (+ Emitidos, Cancelamento)
+- **Rotinas concluídas:** Cadastro Histórico Padrão, Cadastro de Fornecedores, Cadastro de Moedas (Cotações e Identificação), Consultas Contas Pagas, Consultas Contas a Pagar Analítica/Sintética/Saldos/no Mês, Consultas Gráfico Posição Contas a Pagar, Consultas Movimentação Por Fornecedor, Movimento Agrupamento de Documentos (Fatura), Movimentos Cruzamento de Contas, Movimentos Entrada de Documento Simples, Movimentos Entrada de Documentos Automática, Movimentos Estorno
+- **Rotinas em andamento (retomar):** Movimentos Geração de Previsões — parou na pergunta de módulos adicionais (item 7); analista vai confirmar se também existe em Windows » Receber
+- **Rotinas puladas a pedido do analista (retomar depois):** Configurações Financeiras: Documentos a Pagar e Receber; Movimentos Borderôs (+ Emitidos, Cancelamento); Movimentos Emissão de Autorização de Pagamento (+ Automática, Cancelamento, Por Período, individual)
 - **Observações:**
   - Windows/Faturamento (421 rotinas): feita apenas a revisão de existência (não o conteúdo) — ver commit "confirma existencia das 421 rotinas restantes". Confirmado que TODO o módulo Faturamento também existe no Business.
   - Durante a revisão de Windows/Faturamento: removidas 2 rotinas inexistentes (Atualização de Dados Tributários em Lote, Bloqueio e Liberação de Clientes) e 8 duplicatas do levantamento original.
   - Durante a entrevista de Windows/Pagar: removida 1 rotina inexistente (Consultas Financeiras e Gestão de Cheques, também não existe em Bancos) e 1 duplicata/confusão de nome (Contas a Pagar — Liquidação Simples, confundida com Movimentos Entrada de Documento Simples).
   - Cadastro de Fornecedores confirmado em 7 módulos (Faturamento, Pagar, OS, Business, ResulthEmissorNFe, RetaguardaECF, EntregasCs).
-  - Windows » Business segue acumulando rotinas confirmadas via as entrevistas de Caixa e Pagar (38 até agora).
+  - Movimentos Entrada de Documento Simples/Automática e Movimentos Estorno têm comportamento diferente por módulo: no Pagar geram/estornam documento a pagar, no Receber geram/estornam documento a receber.
+  - Windows » Business segue acumulando rotinas confirmadas via as entrevistas de Caixa e Pagar (41 até agora).
