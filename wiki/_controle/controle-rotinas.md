@@ -506,12 +506,12 @@
 - [ ] Movimentos Borderôs
 - [ ] Movimentos Borderôs Emitidos
 - [ ] Movimentos Cancelamento Borderôs
-- [ ] Movimentos Cruzamento de Contas
+- [x] Movimentos Cruzamento de Contas
 - [ ] Movimentos Emissão de Autorização de Pagamento Automática
 - [ ] Movimentos Emissão de Autorização de Pagamento Cancelamento Autorização
 - [ ] Movimentos Emissão de Autorização de Pagamento Por Período
 - [ ] Movimentos Emissão de Autorização de Pagamento individual
-- [ ] Movimentos Entrada de Documento Simples
+- [x] Movimentos Entrada de Documento Simples
 - [ ] Movimentos Entrada de Documentos Automática
 - [ ] Movimentos Estorno
 - [ ] Movimentos Geração de Previsões
@@ -603,7 +603,7 @@
 - [ ] Movimentos Cobrança Eletrônica Processa Arquivo Retorno
 - [ ] Movimentos Conciliação de movimentos com cartão
 - [ ] Movimentos Desconto de Documento
-- [ ] Movimentos Entrada de Documento Simples
+- [x] Movimentos Entrada de Documento Simples
 - [ ] Movimentos Entrada de Documentos Automática
 - [ ] Movimentos Estorno
 - [ ] Movimentos Liquidação Com Pré-datados
@@ -1004,7 +1004,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 38 rotina(s)
+## Windows » Business (`windows/business`) — 39 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1044,6 +1044,7 @@
 - [x] Consultas Gráfico Posição Contas a Pagar
 - [x] Consultas Movimentação Por Fornecedor
 - [x] Movimento Agrupamento de Documentos (Fatura)
+- [x] Movimentos Entrada de Documento Simples
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 
