@@ -516,8 +516,8 @@
 - [x] Movimentos Estorno
 - [x] Movimentos Geração de Previsões
 - [x] Movimentos Liquidação Em Lote
-- [ ] Movimentos Liquidação Impressão de Recibos
-- [ ] Movimentos Liquidação Individual
+- [x] Movimentos Liquidação Impressão de Recibos
+- [x] Movimentos Liquidação Individual
 - [ ] Movimentos Liquidação com Cheques Pré Recebidos
 - [ ] Movimentos Prorrogação
 - [ ] Parâmetros Contas a Pagar
@@ -540,7 +540,9 @@
 - [ ] Utilitários Apagar Contas Pagas
 - [x] Cadastro de Usuários
 
-## Windows » Receber (`windows/contas-a-receber`) — 116 rotina(s)
+## Windows » Receber (`windows/contas-a-receber`) — 117 rotina(s)
+
+- [x] Movimentos Liquidação Individual
 
 - [-] Bloqueio e Liberação de Clientes — não identificada pelo analista, não existe no sistema
 - [ ] Cadastro Boletos
@@ -1004,7 +1006,7 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 42 rotina(s)
+## Windows » Business (`windows/business`) — 43 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
@@ -1048,6 +1050,7 @@
 - [x] Movimentos Entrada de Documentos Automática
 - [x] Movimentos Estorno
 - [x] Movimentos Liquidação Em Lote
+- [x] Movimentos Liquidação Individual
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 
