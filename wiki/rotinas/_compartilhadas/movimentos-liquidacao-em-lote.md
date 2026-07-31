@@ -41,6 +41,8 @@ Financeiro.
 4. Informar a Conta Caixa e a Forma de Pagamento.
 5. Confirmar a liquidação.
 
+Essa é a única rotina de liquidação em lote que permite a forma de pagamento **aproveitamento de crédito** (as demais rotinas de liquidação não suportam essa forma).
+
 ## Campos e Parâmetros Importantes
 - O botão de engrenagem (**Configurar**) — ver [[procedimentos/configuracao-restrita-mestre-admin|acesso restrito a MESTRE/ADMIN]] — abre a tela "Configura Liq. em Lote do Pagar", onde se define: ao liquidar vários documentos, se o sistema gera **apenas um lançamento**, **um lançamento para cada documento**, ou **pergunta ao usuário**; e se mantém a observação e/ou a conta caixa do documento original.
 
