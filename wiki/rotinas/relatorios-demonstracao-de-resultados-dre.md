@@ -38,7 +38,7 @@ Geralmente o dono da empresa, para verificar se teve lucro ou não durante o per
 8. Gerar o DRE.
 
 ## Campos e Parâmetros Importantes
-- O botão **Configurar** (que define as contas caixa usadas no DRE) só aparece para usuário **MESTRE/ADMIN**.
+- O botão de engrenagem (**Configurar** — ver [[procedimentos/configuracao-restrita-mestre-admin|acesso restrito a MESTRE/ADMIN]]) define as contas caixa usadas no DRE.
 - A configuração do DRE geralmente é feita pela equipe de **Implantação**, após alinhar como funciona o fluxo do sistema e quais contas caixa são usadas.
 
 ## Erros Comuns / Pontos de Atenção

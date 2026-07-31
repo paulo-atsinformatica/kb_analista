@@ -50,7 +50,7 @@ Principalmente o operador do caixa, que controla o valor necessário de entrada 
 4. Optar por imprimir o recibo da movimentação, para ser conferido pelo gerente ou administrativo no fechamento do caixa.
 
 ## Campos e Parâmetros Importantes
-- O botão **Configurar** (acesso restrito a usuário **MESTRE** ou **ADMIN**) permite associar uma conta caixa a cada tipo de movimentação (Sangria/Suprimento), necessário para que os relatórios de lançamentos saiam corretos.
+- O botão de engrenagem (**Configurar** — ver [[procedimentos/configuracao-restrita-mestre-admin|acesso restrito a MESTRE/ADMIN]]) permite associar uma conta caixa a cada tipo de movimentação (Sangria/Suprimento), necessário para que os relatórios de lançamentos saiam corretos.
 
 ## Erros Comuns / Pontos de Atenção
 - Sempre solicitar a **impressão do recibo**, como comprovação de que o movimento foi feito.

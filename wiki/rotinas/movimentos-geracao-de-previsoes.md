@@ -5,8 +5,8 @@ type: rotina
 audience: all
 modulos: ["windows/contas-a-pagar"]
 tags: []
-status: draft
-status_entrevista: em-andamento
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
@@ -19,9 +19,6 @@ relations:
     type: RELACIONA_COM
     to: Cadastro de Contas Caixa
 ---
-
-> [!INFO] Entrevista em andamento
-> Parou na pergunta de módulos adicionais (item 7) — analista vai confirmar se também existe em Windows » Receber.
 
 ## Visão Geral
 Gera/consulta os valores que vão vencer para pagamento. Serve apenas para consulta, não movimenta nada.
