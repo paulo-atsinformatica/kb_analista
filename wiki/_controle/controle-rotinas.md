@@ -518,11 +518,11 @@
 - [x] Movimentos Liquidação Em Lote
 - [x] Movimentos Liquidação Impressão de Recibos
 - [x] Movimentos Liquidação Individual
-- [ ] Movimentos Liquidação com Cheques Pré Recebidos
-- [ ] Movimentos Prorrogação
+- [x] Movimentos Liquidação com Cheques Pré Recebidos
+- [x] Movimentos Prorrogação
 - [ ] Parâmetros Contas a Pagar
-- [ ] Relatório de Contas Pagas
-- [ ] Relatório de Contas a Pagar Por NF Entrada
+- [x] Relatório de Contas Pagas
+- [x] Relatório de Contas a Pagar Por NF Entrada
 - [ ] Relatórios Contas a Pagar / Cheques
 - [ ] Relatórios Contas a Pagar Analítico
 - [ ] Relatórios Contas a Pagar Saldo
@@ -608,14 +608,15 @@
 - [x] Movimentos Entrada de Documento Simples
 - [x] Movimentos Entrada de Documentos Automática
 - [x] Movimentos Estorno
-- [ ] Movimentos Liquidação Com Pré-datados
+- [-] Movimentos Liquidação Com Pré-datados _(duplicata — mesma rotina que "Movimentos Liquidação com Cheques Pré Recebidos" do Pagar, nome pré-mapeado diferente; ver `wiki/rotinas/_compartilhadas/movimentos-liquidacao-com-cheques-pre-recebidos.md`)_
 - [x] Movimentos Liquidação Em Lote
+- [x] Movimentos Liquidação com Cheques Pré Recebidos
 - [ ] Movimentos Liquidação Integrada
 - [ ] Movimentos Liquidação Por Valor
 - [ ] Movimentos Liquidação Simples
 - [ ] Movimentos Liquidação de movimentos com cartão
 - [ ] Movimentos Prorrogação Em Lote
-- [ ] Movimentos Prorrogação Individual
+- [x] Movimentos Prorrogação Individual _(mesma rotina que "Movimentos Prorrogação" do Pagar; ver `wiki/rotinas/_compartilhadas/movimentos-prorrogacao.md`)_
 - [ ] Movimentos Protesto
 - [ ] Movimentos Transferências de Contas a Receber
 - [ ] Negativação ATS
