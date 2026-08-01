@@ -67,6 +67,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Movimentos Liquidação com Cheques Pré Recebidos
 - Movimentos Prorrogação
 - Relatório de Contas Pagas
+- Relatórios Contas a Pagar Analítico
 
 ## Relacionamento com outros módulos
 Se o cliente tiver o módulo Fatura, precisa ter o módulo Caixa também. Se tiver apenas o Business, não precisa do Caixa.

@@ -2,35 +2,42 @@
 id: ROT-relatorios-contas-a-pagar-sintetico
 title: "Relatórios Contas a Pagar Sintético"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/contas-a-pagar"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-01
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Relatórios Contas a Pagar Sintético
+    type: RELACIONA_COM
+    to: Cadastro de Fornecedores
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Mesma finalidade do [[rotinas/_compartilhadas/relatorios-contas-a-pagar-analitico|Relatórios Contas a Pagar Analítico]], mas mais simples, com menos filtros e trazendo informações menos completas (resumo por data de emissão/vencimento, com totais de Vencidos e A Vencer).
+
+## Quem Usa
+Financeiro.
 
 ## Módulos onde esta rotina existe
 - windows/contas-a-pagar
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+1. Acessar **Relatórios » Contas a Pagar » Sintético** (atalho **Ctrl+T**).
+2. Informar o Período de Emissão/Vencimento desejado.
+3. Opcionalmente, marcar um ou mais fornecedores na lista (ou marcar **Todos** para trazer todos os documentos em aberto).
+4. Clicar em **Imprimir**.
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Marcar o checkbox **"Todos"** apenas quando quiser trazer os documentos em aberto de todos os fornecedores — caso contrário, rotina simples.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Sem erros comuns — [[procedimentos/erros-apenas-por-versao-com-problema|problemas só ocorrem por versão com problema pontual]].
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/cadastro-fornecedores|Cadastro de Fornecedores]]
+- Documentos a pagar

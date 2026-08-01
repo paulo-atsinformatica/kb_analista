@@ -523,10 +523,10 @@
 - [ ] Parâmetros Contas a Pagar
 - [x] Relatório de Contas Pagas
 - [x] Relatório de Contas a Pagar Por NF Entrada
-- [ ] Relatórios Contas a Pagar / Cheques
-- [ ] Relatórios Contas a Pagar Analítico
-- [ ] Relatórios Contas a Pagar Saldo
-- [ ] Relatórios Contas a Pagar Sintético
+- [x] Relatórios Contas a Pagar / Cheques
+- [x] Relatórios Contas a Pagar Analítico
+- [x] Relatórios Contas a Pagar Saldo
+- [x] Relatórios Contas a Pagar Sintético
 - [ ] Relatórios Fluxo de Caixa Analítico
 - [ ] Relatórios Fluxo de Caixa Diário por Conta Caixa
 - [ ] Relatórios Fluxo de Caixa Sintético
@@ -625,7 +625,7 @@
 - [ ] Relatório de Movimentações por Cliente (Contas a Receber)
 - [ ] Relatório de Reimpressão de Boleto por Nota Fiscal
 - [ ] Relatórios  Movimentação Por Cliente
-- [ ] Relatórios Analítico de Vencimentos
+- [x] Relatórios Analítico de Vencimentos _(mesma rotina que "Relatórios Contas a Pagar Analítico" do Pagar; ver `wiki/rotinas/_compartilhadas/relatorios-contas-a-pagar-analitico.md`)_
 - [ ] Relatórios Analítico de Vencimentos Especial
 - [ ] Relatórios Cobrança Bancária
 - [ ] Relatórios Cobrança com Campos Livres
