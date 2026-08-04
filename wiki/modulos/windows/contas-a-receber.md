@@ -82,11 +82,12 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Movimentos Entrada de Documento Simples
 - Movimentos Entrada de Documentos Automática
 - Movimentos Estorno
-- Movimentos Liquidação Com Pré-datados
 - Movimentos Liquidação Em Lote
+- Movimentos Liquidação Individual
 - Movimentos Liquidação Integrada
 - Movimentos Liquidação Por Valor
 - Movimentos Liquidação Simples
+- Movimentos Liquidação com Cheques Pré Recebidos
 - Movimentos Liquidação de movimentos com cartão
 - Movimentos Prorrogação Em Lote
 - Movimentos Prorrogação Individual

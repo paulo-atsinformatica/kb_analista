@@ -25,8 +25,8 @@
 
 ## [2026-07-16] entrevista | Windows » Pagar (em andamento)
 - **Módulos confirmados nesta sessão:** nenhum novo (todos já confirmados na sessão anterior)
-- **Rotinas concluídas:** Cadastro Histórico Padrão, Cadastro de Fornecedores, Cadastro de Moedas (Cotações e Identificação), Consultas Contas Pagas, Consultas Contas a Pagar Analítica/Sintética/Saldos/no Mês, Consultas Gráfico Posição Contas a Pagar, Consultas Movimentação Por Fornecedor, Movimento Agrupamento de Documentos (Fatura), Movimentos Cruzamento de Contas, Movimentos Entrada de Documento Simples, Movimentos Entrada de Documentos Automática, Movimentos Estorno, Movimentos Geração de Previsões, Movimentos Liquidação Em Lote, Movimentos Liquidação Impressão de Recibos, Movimentos Liquidação Individual
-- **Rotinas em andamento (retomar):** Movimentos Liquidação com Cheques Pré Recebidos — parou na pergunta de caminho/passo a passo (item 3); faltam campos/parâmetros, erros comuns, rotinas relacionadas, módulos adicionais
+- **Rotinas concluídas:** Cadastro Histórico Padrão, Cadastro de Fornecedores, Cadastro de Moedas (Cotações e Identificação), Consultas Contas Pagas, Consultas Contas a Pagar Analítica/Sintética/Saldos/no Mês, Consultas Gráfico Posição Contas a Pagar, Consultas Movimentação Por Fornecedor, Movimento Agrupamento de Documentos (Fatura), Movimentos Cruzamento de Contas, Movimentos Entrada de Documento Simples, Movimentos Entrada de Documentos Automática, Movimentos Estorno, Movimentos Geração de Previsões, Movimentos Liquidação Em Lote, Movimentos Liquidação Impressão de Recibos, Movimentos Liquidação Individual, Movimentos Liquidação com Cheques Pré Recebidos, Movimentos Prorrogação, Relatório de Contas Pagas, Relatório de Contas a Pagar Por NF Entrada, Relatórios Contas a Pagar / Cheques, Relatórios Contas a Pagar Analítico, Relatórios Contas a Pagar Saldo, Relatórios Contas a Pagar Sintético
+- **Rotinas em andamento (retomar):** Relatórios Fluxo de Caixa Analítico — pergunta 1 (o que é) pendente de resposta
 - **Rotinas puladas a pedido do analista (retomar depois):** Configurações Financeiras: Documentos a Pagar e Receber; Movimentos Borderôs (+ Emitidos, Cancelamento); Movimentos Emissão de Autorização de Pagamento (+ Automática, Cancelamento, Por Período, individual)
 - **Observações:**
   - Windows/Faturamento (421 rotinas): feita apenas a revisão de existência (não o conteúdo) — ver commit "confirma existencia das 421 rotinas restantes". Confirmado que TODO o módulo Faturamento também existe no Business.
@@ -36,13 +36,15 @@
   - Movimentos Entrada de Documento Simples/Automática, Movimentos Estorno e Movimentos Liquidação Individual/Em Lote têm comportamento diferente por módulo: no Pagar tratam documento a pagar, no Receber tratam documento a receber.
   - Criado procedimento geral sobre o botão de engrenagem (Configurar) restrito a usuário MESTRE/ADMIN, aplicado a várias rotinas (Sangria/Suprimento, DRE, Liquidação Em Lote).
   - Das 3 rotinas de liquidação: Individual pode ser estornada pela rotina genérica de Estorno; Em Lote e Com Cheques Pré Recebidos têm estorno próprio na tela. Em Lote é a única que aceita "aproveitamento de crédito" como forma de pagamento; Com Cheques Pré Recebidos é a única que aceita cheque e cartão.
-  - Windows » Business segue acumulando rotinas confirmadas via as entrevistas de Caixa e Pagar (43 até agora).
+  - Windows » Business segue acumulando rotinas confirmadas via as entrevistas de Caixa e Pagar (47 até agora).
+  - Movimentos Liquidação com Cheques Pré Recebidos, Movimentos Prorrogação e Relatórios Contas a Pagar Analítico confirmadas como existentes em 3 módulos (Pagar/Receber/Business) e movidas para `wiki/rotinas/_compartilhadas/`. No Receber, os nomes pré-mapeados eram diferentes ("Movimentos Liquidação Com Pré-datados", "Movimentos Prorrogação Individual", "Relatórios Analítico de Vencimentos") — marcados como a mesma rotina, com nota explicativa. "Movimentos Prorrogação Em Lote" (só existe no Receber) é rotina distinta, ainda não entrevistada.
+  - Corrigida lacuna encontrada: "Movimentos Liquidação Individual" estava faltando na página do módulo `wiki/modulos/windows/contas-a-receber.md` apesar de já confirmada nas 3 módulos.
+  - Correção de deslize do analista: em "Relatórios Contas a Pagar Saldo", "documentos a pagar do cliente" foi corrigido para "do fornecedor" (mesmo padrão de deslize já observado antes em outras rotinas do Pagar).
 
 ## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
 - **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).
 - **Rotinas concluídas:** Cadastro de Tipos de Operação, NFE Digitação/Emissão de NFE (nome exibido ao usuário: "Digitação/Emissão de NF-e"), Movimentos Emissão de NF de Vários Pedidos, Cadastro de Clientes, Cadastro de Compradores, Cadastro de Vendedores, Cadastro de Prazos de Pagamento, Cadastro de Tipo de Venda, Classificação de Clientes.
 - **Rotinas puladas a pedido do analista (retomar depois):** Manutenção de Tipo de Operação x Conta Contábil; Movimentos Emissão de NF - Emissão de NFe em lote; e, do grupo Cadastros de Clientes: Gestão de Clientes Inativos, Gestão de Limites e Crédito de Clientes, Liberação do cadastro do cliente, Ficha Cadastral, Cadastros Transferência de Clientes.
-- **Rotina em andamento de sessão anterior (ainda não retomada):** Movimentos Liquidação com Cheques Pré Recebidos (Windows » Pagar) — segue com `status_entrevista: em-andamento`, parada no passo a passo.
 - **Observações:**
   - Duas duplicatas do levantamento original confirmadas e mescladas: "Emissão de NF-e — Procedimento Básico" (duplicata de NFE Digitação/Emissão de NFE) e "NF de varios pedidos" (duplicata de Movimentos Emissão de NF de Vários Pedidos).
   - "Cadastro de Tipos de Operação" teve o módulo Windows » OS removido da lista (pré-mapeado, mas não confirmado pelo analista); confirmado que existe em Faturamento e Livros Fiscais (usado em Notas Fiscais Emitidas).
@@ -50,4 +52,5 @@
   - Ponto de atenção geral capturado em Cadastro de Tipos de Operação: não alterar operações já em uso (nem tudo fica no histórico) — preferir criar uma nova operação para situações específicas.
   - Em NFE Digitação/Emissão de NFE: forma de diferenciar rejeição da SEFAZ (mensagem traz o nome da SEFAZ) de erro interno do sistema (mensagem não traz).
   - Em Cadastro de Prazos de Pagamento: diferença entre "Prazos" (até 12, intervalo variável entre eles) e "Parcelas" (mais parcelas possíveis, intervalo fixo).
-  - Próximo passo sugerido: retomar o grupo de Cadastros de Clientes pendente, ou voltar à rotina em andamento de Windows » Pagar.
+  - Nota: a rotina "Movimentos Liquidação com Cheques Pré Recebidos" (Windows » Pagar), que estava em andamento de sessão anterior, foi concluída em paralelo em outra sessão (ver entrada acima) — não foi retomada nesta sessão.
+  - Próximo passo sugerido: retomar o grupo de Cadastros de Clientes pendente em Windows » Faturamento.
