@@ -37,3 +37,17 @@
   - Criado procedimento geral sobre o botão de engrenagem (Configurar) restrito a usuário MESTRE/ADMIN, aplicado a várias rotinas (Sangria/Suprimento, DRE, Liquidação Em Lote).
   - Das 3 rotinas de liquidação: Individual pode ser estornada pela rotina genérica de Estorno; Em Lote e Com Cheques Pré Recebidos têm estorno próprio na tela. Em Lote é a única que aceita "aproveitamento de crédito" como forma de pagamento; Com Cheques Pré Recebidos é a única que aceita cheque e cartão.
   - Windows » Business segue acumulando rotinas confirmadas via as entrevistas de Caixa e Pagar (43 até agora).
+
+## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
+- **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).
+- **Rotinas concluídas:** Cadastro de Tipos de Operação, NFE Digitação/Emissão de NFE (nome exibido ao usuário: "Digitação/Emissão de NF-e"), Movimentos Emissão de NF de Vários Pedidos, Cadastro de Clientes, Cadastro de Compradores, Cadastro de Vendedores, Cadastro de Prazos de Pagamento, Cadastro de Tipo de Venda, Classificação de Clientes.
+- **Rotinas puladas a pedido do analista (retomar depois):** Manutenção de Tipo de Operação x Conta Contábil; Movimentos Emissão de NF - Emissão de NFe em lote; e, do grupo Cadastros de Clientes: Gestão de Clientes Inativos, Gestão de Limites e Crédito de Clientes, Liberação do cadastro do cliente, Ficha Cadastral, Cadastros Transferência de Clientes.
+- **Rotina em andamento de sessão anterior (ainda não retomada):** Movimentos Liquidação com Cheques Pré Recebidos (Windows » Pagar) — segue com `status_entrevista: em-andamento`, parada no passo a passo.
+- **Observações:**
+  - Duas duplicatas do levantamento original confirmadas e mescladas: "Emissão de NF-e — Procedimento Básico" (duplicata de NFE Digitação/Emissão de NFE) e "NF de varios pedidos" (duplicata de Movimentos Emissão de NF de Vários Pedidos).
+  - "Cadastro de Tipos de Operação" teve o módulo Windows » OS removido da lista (pré-mapeado, mas não confirmado pelo analista); confirmado que existe em Faturamento e Livros Fiscais (usado em Notas Fiscais Emitidas).
+  - "Cadastro de Prazos de Pagamento" e "Classificação de Clientes" foram confirmados também em módulos que não estavam pré-mapeados: Prazos de Pagamento agora inclui Windows » Pagar; Classificação de Clientes agora inclui Windows » Receber (ambos seguem o mesmo padrão do Cadastro de Clientes/Cadastro de Fornecedores).
+  - Ponto de atenção geral capturado em Cadastro de Tipos de Operação: não alterar operações já em uso (nem tudo fica no histórico) — preferir criar uma nova operação para situações específicas.
+  - Em NFE Digitação/Emissão de NFE: forma de diferenciar rejeição da SEFAZ (mensagem traz o nome da SEFAZ) de erro interno do sistema (mensagem não traz).
+  - Em Cadastro de Prazos de Pagamento: diferença entre "Prazos" (até 12, intervalo variável entre eles) e "Parcelas" (mais parcelas possíveis, intervalo fixo).
+  - Próximo passo sugerido: retomar o grupo de Cadastros de Clientes pendente, ou voltar à rotina em andamento de Windows » Pagar.

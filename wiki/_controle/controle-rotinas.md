@@ -99,8 +99,8 @@
 - [ ] Cadastro de CST
 - [ ] Cadastro de Cidades
 - [ ] Cadastro de Classificação Fiscal (NCM)
-- [ ] Cadastro de Clientes
-- [ ] Cadastro de Compradores
+- [x] Cadastro de Clientes
+- [x] Cadastro de Compradores
 - [ ] Cadastro de Código de Serviço (NFS-e)
 - [ ] Cadastro de Códigos de Receita (DCTF/PIS/COFINS)
 - [ ] Cadastro de Estados (UF)
@@ -124,7 +124,7 @@
 - [ ] Cadastro de Perfil de Imposto
 - [ ] Cadastro de Perfis de Entregas
 - [ ] Cadastro de Períodos por Meta
-- [ ] Cadastro de Prazos de Pagamento
+- [x] Cadastro de Prazos de Pagamento
 - [ ] Cadastro de Produtos
 - [ ] Cadastro de Produtos Agregados
 - [ ] Cadastro de Relacionamento de Referências
@@ -136,15 +136,15 @@
 - [ ] Cadastro de Subgrupos
 - [ ] Cadastro de Tabelas de Fretes a Cobrar do Cliente
 - [ ] Cadastro de Tipo de Lista de Venda
-- [ ] Cadastro de Tipo de Venda
-- [ ] Cadastro de Tipos de Operação
+- [x] Cadastro de Tipo de Venda
+- [x] Cadastro de Tipos de Operação
 - [ ] Cadastro de Transportadoras
 - [x] Cadastro de Turnos
 - [ ] Cadastro de Unidades de Medida
 - [-] Cadastro de Unidades de Venda — duplicata confirmada de "Cadastro de Unidades de Vendas" (plural)
 - [ ] Cadastro de Unidades de Vendas
 - [x] Cadastro de Usuários
-- [ ] Cadastro de Vendedores
+- [x] Cadastro de Vendedores
 - [ ] Cadastro de Veículos
 - [ ] Cadastro produtos Manutenção de Descontos para Venda no Atacado
 - [ ] Cadastro similares
@@ -160,7 +160,7 @@
 - [ ] Cancelamento de Faturamento
 - [ ] Cancelamento de Venda
 - [ ] Carta de Correção Eletrônica (CCe)
-- [ ] Classificação de Clientes
+- [x] Classificação de Clientes
 - [-] Classificação de Clientes — duplicata confirmada (mesmo nome, mesma rotina)
 - [ ] Comissões de Vendedores
 - [ ] Conciliação de Cartões
@@ -195,7 +195,7 @@
 - [ ] Cotação de Moedas
 - [ ] Curva ABC de Vendas Dinâmica
 - [ ] Devoluções de Venda e Compra
-- [ ] Emissão de NF-e — Procedimento Básico
+- [-] Emissão de NF-e — Procedimento Básico — duplicata confirmada de "NFE Digitação/Emissão de NFE" (nome correto exibido ao usuário: "Digitação/Emissão de NF-e")
 - [ ] Emissão de Transporte (CT-e e MDF-e)
 - [ ] Empréstimo de Mercadorias (Comodato)
 - [ ] Entrada de Produtos (Manual e XML)
@@ -241,7 +241,7 @@
 - [ ] Movimentos Controle de Entregas Relatório de Pedidos Retornados
 - [ ] Movimentos Desmontagem de Mercadoria
 - [ ] Movimentos Emissão de NF  - Emissão de NFe em lote
-- [ ] Movimentos Emissão de NF de Vários Pedidos
+- [x] Movimentos Emissão de NF de Vários Pedidos
 - [ ] Movimentos Empréstimo
 - [ ] Movimentos Entrada de Notas Diversas
 - [ ] Movimentos Entrada de Produtos
@@ -298,7 +298,7 @@
 - [-] Movimentos Transferência de Estoque Receber Transferência com Estoque em Trânsito — duplicata confirmada (mesmo nome, mesma rotina)
 - [ ] Movimentos Transferência de Estoque Simples
 - [ ] Movimentos Vendas Cancelamentos de NF-e
-- [ ] NF de varios pedidos
+- [-] NF de varios pedidos — duplicata confirmada de "Movimentos Emissão de NF de Vários Pedidos"
 - [ ] NF-e - Emissão referente a Cupom Fiscal ou NFC-e
 - [ ] NF-e - Envio por e-mail para o Cliente
 - [ ] NF-e - Gerenciamento de Série
@@ -308,7 +308,7 @@
 - [ ] NFE Associar Certificado para essa filial
 - [ ] NFE Complemento de Exportação
 - [ ] NFE Consulta NFE
-- [ ] NFE Digitação/Emissão de NFE
+- [x] NFE Digitação/Emissão de NFE
 - [ ] NFE Enviar email de teste
 - [ ] NFE Envio NFE/NFCE para contatos Filiais - Servidor
 - [ ] NFE Envio NFE/NFCE para contatos Filiais - Transmissão local
@@ -486,6 +486,7 @@
 ## Windows » Pagar (`windows/contas-a-pagar`) — 51 rotina(s)
 
 - [x] Cadastro Histórico Padrão
+- [x] Cadastro de Prazos de Pagamento — não estava pré-mapeada aqui, adicionada e confirmada pelo analista em 2026-08-01
 - [ ] Cadastro Tipos de Fornecedor
 - [x] Cadastro de Contas Caixa
 - [x] Cadastro de Fornecedores
@@ -542,6 +543,7 @@
 
 ## Windows » Receber (`windows/contas-a-receber`) — 117 rotina(s)
 
+- [x] Classificação de Clientes — não estava pré-mapeada aqui, adicionada e confirmada pelo analista em 2026-08-01
 - [x] Movimentos Liquidação Individual
 
 - [-] Bloqueio e Liberação de Clientes — não identificada pelo analista, não existe no sistema
@@ -554,14 +556,14 @@
 - [ ] Cadastro de Administradoras de Cartão e Convênios
 - [ ] Cadastro de Cartas de Cobrança
 - [ ] Cadastro de Carteiras (Bancárias e Digitais)
-- [ ] Cadastro de Clientes
+- [x] Cadastro de Clientes
 - [ ] Cadastro de Contas Bancárias
 - [x] Cadastro de Contas Caixa
 - [ ] Cadastro de Contas Contábeis
 - [x] Cadastro de Moedas (Cotações)
 - [x] Cadastro de Moedas (Identificação)
 - [ ] Cadastro de Países
-- [ ] Cadastro de Prazos de Pagamento
+- [x] Cadastro de Prazos de Pagamento
 - [ ] Cobrança Informatizada
 - [ ] Cobrança Informatizada Cadastro de Cobradores
 - [ ] Cobrança Informatizada Cadastro de Ocorrências
@@ -711,7 +713,7 @@
 ## Windows » Livros (`windows/livros-fiscais`) — 59 rotina(s)
 
 - [ ] Cadastro Dados Gerais da Redução Z
-- [ ] Cadastro de Tipos de Operação
+- [x] Cadastro de Tipos de Operação
 - [ ] Consultas Notas Fiscais de Saída Ausentes
 - [ ] Fiscal Geração do Sped Contribuições (Pis/cofins)
 - [ ] Livro de Entrada — Livros Fiscais
@@ -805,7 +807,7 @@
 - [ ] Bloqueio de Fornecedor
 - [ ] Cadastro Requisitantes
 - [ ] Cadastro Setores (Compras)
-- [ ] Cadastro de Compradores
+- [x] Cadastro de Compradores
 - [ ] Cadastro de Cotação Padrão de Produtos
 - [ ] Cadastro de Produtos
 - [ ] Consultas Cotação por Período
@@ -891,9 +893,9 @@
 - [ ] Cadastro de Serviços
 - [ ] Cadastro de Situações de Equipamentos
 - [ ] Cadastro de Tipos de Atendimento (OS)
-- [ ] Cadastro de Tipos de Operação
+- [-] Cadastro de Tipos de Operação — não confirmada pelo analista como existente em Windows » OS (existe em Faturamento e Livros)
 - [x] Cadastro de Usuários
-- [ ] Cadastro de Vendedores
+- [x] Cadastro de Vendedores
 - [ ] Cadastros Dados Complementares
 - [ ] Contratos Apólice Seguro de Equipamentos
 - [ ] Contratos Apólice Seguro de Veículos
@@ -1051,6 +1053,11 @@
 - [x] Movimentos Estorno
 - [x] Movimentos Liquidação Em Lote
 - [x] Movimentos Liquidação Individual
+- [x] NFE Digitação/Emissão de NFE
+
+## Windows » ERP_Faturamento (`windows/erp-faturamento`) — módulo novo, identificado em 2026-08-01
+
+- [x] NFE Digitação/Emissão de NFE
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
 

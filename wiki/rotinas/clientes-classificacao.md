@@ -2,35 +2,41 @@
 id: ROT-clientes-classificacao
 title: "Classificação de Clientes"
 type: rotina
-audience: a-definir
-modulos: ["windows/faturamento"]
+audience: all
+modulos: ["windows/faturamento", "windows/contas-a-receber"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-01
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Classificação de Clientes
+    type: RELACIONA_COM
+    to: Cadastro de Clientes
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Cadastro para diferenciação/classificação de clientes. Existe um campo próprio no Cadastro de Clientes, chamado **Status**, que usa essa classificação.
+
+## Quem Usa
+Rotina pouco usada. Geralmente Gestores e setor de Vendas.
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
+- windows/contas-a-receber
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+Caminho: **Cadastros » Clientes » Classificação de Clientes**.
+
+Em Inclusão, informar a Descrição e salvar. O valor cadastrado fica disponível no campo **Status**, na aba Complementares do [[rotinas/cadastro-clientes|Cadastro de Clientes]].
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Rotina muito simples (Código, Descrição), sem pontos de atenção.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Nenhum erro comum registrado.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/cadastro-clientes|Cadastro de Clientes]] — usada no campo Status. Não se relaciona com nenhuma outra rotina.

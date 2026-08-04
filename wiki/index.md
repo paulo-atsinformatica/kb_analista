@@ -46,6 +46,15 @@ Adicione uma linha por página assim que ela sair de `status: draft` para `statu
 | Transferência de Caixa para Conta Bancária | windows/caixa, windows/business | all | 2026-07-16 |
 | Utilitários Elimina Movimentos de Caixa | windows/caixa, windows/business | analyst | 2026-07-16 |
 | Utilitários Reprocessa Saldos (Caixa) | windows/caixa, windows/business | analyst | 2026-07-16 |
+| Cadastro de Tipos de Operação | windows/faturamento, windows/livros-fiscais | all | 2026-08-01 |
+| NFE Digitação/Emissão de NFE ("Digitação/Emissão de NF-e") | windows/faturamento, windows/business, windows/erp-faturamento | all | 2026-08-01 |
+| Movimentos Emissão de NF de Vários Pedidos | windows/faturamento | all | 2026-08-01 |
+| Cadastro de Clientes | windows/faturamento, windows/contas-a-receber | all | 2026-08-01 |
+| Cadastro de Compradores | windows/faturamento, windows/compras | all | 2026-08-01 |
+| Cadastro de Vendedores | windows/faturamento, windows/os | all | 2026-08-01 |
+| Cadastro de Prazos de Pagamento | windows/faturamento, windows/contas-a-receber, windows/contas-a-pagar | all | 2026-08-01 |
+| Cadastro de Tipo de Venda | windows/faturamento | all | 2026-08-01 |
+| Classificação de Clientes | windows/faturamento, windows/contas-a-receber | all | 2026-08-01 |
 
 ## Procedimentos gerais criados
 | Título | Pasta | Descrição |

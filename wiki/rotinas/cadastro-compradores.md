@@ -2,36 +2,47 @@
 id: ROT-cadastro-compradores
 title: "Cadastro de Compradores"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/compras", "windows/faturamento"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-01
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Cadastro de Compradores
+    type: RELACIONA_COM
+    to: Movimentos Cotação de Preços Abertura de Cotações
+  - from: Cadastro de Compradores
+    type: RELACIONA_COM
+    to: Movimentos Solicitação de Compras de Produtos
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Cadastro interno para informar o comprador. É utilizado para solicitar orçamento de fornecedores.
+
+## Quem Usa
+Setor de Compras.
 
 ## Módulos onde esta rotina existe
-- windows/compras
 - windows/faturamento
+- windows/compras — usado especificamente nas rotinas relacionadas a compras (cotação e solicitação de compra)
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+Caminho: **Cadastros » Compradores**.
+
+Tela simples: preencher Código, Nome, E-Mail e Limite Sem Autorização, e salvar (Inclusão).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+Nenhum ponto de atenção específico.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Rotina simples, sem erros comuns registrados.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/movimentos-cotacao-de-precos-abertura-de-cotacoes|Movimentos Cotação de Preços - Abertura de Cotações]]
+- [[rotinas/movimentos-solicitacao-de-compras-de-produtos|Movimentos Solicitação de Compras de Produtos]]
+
+Não tem relação com o campo de comprador na Ordem de Compra / Entrada de Produtos, apesar de existir ordem de compra nessa rotina.

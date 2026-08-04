@@ -2,35 +2,53 @@
 id: ROT-cadastro-tipo-de-venda
 title: "Cadastro de Tipo de Venda"
 type: rotina
-audience: a-definir
+audience: all
 modulos: ["windows/faturamento"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-01
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Cadastro de Tipo de Venda
+    type: RELACIONA_COM
+    to: NFE Digitação/Emissão de NFE
+  - from: Cadastro de Tipo de Venda
+    type: RELACIONA_COM
+    to: Movimentos Pré-venda
+  - from: Cadastro de Tipo de Venda
+    type: RELACIONA_COM
+    to: Movimentos Orçamentos
+  - from: Cadastro de Tipo de Venda
+    type: RELACIONA_COM
+    to: Movimentos PDV
 ---
 
-> [!INFO] Rotina pré-mapeada, aguardando entrevista
-> Nome e módulo(s) vieram do levantamento anterior. Confirme com o analista se o nome, módulo e existência da rotina ainda procedem antes de preencher o conteúdo.
-
 ## Visão Geral
-_(a preencher via entrevista — o que é esta rotina, pra que serve)_
+Processo utilizado para parametrizar e cadastrar as modalidades de venda que a empresa utiliza no sistema, definindo regras comerciais e financeiras.
+
+## Quem Usa
+Setor de Vendas.
 
 ## Módulos onde esta rotina existe
 - windows/faturamento
 
 ## Como Usar (passo a passo)
-_(a preencher via entrevista)_
+Caminho: **Cadastros » Tipos de Venda » Tipos de Venda**.
+
+Em Inclusão, informar a Descrição e selecionar os campos com as especificações desejadas para quando o tipo de venda for usado (Desconto/Acréscimo %, Comissão, Venda a Vista, Desconto Progressivo, regra de preço a usar — Preço 1-4/Custo/Médio/Calculado/Nenhum, além da aba Prazos).
 
 ## Campos e Parâmetros Importantes
-_(a preencher — se aplicável)_
+O cadastro em si é simples, mas é importante entender que **tudo que envolve a venda é definido pelo Tipo de Venda selecionado**: o preço praticado, se há acréscimo ou desconto, e quais formas de pagamento podem ser usadas.
 
 ## Erros Comuns / Pontos de Atenção
-_(a preencher)_
+Rotina simples, sem erros comuns registrados.
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+Usado nas rotinas de venda:
+- [[rotinas/nfe-digitacaoemissao-de-nfe|NFE Digitação/Emissão de NFE]]
+- [[rotinas/movimentos-pre-venda|Movimentos Pré-venda]]
+- [[rotinas/movimentos-orcamentos|Movimentos Orçamentos]]
+- [[rotinas/movimentos-pdv|Movimentos PDV]]
