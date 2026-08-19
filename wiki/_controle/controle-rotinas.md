@@ -125,7 +125,7 @@
 - [ ] Cadastro de Perfis de Entregas
 - [ ] Cadastro de Períodos por Meta
 - [x] Cadastro de Prazos de Pagamento
-- [ ] Cadastro de Produtos
+- [x] Cadastro de Produtos
 - [ ] Cadastro de Produtos Agregados
 - [ ] Cadastro de Relacionamento de Referências
 - [ ] Cadastro de Reserva de Estoque
@@ -808,7 +808,7 @@
 - [ ] Cadastro Setores (Compras)
 - [x] Cadastro de Compradores
 - [ ] Cadastro de Cotação Padrão de Produtos
-- [ ] Cadastro de Produtos
+- [x] Cadastro de Produtos
 - [ ] Consultas Cotação por Período
 - [ ] Consultas Estoque
 - [ ] Consultas Movimentação por Material
@@ -887,7 +887,7 @@
 - [ ] Cadastro de Motivos de Devolução
 - [ ] Cadastro de Motivos de Paralisação/Suspensão
 - [ ] Cadastro de Motivos de Recusa
-- [ ] Cadastro de Produtos
+- [x] Cadastro de Produtos
 - [ ] Cadastro de Seguradoras
 - [ ] Cadastro de Serviços
 - [ ] Cadastro de Situações de Equipamentos
@@ -966,7 +966,7 @@
 - [ ] Cadastro de Grupos de Produtos
 - [ ] Cadastro de Marcas
 - [ ] Cadastro de Perfil de Imposto
-- [ ] Cadastro de Produtos
+- [x] Cadastro de Produtos
 - [ ] Cadastro de Relacionamento de Referências
 - [ ] Cadastro de Reserva de Estoque
 - [ ] Cadastro de Subgrupos
@@ -1007,11 +1007,12 @@
 - [ ] Valor de Estoque — NF-e Entrada
 - [x] Cadastro de Usuários
 
-## Windows » Business (`windows/business`) — 43 rotina(s)
+## Windows » Business (`windows/business`) — 44 rotina(s)
 
 - [x] Abertura de Caixa
 - [x] Cadastro de Contas Caixa
 - [x] Cadastro de Operadores de Caixa
+- [x] Cadastro de Produtos
 - [x] Cadastro de Turnos
 - [x] Consultas Livro Caixa
 - [x] Consultas Saldo das Contas
@@ -1052,10 +1053,6 @@
 - [x] Movimentos Estorno
 - [x] Movimentos Liquidação Em Lote
 - [x] Movimentos Liquidação Individual
-- [x] NFE Digitação/Emissão de NFE
-
-## Windows » ERP_Faturamento (`windows/erp-faturamento`) — módulo novo, identificado em 2026-08-01
-
 - [x] NFE Digitação/Emissão de NFE
 
 ## Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) _(lista parcial — faltam 2, confirmar com analista)_
@@ -1117,19 +1114,22 @@
 - [x] Cadastro de Usuários
 - [x] Cadastro de Fornecedores
 
-## Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 2 rotina(s)
+## Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 4 rotina(s)
 
 - [x] Cadastro de Usuários
 - [x] Cadastro de Fornecedores
+- [x] Cadastro de Produtos
+- [x] NFE Digitação/Emissão de NFE
 
 ## Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s)
 
 - [x] Cadastro de Usuários
 
-## Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 2 rotina(s)
+## Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 3 rotina(s)
 
 - [x] Cadastro de Usuários
 - [x] Cadastro de Fornecedores
+- [x] Cadastro de Produtos
 
 ## Windows » Resulth Offline (`windows/resulth-offline`) — 1 rotina(s)
 

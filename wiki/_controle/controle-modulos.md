@@ -16,14 +16,14 @@
 - [x] Windows » Compras (`windows/compras`) — 55 rotina(s) pré-mapeada(s)
 - [x] Windows » Ordem de Serviço (`windows/os`) — 97 rotina(s) pré-mapeada(s)
 - [x] Windows » Materias (`windows/materiais`) — 48 rotina(s) pré-mapeada(s)
-- [x] Windows » Business (`windows/business`) — 43 rotina(s) pré-mapeada(s)
-- [x] Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 2 rotina(s) pré-mapeada(s)
+- [x] Windows » Business (`windows/business`) — 44 rotina(s) pré-mapeada(s)
+- [x] Windows » ResulthEmissorNFe (`windows/resulth-emissor-nfe`) — 4 rotina(s) pré-mapeada(s)
 - [x] Windows » SintegraCs (`windows/sintegra-cs`) — 1 rotina(s) pré-mapeada(s)
 - [x] Windows » EntregasCs (`windows/entregas-cs`) — 40 rotina(s) pré-mapeada(s)
-- [x] Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 2 rotina(s) pré-mapeada(s)
+- [x] Windows » RetaguardaECF (`windows/retaguarda-ecf`) — 3 rotina(s) pré-mapeada(s)
 - [x] Windows » BackupNow (`windows/backupnow`) — 13 rotina(s) pré-mapeada(s) _(lista parcial, faltam 2 confirmar com analista)_
 - [x] Windows » Resulth Offline (`windows/resulth-offline`) — 1 rotina(s) pré-mapeada(s)
-- [x] Windows » ERP_Faturamento (`windows/erp-faturamento`) — módulo novo, identificado pelo analista em 2026-08-01 durante entrevista de NFE Digitação/Emissão de NFE — sistema independente relacionado ao Faturamento, mais completo
+- [-] Windows » ERP_Faturamento — descontinuado/mesclado em 2026-08-19: confirmado pelo analista que não é um sistema separado, é o mesmo módulo Windows » Faturamento (`windows/faturamento`)
 
 ## web
 

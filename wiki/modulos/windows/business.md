@@ -24,6 +24,7 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Abertura de Caixa
 - Cadastro de Contas Caixa
 - Cadastro de Operadores de Caixa
+- Cadastro de Produtos
 - Cadastro de Turnos
 - Consultas Livro Caixa
 - Consultas Saldo das Contas

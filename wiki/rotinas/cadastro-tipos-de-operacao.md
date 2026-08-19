@@ -63,7 +63,7 @@ Rotina simples, com poucos erros no uso. Ponto de atenção: **evitar alterar um
 
 ## Rotinas Relacionadas
 O Tipo de Operação cadastrado aqui é utilizado nas rotinas de emissão de nota:
-- [[rotinas/nfe-digitacaoemissao-de-nfe|NFE Digitação/Emissão de NFE]]
+- [[rotinas/_compartilhadas/nfe-digitacaoemissao-de-nfe|NFE Digitação/Emissão de NFE]]
 - [[rotinas/movimentos-emissao-de-nf-de-varios-pedidos|Movimentos Emissão de NF de Vários Pedidos]]
 
 E também nas rotinas de entrada e liquidação de documentos (tanto Contas a Pagar quanto Contas a Receber):
