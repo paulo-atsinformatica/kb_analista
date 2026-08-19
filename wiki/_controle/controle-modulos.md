@@ -12,7 +12,7 @@
 - [x] Windows » Receber (`windows/contas-a-receber`) — 117 rotina(s) pré-mapeada(s)
 - [x] Windows » Bancos (`windows/bancos`) — 39 rotina(s) pré-mapeada(s)
 - [x] Windows » Livros (`windows/livros-fiscais`) — 59 rotina(s) pré-mapeada(s)
-- [x] Windows » Sped (`windows/sped`) — 23 rotina(s) pré-mapeada(s)
+- [x] Windows » Sped (`windows/sped`) — 21 rotina(s) pré-mapeada(s)
 - [x] Windows » Compras (`windows/compras`) — 55 rotina(s) pré-mapeada(s)
 - [x] Windows » Ordem de Serviço (`windows/os`) — 97 rotina(s) pré-mapeada(s)
 - [x] Windows » Materias (`windows/materiais`) — 48 rotina(s) pré-mapeada(s)

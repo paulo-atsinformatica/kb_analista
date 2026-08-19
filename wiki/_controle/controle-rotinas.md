@@ -773,7 +773,7 @@
 - [ ] SPED Fiscal (ICMS/IPI)
 - [x] Cadastro de Usuários
 
-## Windows » Sped (`windows/sped`) — 23 rotina(s)
+## Windows » Sped (`windows/sped`) — 21 rotina(s)
 
 - [ ] Geração do SPED Contribuições (PIS/COFINS)
 - [ ] Geração do SPED Fiscal
@@ -783,10 +783,8 @@
 - [ ] Movimentos Contribuição retida na fonte-F600
 - [ ] Movimentos DIFAL/FCP - Ajustes Registro E311
 - [ ] Movimentos Demais Documentos e Operações Geradoras de Contribuição e Créditos - F100
-- [ ] Movimentos Demais Documentos e Operações Geradoras de Contribuição e Créditos - F100
 - [ ] Movimentos Lançamento de Crédito de ICMS
 - [ ] Movimentos Processo Referenciado do PIS/COFINS Ação Judicial - Registro 1010
-- [ ] Movimentos Processo Referenciado do PIS/COFINS Processo administrativo - Registro 1020
 - [ ] Movimentos Processo Referenciado do PIS/COFINS Processo administrativo - Registro 1020
 - [ ] Movimentos Sped Fiscal
 - [ ] Movimentos Sped Pis/Cofins(Contribuições)
