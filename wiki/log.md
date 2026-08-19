@@ -44,6 +44,7 @@
   - Módulo "Windows » ERP_Faturamento" (criado em outra sessão paralela em 2026-08-01) foi mesclado/descontinuado: o analista confirmou que não é um sistema separado, é o mesmo Windows » Faturamento. Removido `wiki/modulos/windows/erp-faturamento.md`.
   - A pedido do analista, revisão livre (fora da ordem padrão de módulo): "Cadastro de Produtos" entrevistada por completo, confirmada em 7 módulos (Faturamento, Materiais, Compras, OS, Business, RetaguardaECF, ResulthEmissorNFe) e movida para `_compartilhadas/`. "NFE Digitação/Emissão de NFE" revisada e complementada com o módulo ResulthEmissorNFe (agora 3 módulos: Faturamento, Business, ResulthEmissorNFe), também movida para `_compartilhadas/`.
   - "Cadastro de Tipos de Operação" revisada com o analista (sem alterações de conteúdo) — apenas corrigidos wikilinks quebrados apontando para as rotinas que foram movidas para `_compartilhadas/` nesta sessão.
+  - A pedido do analista, adicionada relação entre "NFE Digitação/Emissão de NFE" e "Cadastro de Contas Caixa"/"Cadastro Centro de Custo" (podem ser usadas em conjunto na operação de emissão da nota) — relação incluída nos 3 arquivos.
 
 ## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
 - **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).

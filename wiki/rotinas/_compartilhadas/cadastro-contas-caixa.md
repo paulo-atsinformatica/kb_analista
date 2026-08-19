@@ -15,6 +15,9 @@ relations:
   - from: Cadastro de Contas Caixa
     type: RELACIONA_COM
     to: Relatórios Demonstração de Resultados (DRE)
+  - from: Cadastro de Contas Caixa
+    type: RELACIONA_COM
+    to: NFE Digitação/Emissão de NFE
 ---
 
 ## Visão Geral
@@ -50,3 +53,4 @@ Setor Financeiro/Administrativo.
 
 ## Rotinas Relacionadas
 - Relatório **Demonstração de Resultados (DRE)** — é montado inteiramente com base nas contas caixa cadastradas.
+- [[rotinas/_compartilhadas/nfe-digitacaoemissao-de-nfe|NFE Digitação/Emissão de NFE]] — pode ser utilizada em conjunto, informando a conta caixa na operação de emissão da nota.

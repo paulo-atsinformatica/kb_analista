@@ -21,6 +21,12 @@ relations:
   - from: NFE Digitação/Emissão de NFE
     type: RELACIONA_COM
     to: Cadastro de Clientes
+  - from: NFE Digitação/Emissão de NFE
+    type: RELACIONA_COM
+    to: Cadastro de Contas Caixa
+  - from: NFE Digitação/Emissão de NFE
+    type: RELACIONA_COM
+    to: Cadastro Centro de Custo
 ---
 
 > [!INFO] Nome exibido ao usuário
@@ -57,3 +63,4 @@ Relaciona-se com (rotinas independentes, não há dependência de execução ent
 - [[rotinas/cadastro-tipos-de-operacao|Cadastro de Tipos de Operação]] — toda nota exige uma operação cadastrada.
 - [[rotinas/movimentos-entrada-de-produtos|Movimentos Entrada de Produtos]] — usada quando a nota emitida é uma devolução.
 - Cadastro de Clientes — toda nota tem um cliente vinculado.
+- [[rotinas/_compartilhadas/cadastro-contas-caixa|Cadastro de Contas Caixa]] e [[rotinas/cadastro-centro-de-custo|Cadastro Centro de Custo]] — podem ser utilizadas em conjunto com a emissão da nota (informação de conta caixa e centro de custo na operação).

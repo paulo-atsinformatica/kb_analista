@@ -11,7 +11,10 @@ data_criacao: 2026-07-16
 data_atualizacao: 2026-07-16
 fontes: []
 entities: []
-relations: []
+relations:
+  - from: Cadastro Centro de Custo
+    type: RELACIONA_COM
+    to: NFE Digitação/Emissão de NFE
 ---
 
 > [!INFO] Rotina pré-mapeada, aguardando entrevista
@@ -33,4 +36,5 @@ _(a preencher — se aplicável)_
 _(a preencher)_
 
 ## Rotinas Relacionadas
-_(a preencher — quais outras rotinas essa rotina chama, depende, ou é chamada por)_
+- [[rotinas/_compartilhadas/nfe-digitacaoemissao-de-nfe|NFE Digitação/Emissão de NFE]] — pode ser utilizada em conjunto, informando o centro de custo na operação de emissão da nota.
+_(demais itens a preencher via entrevista)_
