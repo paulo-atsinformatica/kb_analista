@@ -3,7 +3,7 @@ id: ROT-relatorios-fluxo-de-caixa-analitico
 title: "Relatórios Fluxo de Caixa Analítico"
 type: rotina
 audience: a-definir
-modulos: ["windows/contas-a-pagar", "windows/contas-a-receber"]
+modulos: ["windows/contas-a-receber"]
 tags: []
 status: draft
 status_entrevista: pendente
@@ -21,8 +21,10 @@ relations: []
 _(a preencher via entrevista — o que é esta rotina, pra que serve)_
 
 ## Módulos onde esta rotina existe
-- windows/contas-a-pagar
 - windows/contas-a-receber
+
+> [!NOTE] Não existe no Pagar
+> Estava pré-mapeada também em windows/contas-a-pagar, mas o analista não identificou essa rotina no módulo Pagar.
 
 ## Como Usar (passo a passo)
 _(a preencher via entrevista)_

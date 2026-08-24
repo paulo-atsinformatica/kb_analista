@@ -528,7 +528,7 @@
 - [x] Relatórios Contas a Pagar Analítico
 - [x] Relatórios Contas a Pagar Saldo
 - [x] Relatórios Contas a Pagar Sintético
-- [ ] Relatórios Fluxo de Caixa Analítico
+- [-] Relatórios Fluxo de Caixa Analítico — não identificada pelo analista, não existe no módulo Pagar
 - [ ] Relatórios Fluxo de Caixa Diário por Conta Caixa
 - [ ] Relatórios Fluxo de Caixa Sintético
 - [ ] Relatórios Movimentação por Fornecedor
