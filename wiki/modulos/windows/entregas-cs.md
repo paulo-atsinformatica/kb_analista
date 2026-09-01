@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/entregas-cs"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo utilizado para controlar as entregas geradas pelas vendas: montagem de carga para entrega, controle de motoristas e produtos usados no carregamento, controle dos caminhões, e acompanhamento das entregas pendentes que precisam sair.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Responsável pelo carregamento e liberação de cargas.
 
 ## Rotinas deste módulo
 - Agendamento de Entrega com Cliente
@@ -63,4 +65,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Fornecedores
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Precisa do módulo **Faturamento** ou do **Business** junto (não os dois obrigatoriamente).

@@ -2,23 +2,27 @@
 id: MOD-windows-backupnow
 title: "Windows » BackupNow"
 type: modulo
-audience: all
+audience: analyst
 modulos: ["windows/backupnow"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Sistema responsável por fazer o backup do banco de dados do sistema, de forma automática, salvando diretamente na nuvem da ATS. Uma vez cadastrados os dias e horários para o backup, ele é feito automaticamente desde que a máquina esteja ligada.
+
+O BackupNow também aciona diretamente o suporte por e-mail caso o backup não seja realizado, e envia notificação (de sucesso ou de falha) para o e-mail do cliente ou para vários e-mails que podem ser cadastrados para receber esse aviso.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Não possui um público-alvo específico — serve para todos os sistemas e clientes.
 
 ## Rotinas deste módulo
 > [!WARNING] Lista parcial
@@ -39,4 +43,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Usuários
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Independente — é específico para cuidar do banco de dados de todos os sistemas, sem depender de nenhum módulo em particular.

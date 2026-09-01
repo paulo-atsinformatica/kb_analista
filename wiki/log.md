@@ -64,6 +64,14 @@
   - Ordem de Serviço (OS): módulo à parte, usado em oficinas (aparelhos/auto peças), gera pedido faturado pelo Business ou Faturamento. **Ponto importante**: possui base de dados própria integrada — ao atualizar o sistema, a OS também precisa ser aberta separadamente para atualizar sua própria base. Usada pelo Financeiro e pela Operação.
   - Materiais: produção dos produtos vendidos pela empresa, setor de Estoque/Produção. Precisa de Compras, Business e Faturamento junto.
 
+## [2026-08-24] entrevista | Módulos (visão geral) — continuação: EntregasCs, RetaguardaECF, BackupNow, Resulth Offline
+- **Módulos entrevistados:** Windows » EntregasCs, Windows » RetaguardaECF, Windows » BackupNow, Windows » Resulth Offline — todos com `status_entrevista: concluida`.
+- **Observações:**
+  - EntregasCs: controle de entregas geradas pelas vendas (montagem de carga, motoristas, caminhões, entregas pendentes). Responsável por carregamento/liberação de cargas. Precisa de Faturamento **ou** Business junto (não os dois obrigatoriamente — correção do analista).
+  - RetaguardaECF: módulo básico, usado junto com Resulth Checkout, controla cadastros para emissão de NFC-e e pode gerar arquivo Sintegra quando o cliente não tem o SintegraCs.
+  - BackupNow: classificado `audience: analyst` — responsável pelo backup automático do banco de dados na nuvem ATS, com notificação de sucesso/falha por e-mail. Independente de outros módulos.
+  - Resulth Offline: classificado `audience: analyst` — integra dois bancos de dados, com duas tratativas: integração entre Filiais (faturamento/produtos/clientes) e integração entre Caixas (mais usada em supermercados, cada caixa com seu banco + servidor centralizador, dando resiliência). Relaciona-se com Faturamento, Business e Caixa.
+
 ## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
 - **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).
 - **Rotinas concluídas:** Cadastro de Tipos de Operação, NFE Digitação/Emissão de NFE (nome exibido ao usuário: "Digitação/Emissão de NF-e"), Movimentos Emissão de NF de Vários Pedidos, Cadastro de Clientes, Cadastro de Compradores, Cadastro de Vendedores, Cadastro de Prazos de Pagamento, Cadastro de Tipo de Venda, Classificação de Clientes.
