@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/resulth-emissor-nfe"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo utilizado exclusivamente para emissão de notas — não controla estoque, nem financeiro.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Público que precisa apenas emitir nota fiscal.
 
 ## Rotinas deste módulo
 - Cadastro de Usuários
@@ -27,4 +29,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - NFE Digitação/Emissão de NFE
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Independente — próprio para quem só precisa emitir nota, sem depender de outro módulo.

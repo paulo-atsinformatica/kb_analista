@@ -72,6 +72,12 @@
   - BackupNow: classificado `audience: analyst` — responsável pelo backup automático do banco de dados na nuvem ATS, com notificação de sucesso/falha por e-mail. Independente de outros módulos.
   - Resulth Offline: classificado `audience: analyst` — integra dois bancos de dados, com duas tratativas: integração entre Filiais (faturamento/produtos/clientes) e integração entre Caixas (mais usada em supermercados, cada caixa com seu banco + servidor centralizador, dando resiliência). Relaciona-se com Faturamento, Business e Caixa.
 
+## [2026-08-24] entrevista | Módulos (visão geral) — continuação: ResulthEmissorNFe, SintegraCs
+- **Módulos entrevistados:** Windows » ResulthEmissorNFe, Windows » SintegraCs — ambos com `status_entrevista: concluida`.
+- **Observações:**
+  - ResulthEmissorNFe: módulo exclusivo para emissão de notas (não controla estoque nem financeiro), independente de outros módulos.
+  - SintegraCs: função única — gerar o arquivo Sintegra do cliente. Redundante com o RetaguardaECF (que também pode gerar Sintegra). Depende dos módulos que geram as movimentações do sistema (ex: Faturamento).
+
 ## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
 - **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).
 - **Rotinas concluídas:** Cadastro de Tipos de Operação, NFE Digitação/Emissão de NFE (nome exibido ao usuário: "Digitação/Emissão de NF-e"), Movimentos Emissão de NF de Vários Pedidos, Cadastro de Clientes, Cadastro de Compradores, Cadastro de Vendedores, Cadastro de Prazos de Pagamento, Cadastro de Tipo de Venda, Classificação de Clientes.

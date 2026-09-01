@@ -5,23 +5,25 @@ type: modulo
 audience: all
 modulos: ["windows/sintegra-cs"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo com uma única função: gerar o arquivo Sintegra do cliente.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Empresas que precisam gerar o arquivo Sintegra. Não é necessário caso o cliente já tenha acesso ao módulo **RetaguardaECF**, já que o Sintegra também pode ser gerado por lá.
 
 ## Rotinas deste módulo
 - Cadastro de Usuários
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Precisa dos outros módulos que geram as movimentações do sistema (ex: Faturamento) — o SintegraCs em si serve exclusivamente para emitir o arquivo Sintegra, nenhuma outra função. Relaciona-se também com o **RetaguardaECF**, que pode gerar o Sintegra alternativamente.
