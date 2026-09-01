@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/business"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+O módulo mais completo do sistema — possui todos os outros módulos incluso. Não tem todas as funções de cada módulo individual, mas pode ser utilizado como se fossem todos os outros módulos juntos.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Público-alvo é toda a empresa — diferente do ERP, onde cada função fica em um módulo separado (Faturamento, Pagar, Receber, etc.), o Business já reúne todas as funções juntas em um único módulo.
 
 ## Rotinas deste módulo
 - Abertura de Caixa
@@ -71,4 +73,6 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Relatórios Contas a Pagar Analítico
 
 ## Relacionamento com outros módulos
-Se o cliente tiver o módulo Fatura, precisa ter o módulo Caixa também. Se tiver apenas o Business, não precisa do Caixa.
+Teoricamente, o Business substitui o conjunto de módulos do ERP (Faturamento, Pagar, Receber, Bancos, Caixa etc.), pois cada um desses módulos tem suas rotinas separadas — por exemplo, o Faturamento não possui as rotinas de Caixa, Pagar, Receber etc., enquanto o Business possui todas elas reunidas.
+
+Se o cliente tiver o módulo Faturamento, precisa ter o módulo Caixa também. Se tiver apenas o Business, não precisa do Caixa.

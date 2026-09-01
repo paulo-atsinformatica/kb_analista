@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/bancos"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo responsável por tratar o controle bancário do cliente: geração de extratos, controle de cheques, transferências, depósitos em conta, entre outras funções relacionadas a bancos.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Setor Financeiro/Administrativo.
 
 ## Rotinas deste módulo
 - Bancos — Conciliação Bancária Simples
@@ -63,4 +65,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro Histórico Padrão
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Precisa do módulo **Caixa** junto, e também do **Faturamento**. Os módulos **Faturamento, Caixa, Bancos, Pagar e Receber** formam o conjunto do ERP e são basicamente sempre utilizados juntos — um precisa do outro para gerir a empresa.

@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/caixa"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Um dos módulos que compõem o ERP. Serve para o cliente ter o controle exclusivo do seu caixa financeiro — controle de abertura e fechamento de caixa.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Setor Financeiro e Administrativo da empresa.
 
 ## Rotinas deste módulo
 - Abertura de Caixa
@@ -54,4 +56,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Utilitários Reprocessa Saldos (Caixa)
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Módulo específico para controle de caixa. Geralmente é comercializado/utilizado junto com o conjunto de módulos do ERP: **Faturamento, Receber, Pagar, Bancos e Caixa**. Às vezes esse conjunto também engloba **Livros (Fiscais)** e **Compras**.

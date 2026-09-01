@@ -48,6 +48,14 @@
   - "Relatórios Fluxo de Caixa Analítico" confirmada como não existente no módulo Pagar (mantida apenas no Receber, onde ainda está pendente).
   - "NFE Digitação/Emissão de NFE" revisitada por completo a pedido do analista: Como Usar reescrito com passo a passo manual detalhado (Tipo de Operação → Cliente → Vendedor → Prazo/Desconto/Transportadora opcionais → Itens → Faturar → tela Emissão Nota Fiscal → OK) e opções de importação; adicionado botão Configurar com acesso restrito a MESTRE/ADMIN; adicionadas relações com Cadastro de Produtos, Cadastro de Vendedores, Cadastro Formas de Pagamento e Cadastro de Prazos de Pagamento.
 
+## [2026-08-24] entrevista | Módulos (visão geral) — Caixa, Business, Pagar, Receber, Bancos
+- **Tipo:** entrevista sobre os módulos em si (O que é / Quem Usa / Relacionamento com outros módulos), a pedido do analista, fora da sequência normal de rotinas.
+- **Módulos entrevistados:** Windows » Caixa, Windows » Business, Windows » Pagar, Windows » Receber, Windows » Bancos — todos com `status_entrevista: concluida`.
+- **Observações:**
+  - Criado procedimento geral `wiki/procedimentos/requisitos-minimos-desktop-windows.md`: todo módulo da categoria Windows requer Desktop com Windows 10+ (de preferência Windows 11), processador Intel i5 ou superior, mínimo 8GB RAM. Referenciado em Caixa, Business, Pagar, Receber e Bancos.
+  - Confirmado pelo analista: os módulos **Faturamento, Caixa, Bancos, Pagar e Receber** formam o conjunto "ERP" e são basicamente sempre usados juntos (um depende do outro para gerir a empresa) — Caixa controla o saldo de onde saem/entram os valores de Pagar/Receber/Bancos.
+  - **Business** é o módulo mais completo: reúne as funções de todos os outros módulos (não tem 100% das funções de cada um individualmente, mas cobre o conjunto). Público-alvo: toda a empresa. Teoricamente substitui o conjunto ERP — quem tem só Business não precisa dos módulos separados.
+
 ## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
 - **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).
 - **Rotinas concluídas:** Cadastro de Tipos de Operação, NFE Digitação/Emissão de NFE (nome exibido ao usuário: "Digitação/Emissão de NF-e"), Movimentos Emissão de NF de Vários Pedidos, Cadastro de Clientes, Cadastro de Compradores, Cadastro de Vendedores, Cadastro de Prazos de Pagamento, Cadastro de Tipo de Venda, Classificação de Clientes.
