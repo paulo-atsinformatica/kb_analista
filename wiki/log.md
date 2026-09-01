@@ -56,6 +56,14 @@
   - Confirmado pelo analista: os módulos **Faturamento, Caixa, Bancos, Pagar e Receber** formam o conjunto "ERP" e são basicamente sempre usados juntos (um depende do outro para gerir a empresa) — Caixa controla o saldo de onde saem/entram os valores de Pagar/Receber/Bancos.
   - **Business** é o módulo mais completo: reúne as funções de todos os outros módulos (não tem 100% das funções de cada um individualmente, mas cobre o conjunto). Público-alvo: toda a empresa. Teoricamente substitui o conjunto ERP — quem tem só Business não precisa dos módulos separados.
 
+## [2026-08-24] entrevista | Módulos (visão geral) — continuação: Livros Fiscais, Compras, OS, Materiais
+- **Módulos entrevistados:** Windows » Livros Fiscais, Windows » Compras, Windows » Ordem de Serviço, Windows » Materiais — todos com `status_entrevista: concluida`.
+- **Observações:**
+  - Livros Fiscais: lançamentos/validações fiscais (apuração de tributos, livros de entrada/saída, CIAP), setor Fiscal. Precisa do Faturamento junto.
+  - Compras: controle de Ordens de Compra (OC), setor de Estoque. Precisa de Faturamento e Materiais junto.
+  - Ordem de Serviço (OS): módulo à parte, usado em oficinas (aparelhos/auto peças), gera pedido faturado pelo Business ou Faturamento. **Ponto importante**: possui base de dados própria integrada — ao atualizar o sistema, a OS também precisa ser aberta separadamente para atualizar sua própria base. Usada pelo Financeiro e pela Operação.
+  - Materiais: produção dos produtos vendidos pela empresa, setor de Estoque/Produção. Precisa de Compras, Business e Faturamento junto.
+
 ## [2026-08-01] entrevista | Windows » Faturamento — grupo Digitação/Emissão de Notas e Cadastros de Clientes
 - **Módulos confirmados nesta sessão:** nenhum dos pré-mapeados revisado; 1 módulo novo identificado e confirmado — Windows » ERP_Faturamento (sistema Windows independente, relacionado ao Faturamento, porém mais completo).
 - **Rotinas concluídas:** Cadastro de Tipos de Operação, NFE Digitação/Emissão de NFE (nome exibido ao usuário: "Digitação/Emissão de NF-e"), Movimentos Emissão de NF de Vários Pedidos, Cadastro de Clientes, Cadastro de Compradores, Cadastro de Vendedores, Cadastro de Prazos de Pagamento, Cadastro de Tipo de Venda, Classificação de Clientes.

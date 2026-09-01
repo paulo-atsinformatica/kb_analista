@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/materiais"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo usado para produzir os produtos que serão vendidos pela empresa. Tem interação com o Business e o Faturamento, pois é por eles que as notas são emitidas.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Setor de Estoque/Produção — mais focado no responsável pela produção e estoque da empresa.
 
 ## Rotinas deste módulo
 - Ajuste Inventário — Quebra/Perda
@@ -72,4 +74,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Usuários
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Precisa dos módulos **Compras**, **Business** e **Faturamento** junto.

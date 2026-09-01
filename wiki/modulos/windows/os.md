@@ -5,20 +5,25 @@ type: modulo
 audience: all
 modulos: ["windows/os"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo à parte do sistema, utilizado para gerar Ordens de Serviço — desde aparelhos até auto peças, mais usado em oficinas onde o serviço é prestado. A OS gera o pedido que será faturado e a nota emitida pelo Business ou pelo Faturamento.
+
+> [!IMPORTANT] Base de dados integrada, mas separada
+> A OS possui uma base de dados própria, integrada com a base principal. Ao aplicar uma atualização no sistema, além da base principal, a OS também deve ser aberta separadamente para que a sua própria base seja atualizada.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Setor Financeiro e setor de Operação — os serviços e peças utilizados no atendimento são lançados na OS.
 
 ## Rotinas deste módulo
 - Cadastro Atendimento
@@ -120,4 +125,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Utilitários Recria Base Dados
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Pode ser utilizado tanto com o **Business** quanto com o **Faturamento** — é para um desses dois módulos que o pedido gerado na OS é faturado e a nota emitida.

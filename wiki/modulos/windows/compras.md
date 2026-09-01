@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/compras"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo utilizado para ter o controle do que deve ser comprado pela empresa, através das **Ordens de Compra (OC)** — enviadas aos fornecedores para análise de melhores preços — e do controle de compras de produtos dentro da empresa.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Setor de Estoque da empresa (responsável pelos produtos e estoque).
 
 ## Rotinas deste módulo
 - Alteração de Estoque Máximo e Mínimo em Lote
@@ -79,4 +81,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Usuários
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Precisa dos módulos **Faturamento** e **Materiais** junto.

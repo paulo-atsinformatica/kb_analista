@@ -5,20 +5,22 @@ type: modulo
 audience: all
 modulos: ["windows/livros-fiscais"]
 tags: []
-status: draft
-status_entrevista: pendente
+status: active
+status_entrevista: concluida
 data_criacao: 2026-07-16
-data_atualizacao: 2026-07-16
+data_atualizacao: 2026-08-24
 fontes: []
 entities: []
 relations: []
 ---
 
-> [!INFO] Módulo pré-mapeado, aguardando confirmação
-> Confirme com o analista se este módulo existe hoje no sistema, se o nome está correto, e se não foi descontinuado/renomeado.
-
 ## O que é
-_(a preencher via entrevista — pra que serve este módulo, quem usa)_
+Módulo utilizado para lançamentos e validações fiscais: gera relatórios de apuração de tributos, livros fiscais de entrada e saída, e lançamentos do CIAP.
+
+[[procedimentos/requisitos-minimos-desktop-windows|Requisitos mínimos: Desktop Windows 10 ou superior (de preferência Windows 11), processador Intel i5 (ou similar/superior), mínimo 8 GB de RAM]].
+
+## Quem Usa
+Setor Fiscal da empresa, que controla os valores tributários.
 
 ## Rotinas deste módulo
 - Cadastro Dados Gerais da Redução Z
@@ -83,4 +85,4 @@ _(a preencher via entrevista — pra que serve este módulo, quem usa)_
 - Cadastro de Usuários
 
 ## Relacionamento com outros módulos
-_(a preencher)_
+Precisa do módulo **Faturamento** junto.
